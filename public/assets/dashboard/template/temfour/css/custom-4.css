@@ -1,0 +1,832 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+::placeholder {
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-content .content {
+    padding: 0 15px 10px 15px;
+    margin-top: 0px;
+}
+
+.bcba-uniq-supervision {
+    width: 100%;
+    max-width: 1280px;
+    display: block;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background: #207ac7;
+}
+
+.mb_40 {
+    margin-bottom: 40px;
+}
+
+.mb_30 {
+    margin-bottom: 20px;
+}
+
+.mb_0 {
+    margin-bottom: 0px;
+}
+
+.mtb_10 {
+    margin: 10px auto;
+}
+
+.mb_15 {
+    margin-bottom: 15px !important;
+}
+
+.red {
+    color: #d9534f;
+}
+
+.bcba-uniq-supervision input[type="radio"] {
+    width: auto;
+}
+
+.bcba-uniq-supervision .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+
+.bcba-uniq-supervision .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+/*=====================header css Start=======================*/
+.bcba-uniq-supervision header {
+    background: #fff;
+    padding: 20px 20px 0px;
+    border-bottom: 0px solid #207ac7;
+}
+
+.bcba-uniq-supervision header .flex-div {
+    align-items: center;
+    padding: 0px 15px 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+}
+
+.bcba-uniq-supervision header .flex-div .col-item {
+    width: 50%;
+}
+
+.bcba-uniq-supervision header .logo {
+    margin: 0;
+    text-align: left;
+    display: block;
+    padding: 0px 0px 0px;
+}
+
+.bcba-uniq-supervision header .logo img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.bcba-uniq-supervision header .col-item:nth-child(2) {
+    width: 50% !important;
+}
+
+.bcba-uniq-supervision header .col-item h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #207ac7;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bcba-uniq-supervision header .flex-div .info-details {
+    text-align: left;
+    float: right;
+    width: 100%;
+    max-width: 320px;
+}
+
+.bcba-uniq-supervision header .col-item .info-details p {
+    margin: 0;
+    font-size: 17px;
+    color: #000;
+    line-height: 24px;
+}
+
+.bcba-uniq-supervision header .info-details p {
+    color: #d9534f !important;
+    font-size: 17px !important;
+}
+
+.bcba-uniq-supervision header .col-item .info-details ul {
+    margin: 0px auto 0px;
+    padding: 0;
+    display: block;
+}
+
+.bcba-uniq-supervision header .col-item .info-details ul li {
+    list-style: none;
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.bcba-uniq-supervision header .col-item .info-details ul li span,
+.bcba-uniq-supervision header .col-item .info-details ul li a span {
+    font-weight: 700;
+    color: #207ac7;
+    margin-right: 5px;
+}
+
+.bcba-uniq-supervision header .col-item .info-details ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s all ease-in-out;
+}
+
+/*=================header css end===============*/
+.bcba-uniq-supervision table input {
+    border: none;
+    outline: none;
+}
+
+.bcba-uniq-supervision table tr td input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.bcba-uniq-supervision table tr:nth-child(2) td:nth-child(1) {
+    width: 20%;
+}
+
+.bcba-uniq-supervision table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.bcba-uniq-supervision table tr th,
+.bcba-uniq-supervision table tr td {
+    border: 2px solid #207ac7;
+    padding: 7px 10px;
+    width: auto;
+    max-width: max-content;
+    width: 25%;
+}
+
+.bcba-uniq-supervision table tr th {
+    font-weight: bold;
+    color: #fff;
+    background: #207ac7;
+    border: 2px solid #4799e0;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bcba-uniq-supervision .checkbox-area ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bcba-uniq-supervision .checkbox-area ul li {
+    list-style: none;
+    flex: auto;
+    max-width: max-content;
+    margin-right: 20px;
+}
+
+.bcba-uniq-supervision .checkbox-area ul li input {
+    width: auto !important;
+}
+
+.bcba-uniq-supervision .select-area label {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+}
+
+.bcba-uniq-supervision table tr td input["date"] {
+    width: auto;
+    max-width: max-content;
+}
+
+.bcba-uniq-supervision table tr td input[type="date"],
+.bcba-uniq-supervision table tr td input[type="time"] {
+    width: auto;
+    border-bottom: none !important;
+}
+
+.bcba-uniq-supervision textarea {
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    resize: vertical;
+}
+
+.bcba-uniq-supervision input,
+.bcba-uniq-supervision textarea {
+    outline: none;
+    font-size: 16px;
+    color: #333;
+}
+
+.bcba-uniq-supervision h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+}
+
+.bcba-uniq-supervision h3,
+.bcba-uniq-supervision h3 label {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bcba-uniq-supervision .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+
+.bcba-uniq-supervision .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.bcba-uniq-supervision .content {
+    border: 0px solid #fff;
+    padding: 0px 20px 20px;
+    background: #fff;
+}
+
+/*----------------footer button css start................*/
+.bcba-uniq-supervision .section_bottom {
+    margin: 60px auto 0px;
+    width: 100%;
+}
+
+.bcba-uniq-supervision label,
+.bcba-uniq-supervision table tr td,
+.bcba-uniq-supervision h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+}
+
+.bcba-uniq-supervision .checkbox-area ul li label {
+    font-weight: 600;
+}
+
+.bcba-uniq-supervision .section_bottom .flex-div.button-row {
+    margin: 30px auto 0px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bcba-uniq-supervision .section_bottom .flex-div.button-row div {
+    flex: auto;
+    max-width: max-content;
+    width: auto;
+}
+
+.bcba-uniq-supervision .section_bottom .flex-div.button-row div a,
+.bcba-uniq-supervision .section_bottom .flex-div.button-row div button {
+    padding: 11px 20px;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.bcba-uniq-supervision .section_bottom .flex-div.button-row div a i.fas,
+.bcba-uniq-supervision .section_bottom .flex-div.button-row div button i.fas {
+    margin-right: 6px;
+}
+
+.bcba-uniq-supervision .section_bottom .mark-sign a {
+    background: #5cb85c;
+    color: #fff !important;
+}
+
+.bcba-uniq-supervision .section_bottom .flex-div.button-row div.cancel button {
+    background: #d9534f;
+    color: #fff;
+}
+
+.bcba-uniq-supervision .section_bottom .flex-div:nth-child(1) .col-item:nth-last-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+
+.bcba-uniq-supervision table .flex-div input {
+    border: 2px solid #207ac7;
+}
+
+/*========================footer bottom===========================*/
+.bcba-uniq-supervision .footer-section {
+    margin: 50px auto 0px;
+    box-shadow: 0px -5px 6px -4px #ccc;
+    padding: 20px 0px;
+}
+
+.bcba-uniq-supervision .footer-section .flex-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bcba-uniq-supervision table .flex-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.bcba-uniq-supervision .footer-section .flex-div .col-item:nth-child(2) p {
+    text-align: right;
+}
+
+.bcba-uniq-supervision .footer-section .flex-div .col-item {
+    flex: auto;
+    width: auto;
+}
+
+.bcba-uniq-supervision .footer-section .flex-div .col-item p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.bcba-uniq-supervision .footer-section .flex-div .col-item p a {
+    color: #207ac7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.bcba-uniq-supervision .flex-div.row-flex:nth-child(2) .col-item:nth-child(2) {
+    width: 14%;
+}
+
+.bcba-uniq-supervision .section_bottom .flex-div span:nth-child(1) {
+    width: auto;
+}
+
+/*----------------content css start................*/
+.bcba-uniq-supervision table .flex-div {
+    display: flex;
+}
+
+.bcba-uniq-supervision table .flex-div span {
+    flex: auto;
+}
+
+.bcba-uniq-supervision table .flex-div span:nth-child(1) {
+    max-width: max-content;
+    min-height: 45px;
+    padding-bottom: 0px;
+}
+
+.bcba-uniq-supervision .textarea-part .textarea {
+    width: 100%;
+    margin: 10px auto 0px;
+}
+
+.bcba-uniq-supervision .textarea-part .textarea textarea {
+    width: 100%;
+    border: 2px solid #5cb85c;
+}
+
+.bcba-uniq-supervision section .holder-div input[type="date"] {
+    margin: 0 auto;
+}
+
+.holder-div span label {
+    width: auto !important;
+}
+
+.bcba-uniq-supervision .holder-div span input {
+    width: 50px !important;
+    height: 20px !important;
+    border: 2px solid #207ac7 !important;
+    margin-top: 4px;
+}
+
+.bcba-uniq-supervision .section_1 span input {
+    border: none !important;
+    border-bottom: 2px solid #207ac7 !important;
+}
+
+.bcba-uniq-supervision h3 {
+    text-transform: uppercase;
+}
+
+.bcba-uniq-supervision .textarea-part .textarea textarea {
+    width: 100%;
+    border: 2px solid #5cb85c;
+}
+
+.bcba-uniq-supervision .red {
+    color: #d9534f;
+    font-style: italic;
+}
+
+.bcba-uniq-supervision .box p.red span {
+    color: #000;
+}
+
+.bcba-uniq-supervision .section_2 table tr td:nth-child(1) {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.bcba-uniq-supervision .section_2 table tr td:nth-child(1) input {
+    width: auto;
+}
+
+.bcba-uniq-supervision .textarea textarea {
+    width: 100%;
+    border: 2px solid #207ac7;
+}
+
+.bcba-uniq-supervision table .flex-div span:nth-child(1) {
+    max-width: max-content;
+    min-height: 20px;
+    padding-bottom: 0px;
+}
+
+.bcba-uniq-supervision table .flex-div span .red {
+    font-size: 14px;
+}
+
+.bcba-uniq-supervision .section_1 table td[colspan="4"] .flex-div {
+    flex-direction: row;
+    min-height: auto;
+}
+
+.bcba-uniq-supervision .section_1 table td[colspan="4"] .flex-div span:nth-child(1) {
+    min-height: auto;
+}
+
+.bcba-uniq-supervision section .box.box-last_2 {
+    margin-top: 40px;
+}
+
+.bcba-uniq-supervision section .box.box-last_2 .flex-div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.bcba-uniq-supervision section .box.box-last_2 .flex-div .col-item:nth-child(1) {
+    padding-right: 15px !important;
+}
+
+.bcba-uniq-supervision section .holder-div {
+    width: 100%;
+    max-width: 280px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bcba-uniq-supervision section .box.box-last_2 .flex-div .col-item input {
+    border: none;
+    border-bottom: 2px solid #207ac7;
+}
+
+.bcba-uniq-supervision section .box.box-last_2 .flex-div .col-item label {
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+.bcba-uniq-supervision section .box.box-last_2 .flex-div .col-item {
+    flex: auto;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bcba-uniq-supervision .section_2 .box1 ul.checkbox-area {
+    display: flex;
+    column-gap: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.bcba-uniq-supervision .section_2 .box1 ul.checkbox-area li {
+    list-style: none;
+    color: #000;
+}
+
+.bcba-uniq-supervision .section_2 .box1 ul.checkbox-area li span label {
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.bcba-uniq-supervision .inner-main-title h2 {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #d9534f;
+    position: relative;
+    padding: 0px 0px 15px;
+    margin: 0 auto 29px;
+    font-weight: bold;
+}
+
+.bcba-uniq-supervision .inner-main-title h2::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 10%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.bcba-uniq-supervision .evaluation-of-performance ul {
+    margin: 0;
+    padding: 0 0px 0px 0px;
+}
+
+.bcba-uniq-supervision .evaluation-of-performance ul li {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    list-style-image: url(../images/bullet.png);
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.bcba-uniq-supervision .evaluation-of-performance ul li .red {
+    font-size: 14px;
+}
+
+.bcba-uniq-supervision .section_3 .evaluation-of-performance li .select-area span {
+    margin-right: 5px;
+}
+
+.bcba-uniq-supervision .box p.red {
+    margin: 0;
+}
+
+.bcba-uniq-supervision .col-title.mb_15 {
+    margin-bottom: 5px !important;
+}
+
+.bcba-uniq-supervision .section_3 .evaluation-of-performance {
+    margin: 20px auto 0px;
+}
+
+.bcba-uniq-supervision .section_3 .evaluation-of-performance li .select-area {
+    margin: 10px 0px 0px;
+}
+
+.bcba-uniq-supervision .section_3 .evaluation-of-performance li .select-area span label {
+    font-size: 15px;
+}
+
+/*----------------content css End................*/
+@media only screen and (max-width: 768px) {
+
+    /*------------------common responsive css----------------*/
+    .card-body {
+        padding: 10px;
+    }
+
+    .main-content .col-xl-12 {
+        padding: 0;
+    }
+
+    .bcba-uniq-supervision .evaluation-of-performance ul li {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .bcba-uniq-supervision .section_3 .evaluation-of-performance li .select-area span label {
+        font-size: 14px;
+    }
+
+    .bcba-uniq-supervision .section_2.mb_30 {
+        margin-bottom: 0px;
+    }
+
+    .bcba-uniq-supervision .section_1 tr td {
+        display: block;
+        width: 100% !important;
+        max-width: 100% !important;
+        border-top: none !important;
+    }
+
+    .bcba-uniq-supervision .section_1 tr:nth-child(1) td:nth-child(1) {
+        border-top: 2px solid #207ac7 !important;
+    }
+
+    .bcba-uniq-supervision section .box.box-last_2 .flex-div {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .bcba-uniq-supervision section .box.box-last_2 .flex-div .col-item:nth-child(1) {
+        padding-right: 0px !important;
+    }
+
+    .bcba-uniq-supervision section .box.box-last_2 {
+        margin-top: 0px;
+    }
+
+    .bcba-uniq-supervision .section_2 .box1 ul.checkbox-area li span label {
+        font-size: 14px;
+    }
+
+    .bcba-uniq-supervision .section_2 .box1 ul.checkbox-area {
+        flex-wrap: wrap;
+    }
+
+    .bcba-uniq-supervision header .logo img {
+        max-width: 250px;
+    }
+
+    .bcba-uniq-supervision .section_bottom {
+        margin: 0px auto 0px;
+    }
+
+    .bcba-uniq-supervision .section_bottom .flex-div.button-row {
+        flex-direction: row;
+        justify-content: center;
+        row-gap: 15px;
+        column-gap: 15px;
+    }
+
+    .bcba-uniq-supervision .section_bottom .flex-div.button-row div a {
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+
+    .bcba-uniq-supervision .footer-section .flex-div {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .bcba-uniq-supervision .footer-section .flex-div .col-item p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .bcba-uniq-supervision .footer-section .flex-div .col-item:nth-child(2) p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .bcba-uniq-supervision .footer-section .flex-div {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .bcba-uniq-supervision .footer-section {
+        margin: 40px auto 0px;
+        box-shadow: 0px -5px 6px -4px #ccc;
+        padding: 20px 0px 0px;
+    }
+
+    /*------------------header responsive css ----------------*/
+    .bcba-uniq-supervision header .flex-div {
+        align-items: center;
+        padding: 0px 15px 15px;
+        box-sizing: border-box;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bcba-uniq-supervision header .flex-div .col-item {
+        width: 100%;
+        margin: 0px auto 20px;
+    }
+
+    .bcba-uniq-supervision header .flex-div .info-details {
+        text-align: center;
+        float: none;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .bcba-uniq-supervision header .col-item:nth-child(2) {
+        width: 100% !important;
+    }
+
+    .bcba-uniq-supervision .page-title h1 {
+        font-size: 17px;
+        padding: 0px 0px 15px;
+    }
+
+    .bcba-uniq-supervision label,
+    .bcba-uniq-supervision table tr td,
+    .bcba-uniq-supervision h3 {
+        font-size: 14px;
+    }
+
+    .bcba-uniq-supervision section {
+        width: auto;
+        overflow: auto;
+    }
+
+    .bcba-uniq-supervision header .col-item .info-details ul li {
+        font-size: 14px;
+    }
+
+    .bcba-uniq-supervision header .logo {
+        text-align: center;
+    }
+
+    .bcba-uniq-supervision .mb_40 {
+        margin-bottom: 20px;
+    }
+
+    .bcba-uniq-supervision .textarea textarea {
+        max-height: 70px;
+    }
+
+    .bcba-uniq-supervision .red {
+        color: #d9534f;
+        font-size: 14px;
+    }
+
+    .bcba-uniq-supervision table tr td input[type="date"],
+    .bcba-uniq-supervision table tr td input[type="time"] {
+        width: auto;
+    }
+
+    .bcba-uniq-supervision .inner-main-title h2 {
+        font-size: 17px;
+        padding: 0px 0px 15px;
+        margin: 0 auto 20px;
+    }
+}
+
+.save-prog button {
+    background: #483D8B;
+    color: #fff !important;
+}
+
+.print button {
+    background: #467fd0;
+    color: #fff !important;
+}

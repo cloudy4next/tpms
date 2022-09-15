@@ -1,0 +1,236 @@
+@extends('layouts.provider')
+@section('provider')
+    <div class="iq-card">
+        <div class="iq-card-body">
+            <div class="overflow-hidden mb-2">
+                <div class="float-left">
+                    <h5><a href="#" class="cmn_a">{{$employee->full_name}}</a> | <small><span
+                                class="font-weight-bold text-orange">DOB:</span> {{$employee->staff_birthday != null ? \Carbon\Carbon::parse($employee->staff_birthday)->format('m/d/Y') : ''}}
+                            | <small><span
+                                    class="font-weight-bold text-orange">NPI:</span> {{$employee->individual_npi}} |
+                                <span class=" font-weight-bold text-orange">Phone:</span> {{$employee->office_phone}}
+                            </small></h5>
+                </div>
+                <div class="float-right">
+                    <a href="{{route('provider.info')}}" class="btn btn-sm btn-primary"><i
+                            class="ri-arrow-left-circle-line"></i>Back</a>
+                </div>
+            </div>
+            <div class="d-lg-flex">
+                <!-- menu -->
+                <div class="all_menu">
+                    <ul class="nav flex-column setting_menu">
+                        <li class="nav-item border-0 text-center">
+                            <div class="profile-pic-div">
+                                @if($employee->profile_photo==null)
+                                    <img src="{{asset('assets/dashboard/')}}/images/user/01.jpg" class="img-fluid"
+                                         id="photo"
+                                         alt="aba+">
+                                @else
+                                    <img class="profile-pic" src="{{asset($employee->profile_photo)}}"
+                                         alt="profile-pic">
+                                @endif
+                                <input type="file" id="file" class="d-none" autocomplete="nope">
+                                <label for="file" id="uploadBtn">Upload Photo</label>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{route('provider.info')}}">Bio’s</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{route('provider.contact.details')}}">Contact Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{route('provider.credentials')}}">Credentials /
+                                Qualifications</a>
+                        </li>
+                        {{--                        <li class="nav-item">--}}
+                        {{--                            <a class="nav-link" href="{{route('provider.department')}}">Department Supervisor(s)</a>--}}
+                        {{--                        </li>--}}
+                        {{--                        <li class="nav-item">--}}
+                        {{--                            <a class="nav-link" href="{{route('provider.payroll')}}">Payroll Setup</a>--}}
+                        {{--                        </li>--}}
+                        {{--                        <li class="nav-item">--}}
+                        {{--                            <a class="nav-link" href="{{route('provider.other.setup')}}">Other Setup</a>--}}
+                        {{--                        </li>--}}
+                        {{--                        <li class="nav-item">--}}
+                        {{--                            <a class="nav-link" href="{{route('provider.leave.tracking')}}">Leave Tracking</a>--}}
+                        {{--                        </li>--}}
+                        {{--                        <li class="nav-item">--}}
+                        {{--                            <a class="nav-link active" href="{{route('provider.payor.exclusion')}}">Insurance--}}
+                        {{--                                Exclusion(s)</a>--}}
+                        {{--                        </li>--}}
+                        {{--                        <li class="nav-item">--}}
+                        {{--                            <a class="nav-link" href="{{route('provider.subactivity.exclusion')}}">Service Sub-Type--}}
+                        {{--                                Exclusions</a>--}}
+                        {{--                        </li>--}}
+                        {{--                        <li class="nav-item">--}}
+                        {{--                            <a class="nav-link" href="{{route('provider.client.exclusion')}}">Patient Exclusions</a>--}}
+                        {{--                        </li>--}}
+                        {{--                        <li class="nav-item">--}}
+                        {{--                            <a class="nav-link" href="staff-activity.html">Staff Activity</a>--}}
+                        {{--                        </li>--}}
+                    </ul>
+                </div>
+                <!-- content -->
+                <div class="all_content flex-fill">
+                    <h2 class="common-title">Insurance Exclusion</h2>
+                    <div class="row mb-2">
+                        <div class="col-md-4">
+                            <label>Insurance</label>
+                            <select class="form-control-sm form-control all_payor" multiple>
+
+                            </select>
+                        </div>
+                        <div class="col-md-4 text-center mt-5">
+                            <button type="button" class="btn btn-sm btn-primary" id="add_payor">Exclude Selected
+                                Insurances
+                            </button>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="alert alert-danger alert-dismissible fade show show_alert_msg" role="alert">
+                                <strong>No Current Association</strong>
+                                <button type="button" class="close text-dark" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="table-responsive show_ass_table">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+@endsection
+@section('js')
+
+
+    <script>
+        $(document).ready(function () {
+
+            //show all payor
+
+            $('.loading2').show();
+
+
+            let getAllPayor = function () {
+                $('.loading2').show();
+                $.ajax({
+                    type: "POST",
+                    url: "{{route('provider.show.all.payor')}}",
+                    data: {
+                        '_token': "{{csrf_token()}}",
+
+                    },
+                    success: function (data) {
+
+                        $('.all_payor').empty();
+                        $.each(data, function (index, value) {
+                            $('.all_payor').append(
+                                `<option value="${value.id}">${value.payor_name}</option>`
+                            )
+                        });
+                        $('.loading2').hide();
+                    }
+                });
+            };
+
+            getAllPayor();
+
+
+            //show assign payor
+            let show_all_assign_payor = function () {
+                $('.loading2').show();
+                $.ajax({
+                    type: "POST",
+                    url: "{{route('provider.show.assign.payor')}}",
+                    data: {
+                        '_token': "{{csrf_token()}}",
+
+                    },
+                    success: function (data) {
+                        if (data.notices.length > 0) {
+                            $('.show_alert_msg').hide();
+                        } else {
+                            $('.show_alert_msg').show();
+                        }
+                        $('.show_ass_table').empty();
+                        $('.show_ass_table').html(data.view);
+                        $('.loading2').hide();
+                    }
+                });
+            };
+
+            show_all_assign_payor();
+
+
+            //add payor
+
+            $('#add_payor').click(function () {
+                $('.loading2').show();
+                let payor_id = $('.all_payor').val();
+                $.ajax({
+                    type: "POST",
+                    url: "{{route('provider.add.payor')}}",
+                    data: {
+                        '_token': "{{csrf_token()}}",
+                        'payor_id': payor_id,
+
+                    },
+                    success: function (data) {
+                        getAllPayor();
+                        show_all_assign_payor();
+                        $('.loading2').hide();
+                    }
+                });
+
+            });
+
+
+            //delete assign payor
+            $(document).on('click', '.deleteasspayor', function () {
+                $('.loading2').show();
+                let del_id = $(this).data('id');
+
+                console.log(del_id);
+
+                $.ajax({
+                    type: "POST",
+                    url: "{{route('provider.delete.assign.payor')}}",
+                    data: {
+                        '_token': "{{csrf_token()}}",
+                        'del_id': del_id,
+
+                    },
+                    success: function (data) {
+
+                        getAllPayor();
+                        show_all_assign_payor();
+                        $('.loading2').hide();
+                    }
+                });
+            })
+
+
+        });
+    </script>
+
+    <script>
+        // const imgDiv = document.querySelector('.profile-pic-div');
+        // const img = document.querySelector('#photo');
+        // const file = document.querySelector('#file');
+        // const uploadBtn = document.querySelector('#uploadBtn');
+        // file.addEventListener('change', function () {
+        //     const choosedFile = this.files[0];
+        //     if (choosedFile) {
+        //         const reader = new FileReader();
+        //         reader.addEventListener('load', function () {
+        //             img.setAttribute('src', reader.result);
+        //         });
+        //         reader.readAsDataURL(choosedFile);
+        //     }
+        // });
+    </script>
+@endsection

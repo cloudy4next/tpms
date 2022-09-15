@@ -1,0 +1,22 @@
+﻿
+
+  Dear: Molden, Tad (theralympic)
+	
+------------------------------------------------------------------------------------------------------------------------------------
+              Electronic Claim Submission Payer Responses Provided By Office Ally
+------------------------------------------------------------------------------------------------------------------------------------
+   The following list of claims are the most current responses from their corresponding payers,
+   please review the results of each claim and determine if further action is required for the claim.
+   Should any claim be rejected please fix the error and resubmit the claim to Office Ally.
+------------------------------------------------------------------------------------------------------------------------------------
+
+   PayerID     Payer                      # Accepted       $ Accepted     # Pending        $ Pending    # Rejected       $ Rejected  
+------------------------------------------------------------------------------------------------------------------------------------
+   ( 00803 )   Empire BCBS (NY)                    1          $400.00             0            $0.00             0            $0.00                                                      :
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+    File ID   Claim ID    Pat. Acct #    Patient                 Amount  PracticeID Tax ID     Payer     Payer Process Dt Payer Ref ID        Status    Payer Response                                                                                                                                                                                                                                                 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    958630871 2765032656  1835810        APERGIS, ELIZABETH     $400.00  1730665043 823478182  00803     05/27/2022       Q100000975370683    ACCEPTED  Acknowledgement Receipt-The claim encounter has been received. This does not mean that the claim has been accepted for adjudication. Accepted for processing.                                                                                                  :
+                                                                                                                                                                                                                                                    :

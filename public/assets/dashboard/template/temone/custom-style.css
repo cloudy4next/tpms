@@ -1,0 +1,4432 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Open Sans', sans-serif;
+}
+::placeholder {
+    font-size: 16px !important;
+    font-family:'Open Sans', sans-serif;
+}
+.modal-dialog {
+	width: 100%;
+    max-width: 1300px;
+    margin: 30px auto;
+}
+.modal.show .modal-dialog {
+    transform: translate(0, 0);
+    width: 100%;
+    max-width: 1300px;
+}
+
+.main-content .content {
+    padding: 0 15px 10px 15px;
+    margin-top: 0px;
+}
+.mb_40{
+    margin-bottom:40px;
+}
+.mb_30{
+    margin-bottom:20px;
+}
+.mb_0{
+    margin-bottom:0px;
+}
+.mtb_10{
+    margin:10px auto;
+}
+.mb_15{
+    margin-bottom:15px !important;
+}
+.red{
+color: #d9534f;
+}
+
+.uniq-supervisim-form input[type="radio"] {
+    width: auto;
+}
+.uniq-supervisim-form {
+    width: 100%;
+    max-width: 1280px;
+    display: block;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background: #207ac7;
+}
+
+.uniq-supervisim-form .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+
+.uniq-supervisim-form .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+/*=====================header css Start=======================*/
+.uniq-supervisim-form header {
+    background: #fff;
+    padding: 20px 20px 0px;
+    border-bottom: 0px solid #207ac7;
+}
+.uniq-supervisim-form header .flex-div {
+	align-items: center;
+	padding: 0px 15px 15px;
+	box-sizing: border-box;
+	justify-content: space-between;
+	display: flex;
+}
+.uniq-supervisim-form header .flex-div .col-item {
+    width: 50%;
+}
+.uniq-supervisim-form header .logo {
+	margin: 0;
+	text-align: left;
+	display: block;
+	padding: 0px 0px 0px;
+}
+.uniq-supervisim-form header .logo img {
+	width: 100%;
+	max-width: 250px;
+}
+
+.uniq-supervisim-form header .col-item:nth-child(2) {
+    width: 50% !important;
+}
+.uniq-supervisim-form header .col-item h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #207ac7;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.uniq-supervisim-form header .flex-div .info-details {
+	text-align: left;
+	float: right;
+	width: 100%;
+	max-width: 320px;
+}
+.uniq-supervisim-form header .col-item .info-details p {
+    margin: 0;
+    font-size: 17px;
+    color: #000;
+    line-height: 24px;
+}
+
+.uniq-supervisim-form header .info-details p {
+    color: #d9534f !important;
+    font-size: 17px !important;
+}
+
+.uniq-supervisim-form header .col-item .info-details ul {
+	margin: 0px auto 0px;
+	padding: 0;
+	display: block;
+}
+
+.uniq-supervisim-form header .col-item .info-details ul li {
+    list-style: none;
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.uniq-supervisim-form header .col-item .info-details ul li span, .uniq-supervisim-form header .col-item .info-details ul li a span {
+    font-weight: 700;
+    color: #207ac7;
+    margin-right: 5px;
+}
+
+.uniq-supervisim-form header .col-item .info-details ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s all ease-in-out;
+}
+/*=================header css end===============*/
+.uniq-supervisim-form table input {
+    border: none;
+    outline: none;
+}
+.uniq-supervisim-form table tr td input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.uniq-supervisim-form table tr:nth-child(2) td:nth-child(1) {
+    width: 20%;
+}
+.uniq-supervisim-form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.uniq-supervisim-form table tr th, .uniq-supervisim-form table tr td {
+    border: 2px solid #207ac7;
+    padding: 7px 10px;
+    width: auto;
+    max-width: max-content;
+}
+.uniq-supervisim-form table tr th {
+    font-weight: bold;
+    color: #fff;
+    background: #207ac7;
+    border: 2px solid #4799e0;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.uniq-supervisim-form .checkbox-area ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+.uniq-supervisim-form .checkbox-area ul li {
+    list-style: none;
+    flex: auto;
+    max-width: max-content;
+    margin-right: 20px;
+}
+.uniq-supervisim-form .checkbox-area ul li input {
+    width: auto !important;
+}
+
+.uniq-supervisim-form .select-area label {
+	font-weight: 600;
+	font-size: 16px;
+	color: #000;
+}
+
+.uniq-supervisim-form table tr td input["date"] {
+    width: auto;
+    max-width: max-content;
+}
+.uniq-supervisim-form table tr td input[type="date"], .uniq-supervisim-form table tr td input[type="time"] {
+    width: auto;
+}
+
+.uniq-supervisim-form textarea {
+    padding: 15px;
+    font-family:'Open Sans', sans-serif;
+    resize: vertical;
+}
+
+.uniq-supervisim-form input, .uniq-supervisim-form textarea {
+    outline: none;
+    font-size: 16px;
+    color: #333;
+}
+.uniq-supervisim-form h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+}
+.uniq-supervisim-form .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+.uniq-supervisim-form .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.uniq-supervisim-form .content {
+    border: 0px solid #fff;
+    padding: 0px 20px 20px;
+    background: #fff;
+}
+
+/*----------------content css start................*/
+
+.uniq-supervisim-form table .flex-div {
+	display: flex;
+	flex-wrap: wrap;
+	column-gap: 15px;
+}
+.uniq-supervisim-form table .flex-div span {
+	flex: auto;
+}
+.uniq-supervisim-form table .flex-div span:nth-child(1) {
+	max-width: max-content;
+}
+.uniq-supervisim-form .section_1 table tr td:nth-child(1) {
+	width: 40%;
+}
+.uniq-supervisim-form .bracket {
+    color: #d9534f;
+    font-size: 14px;
+    font-style: italic;
+}
+.uniq-supervisim-form .textarea-part .textarea {
+	width: 100%;
+	margin: 10px auto 0px;
+}
+.uniq-supervisim-form  .textarea-part .textarea textarea {
+	width: 100%;
+	border: 2px solid #5cb85c;
+}
+.uniq-supervisim-form .section_2 table tr td {
+	width: 50%;
+}
+.uniq-supervisim-form .section_2 .flex-div {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	column-gap: 30px;
+}
+.uniq-supervisim-form .section_2 .flex-div .col-item {
+	flex: 1;
+}
+
+.uniq-supervisim-form section .box.box-last_2 {
+    margin-top: 40px;
+}
+.uniq-supervisim-form section .box.box-last_2 .flex-div {
+    column-gap: 0px;
+}
+.uniq-supervisim-form section .box.box-last_2 .flex-div .col-item:nth-child(1) {
+    padding-right: 15px !important;
+}
+.uniq-supervisim-form section .box.box-last_2 .flex-div .col-item {
+    width: 50%;
+    padding: 0px !important;
+        padding-right: 0px;
+}
+.uniq-supervisim-form section .box.box-last_2 .flex-div .col-item input {
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    border-bottom: 2px solid #207ac7;
+}
+.uniq-supervisim-form section .box.box-last_2 input {
+    border: 2px solid #207ac7;
+    width: 100%;
+}
+.uniq-supervisim-form section .box.box-last_2 .flex-div .col-item label {
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    display: inline-block;
+}
+.uniq-supervisim-form section .box.box-last_2 .flex-div {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+.uniq-supervisim-form section .box.box-last_2 input[type="date"] {
+	width: auto;
+	max-width: max-content;
+	margin: 0 auto;
+}
+.uniq-supervisim-form section .box.box-last_2 .flex-div .col-item {
+	flex: auto;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.uniq-supervisim-form section .holder-div {
+	width: 100%;
+	max-width: 280px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.uniq-supervisim-form .holder-div span input {
+    width: 50px !important;
+    height: 20px !important;
+    border: 2px solid #207ac7 !important;
+    margin-top: 4px;
+}
+.uniq-supervisim-form .holder-div span {
+    display: flex;
+    justify-content: space-around;
+}
+.uniq-supervisim-form .holder-div span label {
+    width: auto !important;
+}
+.uniq-supervisim-form .section_2 .flex-div .col-item:nth-child(2) .textarea-part .textarea {
+    max-height: 121px;
+    min-height: 121px;
+}
+
+.uniq-supervisim-form section .holder-div input[type="date"] {
+	margin: 0 auto;
+}
+
+
+
+/*----------------content css End................*/
+
+
+/*----------------footer button css start................*/
+.uniq-supervisim-form .section_bottom {
+	margin: 60px auto 0px;
+	width: 100%;
+}
+.uniq-supervisim-form label, .uniq-supervisim-form table tr td, .uniq-supervisim-form h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.uniq-supervisim-form .checkbox-area ul li label {
+    font-weight: 600;
+}
+.uniq-supervisim-form .section_bottom .flex-div.button-row {
+    margin: 30px auto 0px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.uniq-supervisim-form .section_bottom .flex-div.button-row div {
+flex: auto;
+max-width: max-content;
+width: auto;
+}
+
+.uniq-supervisim-form .section_bottom .flex-div.button-row div a {
+padding: 11px 20px;
+font-size: 17px;
+display: block;
+text-align: center;
+border-radius: 10px;
+border: 2px solid #ddd;
+text-decoration: none;
+color: #000;
+font-weight: 600;
+}
+.uniq-supervisim-form .section_bottom .flex-div.button-row div a i.fas {
+margin-right: 6px;
+}
+.uniq-supervisim-form .section_bottom .mark-sign a {
+background: #5cb85c;
+color: #fff !important;
+}
+.uniq-supervisim-form .section_bottom .flex-div.button-row div.cancel a {
+background: #d9534f;
+color: #fff;
+}
+
+.uniq-supervisim-form .section_bottom .flex-div:nth-child(1) .col-item:nth-last-child(1) {
+display: flex;
+flex-direction: column;
+}
+
+
+/*========================footer bottom===========================*/
+.uniq-supervisim-form .footer-section {
+    margin: 50px auto 0px;
+    box-shadow: 0px -5px 6px -4px #ccc;
+    padding: 20px 0px;
+}
+
+.uniq-supervisim-form .footer-section .flex-div {
+	display: flex;
+	justify-content: space-between;
+}
+.uniq-supervisim-form .footer-section .flex-div .col-item:nth-child(2) p {
+	text-align: right;
+}
+.uniq-supervisim-form .footer-section .flex-div .col-item {
+    flex: auto;
+    width: auto;
+}
+
+.uniq-supervisim-form  .footer-section .flex-div .col-item p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.uniq-supervisim-form  .footer-section .flex-div .col-item p a {
+    color: #207ac7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.uniq-supervisim-form  .flex-div.row-flex:nth-child(2) .col-item:nth-child(2) {
+    width: 14%;
+}
+.uniq-supervisim-form .section_bottom .flex-div span:nth-child(1) {
+    width: auto;
+}
+
+/*=====================================project-2 css start==========================================*/
+.main-content .content {
+    padding: 0 15px 10px 15px;
+    margin-top: 0px;
+}
+.modal.show .modal-dialog {
+    transform: translate(0, 0);
+    width: 100%;
+    max-width: 1300px;
+}
+.parent-training {
+    width: 100%;
+    max-width: 1280px;
+    display: block;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background: #207ac7;
+}
+
+.parent-training .checkbox {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.parent-training .checkbox .check-container {
+    display: block;
+    position: relative;
+    padding-left: 23px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.parent-training .check-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.parent-training .check-container .checkmark {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    height: 23px;
+    width: 23px;
+    border: 2px solid #2ad184;
+}
+.parent-training .check-container input:checked ~ .checkmark {
+    background-color: #fff;
+}
+.parent-training .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.parent-training .check-container input:checked ~ .checkmark:after {
+    display: block;
+}
+.parent-training .check-container .checkmark::after {
+    left: -4px;
+    top: 2px;
+    width: 28px;
+    height: 23px;
+    background: url("../images/chekmark.png") no-repeat scroll center top / 70%;
+}
+/* checkbox css end */
+
+
+.parent-training .parent-training input[type="radio"] {
+    width: auto;
+}
+
+.parent-training .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+
+.parent-training .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+/*=====================header css Start=======================*/
+.parent-training header {
+    background: #fff;
+    padding: 20px 20px 0px;
+    border-bottom: 0px solid #207ac7;
+}
+.parent-training header .flex-div {
+    align-items: center;
+    padding: 0px 15px 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+}
+.parent-training header .flex-div .col-item {
+    width: 50%;
+}
+.parent-training header .logo {
+    margin: 0;
+    text-align: left;
+    display: block;
+    padding: 0px 0px 0px;
+}
+.parent-training header .logo img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.parent-training header .col-item:nth-child(2) {
+    width: 50% !important;
+}
+
+.parent-training header .col-item h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #207ac7;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.parent-training header .flex-div .info-details {
+    text-align: left;
+    float: right;
+    width: 100%;
+    max-width: 320px;
+}
+.parent-training header .col-item .info-details p {
+    margin: 0;
+    font-size: 17px;
+    color: #000;
+    line-height: 24px;
+}
+
+.parent-training header .info-details p {
+    color: #d9534f !important;
+    font-size: 17px !important;
+}
+
+.parent-training header .col-item .info-details ul {
+    margin: 0px auto 0px;
+    padding: 0;
+    display: block;
+}
+
+.parent-training header .col-item .info-details ul li {
+    list-style: none;
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.parent-training header .col-item .info-details ul li span, .parent-training header .col-item .info-details ul li a span {
+    font-weight: 700;
+    color: #207ac7;
+    margin-right: 5px;
+}
+
+.parent-training header .col-item .info-details ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s all ease-in-out;
+}
+/*=================header css end===============*/
+
+.parent-training table input {
+    border: none;
+    outline: none;
+}
+.parent-training table tr td input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.parent-training table tr:nth-child(2) td:nth-child(1) {
+    width: 20%;
+}
+.parent-training table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.parent-training table tr th, .parent-training table tr td {
+    border: 2px solid #207ac7;
+    padding: 7px 10px;
+    width: auto;
+    max-width: max-content;
+}
+.parent-training table tr th {
+    font-weight: bold;
+    color: #fff;
+    background: #207ac7;
+    border: 2px solid #4799e0;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.parent-training .checkbox-area ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+.parent-training .checkbox-area ul li {
+    list-style: none;
+    flex: auto;
+    max-width: max-content;
+    margin-right: 20px;
+}
+.parent-training .checkbox-area ul li input {
+    width: auto !important;
+}
+
+.parent-training .select-area label {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+}
+
+.parent-training table tr td input["date"] {
+    width: auto;
+    max-width: max-content;
+}
+.parent-training table tr td input[type="date"], .parent-training table tr td input[type="time"] {
+    width: auto;
+}
+
+.parent-training textarea {
+    padding: 15px;
+    font-family:'Open Sans', sans-serif;
+    resize: vertical;
+}
+
+.parent-training input, .parent-training textarea {
+    outline: none;
+    font-size: 16px;
+    color: #333;
+}
+.parent-training h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+}
+.parent-training h3, .parent-training h3 label {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.parent-training .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+.parent-training .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.parent-training .content {
+    border: 0px solid #fff;
+    padding: 0px 20px 20px;
+    background: #fff;
+}
+
+/*----------------footer button css start................*/
+.parent-training .section_bottom {
+    margin: 60px auto 0px;
+    width: 100%;
+}
+.parent-training label, .parent-training table tr td, .parent-training h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.parent-training .checkbox-area ul li label {
+    font-weight: 600;
+}
+.parent-training .section_bottom .flex-div.button-row {
+    margin: 30px auto 0px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.parent-training .section_bottom .flex-div.button-row div {
+flex: auto;
+max-width: max-content;
+width: auto;
+}
+
+.parent-training .section_bottom .flex-div.button-row div a {
+padding: 11px 20px;
+font-size: 17px;
+display: block;
+text-align: center;
+border-radius: 10px;
+border: 2px solid #ddd;
+text-decoration: none;
+color: #000;
+font-weight: 600;
+}
+.parent-training .section_bottom .flex-div.button-row div a i.fas {
+margin-right: 6px;
+}
+.parent-training .section_bottom .mark-sign a {
+background: #5cb85c;
+color: #fff !important;
+}
+.parent-training .section_bottom .flex-div.button-row div.cancel a {
+background: #d9534f;
+color: #fff;
+}
+
+.parent-training .section_bottom .flex-div:nth-child(1) .col-item:nth-last-child(1) {
+display: flex;
+flex-direction: column;
+}
+
+
+/*========================footer bottom===========================*/
+.parent-training .footer-section {
+    margin: 50px auto 0px;
+    box-shadow: 0px -5px 6px -4px #ccc;
+    padding: 20px 0px;
+}
+
+.parent-training .footer-section .flex-div {
+    display: flex;
+    justify-content: space-between;
+}
+.parent-training .footer-section .flex-div .col-item:nth-child(2) p {
+    text-align: right;
+}
+.parent-training .footer-section .flex-div .col-item {
+    flex: auto;
+    width: auto;
+}
+
+.parent-training  .footer-section .flex-div .col-item p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.parent-training  .footer-section .flex-div .col-item p a {
+    color: #207ac7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.parent-training  .flex-div.row-flex:nth-child(2) .col-item:nth-child(2) {
+    width: 14%;
+}
+.parent-training .section_bottom .flex-div span:nth-child(1) {
+    width: auto;
+}
+
+/*----------------content css start................*/
+
+.parent-training table .flex-div {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+}
+.parent-training table .flex-div span {
+    flex: auto;
+}
+.parent-training table .flex-div span:nth-child(1) {
+    max-width: max-content;
+}
+.parent-training .section_1 table tr td:nth-child(1) {
+    width: auto;
+}
+
+.parent-training .textarea-part .textarea {
+    width: 100%;
+    margin: 10px auto 0px;
+}
+.parent-training  .textarea-part .textarea textarea {
+    width: 100%;
+    border: 2px solid #5cb85c;
+}
+
+.parent-training section .holder-div input[type="date"] {
+    margin: 0 auto;
+}
+.parent-training h3 {
+    text-transform: uppercase;
+}
+.parent-training .textarea-part .textarea textarea {
+    width: 100%;
+    border: 2px solid #5cb85c;
+}
+
+.parent-training .red {
+    color: #d9534f;
+    font-style: italic;
+}
+.parent-training .section_2 table tr td:nth-child(1) {
+    margin: 0 auto;
+    text-align: center;
+}
+.parent-training .section_2 table tr td:nth-child(1) input {
+    width: auto;
+}
+.parent-training .textarea textarea {
+    width: 100%;
+    border: 2px solid #207ac7;
+}
+
+/*========================================project-3 css start=======================================================*/
+
+.main-content .content {
+    padding: 0 15px 10px 15px;
+    margin-top: 0px;
+}
+
+.modal.show .modal-dialog {
+    transform: translate(0, 0);
+    width: 100%;
+    max-width: 1300px;
+}
+
+.bcba-sup-monthly {
+    width: 100%;
+    max-width: 1280px;
+    display: block;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background: #207ac7;
+}
+
+.bcba-sup-monthly input[type="radio"] {
+    width: auto;
+}
+
+.bcba-sup-monthly .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+
+.bcba-sup-monthly .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+/*=====================header css Start=======================*/
+.bcba-sup-monthly header {
+    background: #fff;
+    padding: 20px 20px 0px;
+    border-bottom: 0px solid #207ac7;
+}
+.bcba-sup-monthly header .flex-div {
+    align-items: center;
+    padding: 0px 15px 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+}
+.bcba-sup-monthly header .flex-div .col-item {
+    width: 50%;
+}
+.bcba-sup-monthly header .logo {
+    margin: 0;
+    text-align: left;
+    display: block;
+    padding: 0px 0px 0px;
+}
+.bcba-sup-monthly header .logo img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.bcba-sup-monthly header .col-item:nth-child(2) {
+    width: 50% !important;
+}
+
+.bcba-sup-monthly header .col-item h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #207ac7;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.bcba-sup-monthly header .flex-div .info-details {
+    text-align: left;
+    float: right;
+    width: 100%;
+    max-width: 320px;
+}
+.bcba-sup-monthly header .col-item .info-details p {
+    margin: 0;
+    font-size: 17px;
+    color: #000;
+    line-height: 24px;
+}
+
+.bcba-sup-monthly header .info-details p {
+    color: #d9534f !important;
+    font-size: 17px !important;
+}
+
+.bcba-sup-monthly header .col-item .info-details ul {
+    margin: 0px auto 0px;
+    padding: 0;
+    display: block;
+}
+
+.bcba-sup-monthly header .col-item .info-details ul li {
+    list-style: none;
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.bcba-sup-monthly header .col-item .info-details ul li span, .bcba-sup-monthly header .col-item .info-details ul li a span {
+    font-weight: 700;
+    color: #207ac7;
+    margin-right: 5px;
+}
+
+.bcba-sup-monthly header .col-item .info-details ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s all ease-in-out;
+}
+/*=================header css end===============*/
+
+.bcba-sup-monthly table input {
+    border: none;
+    outline: none;
+}
+.bcba-sup-monthly table tr td input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.bcba-sup-monthly table tr:nth-child(2) td:nth-child(1) {
+    width: 20%;
+}
+.bcba-sup-monthly table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.bcba-sup-monthly table tr th, .bcba-sup-monthly table tr td {
+    border: 2px solid #207ac7;
+    padding: 7px 10px;
+    width: auto;
+    max-width: max-content;
+    width: 25%;
+}
+.bcba-sup-monthly table tr th {
+    font-weight: bold;
+    color: #fff;
+    background: #207ac7;
+    border: 2px solid #4799e0;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bcba-sup-monthly .checkbox-area ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+.bcba-sup-monthly .checkbox-area ul li {
+    list-style: none;
+    flex: auto;
+    max-width: max-content;
+    margin-right: 20px;
+}
+.bcba-sup-monthly .checkbox-area ul li input {
+    width: auto !important;
+}
+
+.bcba-sup-monthly .select-area label {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+}
+
+.bcba-sup-monthly table tr td input["date"] {
+    width: auto;
+    max-width: max-content;
+}
+.bcba-sup-monthly table tr td input[type="date"], .bcba-sup-monthly table tr td input[type="time"] {
+    width: auto;
+    border-bottom: none;
+}
+
+.bcba-sup-monthly textarea {
+    padding: 15px;
+    font-family:'Open Sans', sans-serif;
+    resize: vertical;
+}
+
+.bcba-sup-monthly input, .bcba-sup-monthly textarea {
+    outline: none;
+    font-size: 16px;
+    color: #333;
+}
+.bcba-sup-monthly h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+}
+.bcba-sup-monthly h3, .bcba-sup-monthly h3 label {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.bcba-sup-monthly .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+.bcba-sup-monthly .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.bcba-sup-monthly .content {
+    border: 0px solid #fff;
+    padding: 0px 20px 20px;
+    background: #fff;
+}
+
+/*----------------footer button css start................*/
+.bcba-sup-monthly .section_bottom {
+    margin: 60px auto 0px;
+    width: 100%;
+}
+.bcba-sup-monthly label, .bcba-sup-monthly table tr td, .bcba-sup-monthly h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+}
+.bcba-sup-monthly .checkbox-area ul li label {
+    font-weight: 600;
+}
+.bcba-sup-monthly .section_bottom .flex-div.button-row {
+    margin: 30px auto 0px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bcba-sup-monthly .section_bottom .flex-div.button-row div {
+flex: auto;
+max-width: max-content;
+width: auto;
+}
+
+.bcba-sup-monthly .section_bottom .flex-div.button-row div a {
+padding: 11px 20px;
+font-size: 17px;
+display: block;
+text-align: center;
+border-radius: 10px;
+border: 2px solid #ddd;
+text-decoration: none;
+color: #000;
+font-weight: 600;
+}
+.bcba-sup-monthly .section_bottom .flex-div.button-row div a i.fas {
+margin-right: 6px;
+}
+.bcba-sup-monthly .section_bottom .mark-sign a {
+background: #5cb85c;
+color: #fff !important;
+}
+.bcba-sup-monthly .section_bottom .flex-div.button-row div.cancel a {
+background: #d9534f;
+color: #fff;
+}
+
+.bcba-sup-monthly .section_bottom .flex-div:nth-child(1) .col-item:nth-last-child(1) {
+display: flex;
+flex-direction: column;
+}
+.bcba-sup-monthly table .flex-div input {
+    border-bottom: 2px solid #207ac7;
+}
+
+/*========================footer bottom===========================*/
+.bcba-sup-monthly .footer-section {
+    margin: 50px auto 0px;
+    box-shadow: 0px -5px 6px -4px #ccc;
+    padding: 20px 0px;
+}
+
+.bcba-sup-monthly .footer-section .flex-div {
+    display: flex;
+    justify-content: space-between;
+}
+.bcba-sup-monthly table .flex-div {
+    display: flex;
+    flex-direction: column;
+}
+.bcba-sup-monthly .footer-section .flex-div .col-item:nth-child(2) p {
+    text-align: right;
+}
+.bcba-sup-monthly .footer-section .flex-div .col-item {
+    flex: auto;
+    width: auto;
+}
+
+.bcba-sup-monthly  .footer-section .flex-div .col-item p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.bcba-sup-monthly  .footer-section .flex-div .col-item p a {
+    color: #207ac7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.bcba-sup-monthly  .flex-div.row-flex:nth-child(2) .col-item:nth-child(2) {
+    width: 14%;
+}
+.bcba-sup-monthly .section_bottom .flex-div span:nth-child(1) {
+    width: auto;
+}
+
+/*----------------content css start................*/
+
+.bcba-sup-monthly table .flex-div {
+    display: flex;
+}
+.bcba-sup-monthly table .flex-div span {
+    flex: auto;
+}
+.bcba-sup-monthly table .flex-div span:nth-child(1) {
+    max-width: max-content;
+    min-height: 45px;
+    padding-bottom: 0px;
+}
+
+.bcba-sup-monthly .textarea-part .textarea {
+    width: 100%;
+    margin: 10px auto 0px;
+}
+.bcba-sup-monthly  .textarea-part .textarea textarea {
+    width: 100%;
+    border: 2px solid #5cb85c;
+}
+.bcba-sup-monthly  .bcba-sup-monthly  .holder-div span label {
+    width: auto !important;
+}
+
+.bcba-sup-monthly  .holder-div span input {
+    width: 50px !important;
+    height: 20px !important;
+    border: 2px solid #207ac7 !important;
+    margin-top: 4px;
+}
+.bcba-sup-monthly section .holder-div input[type="date"] {
+    margin: 0 auto;
+}
+.bcba-sup-monthly h3 {
+    text-transform: uppercase;
+}
+.bcba-sup-monthly .textarea-part .textarea textarea {
+    width: 100%;
+    border: 2px solid #5cb85c;
+}
+
+.bcba-sup-monthly  .red {
+    color: #d9534f;
+    font-style: italic;
+}
+.bcba-sup-monthly  .section_2 table tr td:nth-child(1) {
+    margin: 0 auto;
+    text-align: center;
+}
+.bcba-sup-monthly .section_2 table tr td:nth-child(1) input {
+    width: auto;
+}
+.bcba-sup-monthly .textarea textarea {
+    width: 100%;
+    border: 2px solid #207ac7;
+}
+.bcba-sup-monthly table .flex-div span:nth-child(1) {
+    max-width: max-content;
+    min-height: 20px;
+    padding-bottom: 0px;
+}
+.bcba-sup-monthly table .flex-div span .red {
+    font-size: 14px;
+}
+.bcba-sup-monthly .section_1 table td[colspan="4"] .flex-div {
+    flex-direction: row;
+    min-height: auto;
+}
+.bcba-sup-monthly .section_1 table td[colspan="4"] .flex-div span:nth-child(1) {
+    min-height: auto;
+}
+
+
+.bcba-sup-monthly section .box.box-last_2 {
+    margin-top: 40px;
+}
+.bcba-sup-monthly section .box.box-last_2 .flex-div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.bcba-sup-monthly section .box.box-last_2 .flex-div .col-item:nth-child(1) {
+    padding-right: 15px !important;
+}
+.bcba-sup-monthly section .holder-div {
+    width: 100%;
+    max-width: 280px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.bcba-sup-monthly section .box.box-last_2 .flex-div .col-item input {
+    border: none;
+    border-bottom: 2px solid #207ac7;
+}
+
+.bcba-sup-monthly section .box.box-last_2 .flex-div .col-item label {
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    display: inline-block;
+}
+.bcba-sup-monthly section .box.box-last_2 .holder-div span label {
+    width: auto;
+    max-width: max-content !important;
+    margin: 0px 15px;
+}
+.bcba-sup-monthly section .box.box-last_2 .flex-div .col-item {
+    flex: auto;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*========================================project-4 css start=======================================================*/
+
+.main-content .content {
+    padding: 0 15px 10px 15px;
+    margin-top: 0px;
+}
+.modal.show .modal-dialog {
+    transform: translate(0, 0);
+    width: 100%;
+    max-width: 1300px;
+}
+.bcba-uniq-supervision {
+    width: 100%;
+    max-width: 1280px;
+    display: block;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background: #207ac7;
+}
+
+.bcba-uniq-supervision input[type="radio"] {
+    width: auto;
+}
+
+.bcba-uniq-supervision .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+
+.bcba-uniq-supervision .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+/*=====================header css Start=======================*/
+.bcba-uniq-supervision header {
+    background: #fff;
+    padding: 20px 20px 0px;
+    border-bottom: 0px solid #207ac7;
+}
+.bcba-uniq-supervision header .flex-div {
+    align-items: center;
+    padding: 0px 15px 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+}
+.bcba-uniq-supervision header .flex-div .col-item {
+    width: 50%;
+}
+.bcba-uniq-supervision header .logo {
+    margin: 0;
+    text-align: left;
+    display: block;
+    padding: 0px 0px 0px;
+}
+.bcba-uniq-supervision header .logo img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.bcba-uniq-supervision header .col-item:nth-child(2) {
+    width: 50% !important;
+}
+
+.bcba-uniq-supervision header .col-item h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #207ac7;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.bcba-uniq-supervision header .flex-div .info-details {
+    text-align: left;
+    float: right;
+    width: 100%;
+    max-width: 320px;
+}
+.bcba-uniq-supervision header .col-item .info-details p {
+    margin: 0;
+    font-size: 17px;
+    color: #000;
+    line-height: 24px;
+}
+
+.bcba-uniq-supervision header .info-details p {
+    color: #d9534f !important;
+    font-size: 17px !important;
+}
+
+.bcba-uniq-supervision header .col-item .info-details ul {
+    margin: 0px auto 0px;
+    padding: 0;
+    display: block;
+}
+
+.bcba-uniq-supervision header .col-item .info-details ul li {
+    list-style: none;
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.bcba-uniq-supervision header .col-item .info-details ul li span, .bcba-uniq-supervision header .col-item .info-details ul li a span {
+    font-weight: 700;
+    color: #207ac7;
+    margin-right: 5px;
+}
+
+.bcba-uniq-supervision header .col-item .info-details ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s all ease-in-out;
+}
+/*=================header css end===============*/
+
+.bcba-uniq-supervision table input {
+    border: none;
+    outline: none;
+}
+.bcba-uniq-supervision table tr td input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.bcba-uniq-supervision table tr:nth-child(2) td:nth-child(1) {
+    width: 20%;
+}
+.bcba-uniq-supervision table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.bcba-uniq-supervision table tr th, .bcba-uniq-supervision table tr td {
+    border: 2px solid #207ac7;
+    padding: 7px 10px;
+    width: auto;
+    max-width: max-content;
+    width: 25%;
+}
+.bcba-uniq-supervision table tr th {
+    font-weight: bold;
+    color: #fff;
+    background: #207ac7;
+    border: 2px solid #4799e0;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bcba-uniq-supervision .checkbox-area ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+.bcba-uniq-supervision .checkbox-area ul li {
+    list-style: none;
+    flex: auto;
+    max-width: max-content;
+    margin-right: 20px;
+}
+.bcba-uniq-supervision .checkbox-area ul li input {
+    width: auto !important;
+}
+
+.bcba-uniq-supervision .select-area label {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+}
+
+.bcba-uniq-supervision table tr td input["date"] {
+    width: auto;
+    max-width: max-content;
+}
+.bcba-uniq-supervision table tr td input[type="date"], .bcba-uniq-supervision table tr td input[type="time"] {
+    width: auto;
+    border-bottom: none !important;
+}
+
+.bcba-uniq-supervision textarea {
+    padding: 15px;
+    font-family:'Open Sans', sans-serif;
+    resize: vertical;
+}
+
+.bcba-uniq-supervision input, .bcba-uniq-supervision textarea {
+    outline: none;
+    font-size: 16px;
+    color: #333;
+}
+.bcba-uniq-supervision h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+}
+.bcba-uniq-supervision h3, .bcba-uniq-supervision h3 label {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.bcba-uniq-supervision .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+.bcba-uniq-supervision .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.bcba-uniq-supervision .content {
+    border: 0px solid #fff;
+    padding: 0px 20px 20px;
+    background: #fff;
+}
+
+/*----------------footer button css start................*/
+.bcba-uniq-supervision .section_bottom {
+    margin: 60px auto 0px;
+    width: 100%;
+}
+.bcba-uniq-supervision label, .bcba-uniq-supervision table tr td, .bcba-uniq-supervision h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+}
+.bcba-uniq-supervision .checkbox-area ul li label {
+    font-weight: 600;
+}
+.bcba-uniq-supervision .section_bottom .flex-div.button-row {
+    margin: 30px auto 0px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bcba-uniq-supervision .section_bottom .flex-div.button-row div {
+flex: auto;
+max-width: max-content;
+width: auto;
+}
+
+.bcba-uniq-supervision .section_bottom .flex-div.button-row div a {
+padding: 11px 20px;
+font-size: 17px;
+display: block;
+text-align: center;
+border-radius: 10px;
+border: 2px solid #ddd;
+text-decoration: none;
+color: #000;
+font-weight: 600;
+}
+.bcba-uniq-supervision .section_bottom .flex-div.button-row div a i.fas {
+margin-right: 6px;
+}
+.bcba-uniq-supervision .section_bottom .mark-sign a {
+background: #5cb85c;
+color: #fff !important;
+}
+.bcba-uniq-supervision .section_bottom .flex-div.button-row div.cancel a {
+background: #d9534f;
+color: #fff;
+}
+
+.bcba-uniq-supervision .section_bottom .flex-div:nth-child(1) .col-item:nth-last-child(1) {
+display: flex;
+flex-direction: column;
+}
+.bcba-uniq-supervision table .flex-div input {
+    border: 2px solid #207ac7;
+}
+
+/*========================footer bottom===========================*/
+.bcba-uniq-supervision .footer-section {
+    margin: 50px auto 0px;
+    box-shadow: 0px -5px 6px -4px #ccc;
+    padding: 20px 0px;
+}
+
+.bcba-uniq-supervision .footer-section .flex-div {
+    display: flex;
+    justify-content: space-between;
+}
+.bcba-uniq-supervision table .flex-div {
+    display: flex;
+    flex-direction: column;
+}
+.bcba-uniq-supervision .footer-section .flex-div .col-item:nth-child(2) p {
+    text-align: right;
+}
+.bcba-uniq-supervision .footer-section .flex-div .col-item {
+    flex: auto;
+    width: auto;
+}
+
+.bcba-uniq-supervision  .footer-section .flex-div .col-item p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.bcba-uniq-supervision  .footer-section .flex-div .col-item p a {
+    color: #207ac7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.bcba-uniq-supervision  .flex-div.row-flex:nth-child(2) .col-item:nth-child(2) {
+    width: 14%;
+}
+.bcba-uniq-supervision .section_bottom .flex-div span:nth-child(1) {
+    width: auto;
+}
+
+/*----------------content css start................*/
+
+.bcba-uniq-supervision table .flex-div {
+    display: flex;
+}
+.bcba-uniq-supervision table .flex-div span {
+    flex: auto;
+}
+.bcba-uniq-supervision table .flex-div span:nth-child(1) {
+    max-width: max-content;
+    min-height: 45px;
+    padding-bottom: 0px;
+}
+
+.bcba-uniq-supervision .textarea-part .textarea {
+    width: 100%;
+    margin: 10px auto 0px;
+}
+.bcba-uniq-supervision  .textarea-part .textarea textarea {
+    width: 100%;
+    border: 2px solid #5cb85c;
+}
+
+.bcba-uniq-supervision section .holder-div input[type="date"] {
+    margin: 0 auto;
+}
+.holder-div span label {
+    width: auto !important;
+}
+
+.bcba-uniq-supervision .holder-div span input {
+    width: 50px !important;
+    height: 20px !important;
+    border: 2px solid #207ac7 !important;
+    margin-top: 4px;
+}
+.bcba-uniq-supervision .section_1 span input {
+    border: none !important;
+    border-bottom: 2px solid #207ac7 !important;
+}
+.bcba-uniq-supervision h3 {
+    text-transform: uppercase;
+}
+.bcba-uniq-supervision .textarea-part .textarea textarea {
+    width: 100%;
+    border: 2px solid #5cb85c;
+}
+
+.bcba-uniq-supervision .red {
+    color: #d9534f;
+    font-style: italic;
+}
+.bcba-uniq-supervision .box p.red span {
+    color: #000;
+}
+.bcba-uniq-supervision .section_2 table tr td:nth-child(1) {
+    margin: 0 auto;
+    text-align: center;
+}
+.bcba-uniq-supervision .section_2 table tr td:nth-child(1) input {
+    width: auto;
+}
+.bcba-uniq-supervision .textarea textarea {
+    width: 100%;
+    border: 2px solid #207ac7;
+}
+.bcba-uniq-supervision table .flex-div span:nth-child(1) {
+    max-width: max-content;
+    min-height: 20px;
+    padding-bottom: 0px;
+}
+.bcba-uniq-supervision table .flex-div span .red {
+    font-size: 14px;
+}
+.bcba-uniq-supervision .section_1 table td[colspan="4"] .flex-div {
+    flex-direction: row;
+    min-height: auto;
+}
+.bcba-uniq-supervision .section_1 table td[colspan="4"] .flex-div span:nth-child(1) {
+    min-height: auto;
+}
+
+
+.bcba-uniq-supervision section .box.box-last_2 {
+    margin-top: 40px;
+}
+.bcba-uniq-supervision section .box.box-last_2 .flex-div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.bcba-uniq-supervision section .box.box-last_2 .flex-div .col-item:nth-child(1) {
+    padding-right: 15px !important;
+}
+.bcba-uniq-supervision section .holder-div {
+    width: 100%;
+    max-width: 280px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.bcba-uniq-supervision section .box.box-last_2 .flex-div .col-item input {
+    border: none;
+    border-bottom: 2px solid #207ac7;
+}
+
+.bcba-uniq-supervision section .box.box-last_2 .flex-div .col-item label {
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+.bcba-uniq-supervision section .box.box-last_2 .flex-div .col-item {
+    flex: auto;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bcba-uniq-supervision .section_2 .box1 ul.checkbox-area {
+    display: flex;
+    column-gap: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+.bcba-uniq-supervision .section_2 .box1 ul.checkbox-area li {
+    list-style: none;
+    color: #000;
+}
+.bcba-uniq-supervision .section_2 .box1 ul.checkbox-area li span label {
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.bcba-uniq-supervision .inner-main-title h2 {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #d9534f;
+    position: relative;
+    padding: 0px 0px 15px;
+    margin: 0 auto 29px;
+    font-weight: bold;
+}
+
+.bcba-uniq-supervision .inner-main-title h2::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 10%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.bcba-uniq-supervision .evaluation-of-performance ul {
+    margin: 0;
+    padding: 0 0px 0px 0px;
+}
+.bcba-uniq-supervision .evaluation-of-performance ul li {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    list-style-image: url(../images/bullet.png);
+    line-height: normal;
+    margin-bottom: 15px;
+}
+.bcba-uniq-supervision .evaluation-of-performance ul li .red {
+    font-size: 14px;
+}
+.bcba-uniq-supervision .section_3 .evaluation-of-performance li .select-area span {
+    margin-right: 5px;
+}
+.bcba-uniq-supervision .box p.red {
+    margin: 0;
+}
+.bcba-uniq-supervision .col-title.mb_15 {
+    margin-bottom: 5px !important;
+}
+.bcba-uniq-supervision .section_3 .evaluation-of-performance {
+    margin: 20px auto 0px;
+}
+.bcba-uniq-supervision .section_3 .evaluation-of-performance li .select-area {
+    margin: 10px 0px 0px;
+}
+.bcba-uniq-supervision .section_3 .evaluation-of-performance li .select-area span label {
+    font-size: 15px;
+}
+
+/*========================================project-5 css start=======================================================*/
+
+.main-content .content {
+    padding: 0 15px 10px 15px;
+    margin-top: 0px;
+}
+.modal.show .modal-dialog {
+    transform: translate(0, 0);
+    width: 100%;
+    max-width: 1300px;
+}
+.monthly-sup-note {
+    width: 100%;
+    max-width: 1280px;
+    display: block;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background: #207ac7;
+}
+.monthly-sup-note .bracket {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: initial;
+}
+.monthly-sup-note section .col-item span input[type="date"], .monthly-sup-note section .col-item span input[type="time"], .monthly-sup-note .col-item span input[type="date"] {
+    border: none !important;
+}
+.monthly-sup-note input[type="radio"] {
+    width: auto;
+}
+
+.monthly-sup-note .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+
+.monthly-sup-note .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+/*=====================header css Start=======================*/
+.monthly-sup-note header {
+    background: #fff;
+    padding: 20px 20px 0px;
+    border-bottom: 0px solid #207ac7;
+}
+.monthly-sup-note header .flex-div {
+    align-items: center;
+    padding: 0px 15px 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+}
+.monthly-sup-note header .flex-div .col-item {
+    width: 50%;
+}
+.monthly-sup-note header .logo {
+    margin: 0;
+    text-align: left;
+    display: block;
+    padding: 0px 0px 0px;
+}
+.monthly-sup-note header .logo img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.monthly-sup-note header .col-item:nth-child(2) {
+    width: 50% !important;
+}
+
+.monthly-sup-note header .col-item h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #207ac7;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.monthly-sup-note header .flex-div .info-details {
+    text-align: left;
+    float: right;
+    width: 100%;
+    max-width: 320px;
+}
+.monthly-sup-note header .col-item .info-details p {
+    margin: 0;
+    font-size: 17px;
+    color: #000;
+    line-height: 24px;
+}
+
+.monthly-sup-note header .info-details p {
+    color: #d9534f !important;
+    font-size: 17px !important;
+}
+
+.monthly-sup-note header .col-item .info-details ul {
+    margin: 0px auto 0px;
+    padding: 0;
+    display: block;
+}
+
+.monthly-sup-note header .col-item .info-details ul li {
+    list-style: none;
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.monthly-sup-note header .col-item .info-details ul li span, .monthly-sup-note header .col-item .info-details ul li a span {
+    font-weight: 700;
+    color: #207ac7;
+    margin-right: 5px;
+}
+
+.monthly-sup-note header .col-item .info-details ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s all ease-in-out;
+}
+/*=================header css end===============*/
+
+.monthly-sup-note table input {
+    border: none;
+    outline: none;
+}
+.monthly-sup-note table tr td input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.monthly-sup-note table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.monthly-sup-note table tr th, .monthly-sup-note table tr td {
+    border: 2px solid #207ac7;
+    padding: 7px 10px;
+    width: auto;
+    max-width: max-content;
+}
+.monthly-sup-note table tr th {
+    font-weight: bold;
+    color: #fff;
+    background: #207ac7;
+    border: 2px solid #4799e0;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.monthly-sup-note table tr td input[type="date"], .monthly-sup-note table tr td input[type="time"] {
+    width: auto;
+}
+
+.monthly-sup-note textarea {
+    padding: 15px;
+    font-family:'Open Sans', sans-serif;
+    resize: vertical;
+}
+
+.monthly-sup-note input, .monthly-sup-note textarea {
+    outline: none;
+    font-size: 16px;
+    color: #333;
+}
+.monthly-sup-note h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+}
+.monthly-sup-note h3, .monthly-sup-note h3 label {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.monthly-sup-note .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+.monthly-sup-note .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.monthly-sup-note .content {
+    border: 0px solid #fff;
+    padding: 0px 20px 20px;
+    background: #fff;
+}
+
+/*----------------footer button css start................*/
+.monthly-sup-note .section_bottom {
+    margin: 60px auto 0px;
+    width: 100%;
+}
+.monthly-sup-note label, .monthly-sup-note table tr td, .monthly-sup-note h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+}
+.monthly-sup-note .checkbox-area ul li label {
+    font-weight: 600;
+}
+.monthly-sup-note .section_bottom .flex-div.button-row {
+    margin: 30px auto 0px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.monthly-sup-note .section_bottom .flex-div.button-row div {
+flex: auto;
+max-width: max-content;
+width: auto;
+}
+
+.monthly-sup-note .section_bottom .flex-div.button-row div a {
+padding: 11px 20px;
+font-size: 17px;
+display: block;
+text-align: center;
+border-radius: 10px;
+border: 2px solid #ddd;
+text-decoration: none;
+color: #000;
+font-weight: 600;
+}
+.monthly-sup-note .section_bottom .flex-div.button-row div a i.fas {
+margin-right: 6px;
+}
+.monthly-sup-note .section_bottom .mark-sign a {
+background: #5cb85c;
+color: #fff !important;
+}
+.monthly-sup-note .section_bottom .flex-div.button-row div.cancel a {
+background: #d9534f;
+color: #fff;
+}
+
+.monthly-sup-note .section_bottom .flex-div:nth-child(1) .col-item:nth-last-child(1) {
+display: flex;
+flex-direction: column;
+}
+.monthly-sup-note table .flex-div input {
+    border: 2px solid #207ac7;
+}
+
+/*========================footer bottom===========================*/
+.monthly-sup-note .footer-section {
+    margin: 50px auto 0px;
+    box-shadow: 0px -5px 6px -4px #ccc;
+    padding: 20px 0px;
+}
+
+.monthly-sup-note .footer-section .flex-div {
+    display: flex;
+    justify-content: space-between;
+}
+.monthly-sup-note table .flex-div {
+    display: flex;
+    flex-direction: column;
+}
+.monthly-sup-note .footer-section .flex-div .col-item:nth-child(2) p {
+    text-align: right;
+}
+.monthly-sup-note .footer-section .flex-div .col-item {
+    flex: auto;
+    width: auto;
+}
+
+.monthly-sup-note  .footer-section .flex-div .col-item p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.monthly-sup-note  .footer-section .flex-div .col-item p a {
+    color: #207ac7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.monthly-sup-note  .flex-div.row-flex:nth-child(2) .col-item:nth-child(2) {
+    width: 14%;
+}
+.monthly-sup-note .section_bottom .flex-div span:nth-child(1) {
+    width: auto;
+}
+
+/*----------------content css start................*/
+.monthly-sup-note .red {
+    color: #d9534f;
+    font-style: italic;
+}
+.monthly-sup-note .inner-main-title h2 {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #d9534f;
+    position: relative;
+    padding: 0px 0px 15px;
+    margin: 0 auto 29px;
+    font-weight: bold;
+}
+
+.monthly-sup-note .inner-main-title h2::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 10%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.monthly-sup-note .flex-div.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 30px;
+    row-gap: 15px;
+}
+.monthly-sup-note .flex-div.row-flex .col-item .flex-div input[type="date"], .monthly-sup-note .flex-div.row-flex .col-item .flex-div input[type="time"] {
+    width: auto;
+}
+
+.monthly-sup-note .flex-div.row-flex .col-item {
+flex: auto;
+}
+.monthly-sup-note .flex-div.row-flex .col-item .flex-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.monthly-sup-note .flex-div.row-flex .col-item:nth-child(1), .monthly-sup-note .flex-div.row-flex .col-item:nth-last-child(1) {
+    width: 30%;
+}
+.monthly-sup-note .flex-div.row-flex .col-item:nth-child(1) span:nth-child(2), .monthly-sup-note .flex-div.row-flex .col-item:nth-last-child(1) span:nth-child(2) {
+    width: 100%;
+}
+.monthly-sup-note .flex-div.row-flex .col-item .flex-div span {
+    width: 100%;
+    max-width: max-content;
+    margin: 0px 5px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+.monthly-sup-note .flex-div.row-flex .col-item .flex-div span:nth-child(2) {
+    width: 100%;
+    max-width: 100%;
+}
+.monthly-sup-note .flex-div.row-flex .col-item .flex-div input {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    border-bottom: 2px solid #207ac7;
+}
+.monthly-sup-note input[type="checkbox"] {
+    width: auto !important;
+}
+.monthly-sup-note  .flex-div.row-flex.row2 {
+    width: 100%;
+    max-width: 100%;
+}
+.monthly-sup-note .flex-div.row-flex.row2 .col-item .flex-div div {
+    width: auto;
+    flex: auto !important;
+    max-width: max-content;
+}
+.monthly-sup-note .flex-div.row-flex .col-item .flex-div .check-box-area {
+    margin-left: 10px;
+}
+.monthly-sup-note .flex-div.row-flex.row2 .col-item .flex-div .check-box-area ul{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.monthly-sup-note .flex-div.row-flex.row2 .col-item .flex-div .check-box-area ul li {
+    display: flex;
+    list-style: none;
+    margin-right: 15px;
+}
+
+.monthly-sup-note .flex-div.row-flex .col-item .flex-div span:nth-child(2) label {
+    color: #000 !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.monthly-sup-note .textarea textarea {
+    width: 100%;
+    border: 2px solid #207ac7;
+}
+
+.monthly-sup-note .box.box5 .check-box-area ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    column-gap: 15px;
+    flex-wrap: wrap;
+}
+.monthly-sup-note .box.box5 .check-box-area ul li {
+    list-style: none;
+}
+.monthly-sup-note .box.box5 .check-box-area {
+    margin: 10px auto 0px;
+}
+.monthly-sup-note .box.box5 .check-box-area ul li span label {
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.25px;
+}
+
+.monthly-sup-note .section_3 .col-item:nth-child(1) {
+    width: 43% !important;
+}
+
+.section_3 .col-item:nth-child(1), .monthly-sup-note .section_3 .col-item:nth-last-child(1) {
+    width: auto !important;
+}
+.monthly-sup-note .section_3 .col-item:nth-last-child(1) span {
+    width: auto !important;
+}
+.monthly-sup-note .section_3 .col-item:nth-last-child(1) {
+    width: auto !important;
+    max-width: max-content;
+}
+.monthly-sup-note .monthly-sup-note input[type="checkbox"] {
+    width: auto !important;
+}
+.monthly-sup-note .monthly-sup-note label {
+    margin-right: 5px;
+}
+
+/*========================================project-6 css start=======================================================*/
+.main-content .content {
+    padding: 0 15px 10px 15px;
+    margin-top: 0px;
+}
+
+.modal.show .modal-dialog {
+    transform: translate(0, 0);
+    width: 100%;
+    max-width: 1300px;
+}
+.therapist-session-note {
+    width: 100%;
+    max-width: 1280px;
+    display: block;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background: #207ac7;
+}
+
+.red{
+color: #d9534f;
+}
+.therapist-session-note .red.bracket {
+    font-size: 14px;
+}
+.therapist-session-note input[type="checkbox"] {
+    width: auto !important;
+}
+.therapist-session-note input[type="radio"] {
+    width: auto;
+}
+
+.therapist-session-note .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto 0px;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+
+.therapist-session-note .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.therapist-session-note .page-title .bracket {
+    margin: 50px auto 0px;
+    text-align: left;
+    display: block;
+    font-size: 14px;
+}
+.therapist-session-note .page-title h1 .bracket {
+      font-size: 14px;
+    margin: 0px;
+    display: block;
+    text-transform: initial;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+}
+
+/*=====================header css Start=======================*/
+.therapist-session-note header {
+    background: #fff;
+    padding: 20px 20px 0px;
+    border-bottom: 0px solid #207ac7;
+}
+.therapist-session-note header .flex-div {
+    align-items: center;
+    padding: 0px 15px 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+}
+.therapist-session-note header .flex-div .col-item {
+    width: 50%;
+}
+.therapist-session-note header .logo {
+    margin: 0;
+    text-align: left;
+    display: block;
+    padding: 0px 0px 0px;
+}
+.therapist-session-note header .logo img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.therapist-session-note header .col-item:nth-child(2) {
+    width: 50% !important;
+}
+
+.therapist-session-note header .col-item h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #207ac7;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.therapist-session-note header .flex-div .info-details {
+    text-align: left;
+    float: right;
+    width: 100%;
+    max-width: 320px;
+}
+.therapist-session-note header .col-item .info-details p {
+    margin: 0;
+    font-size: 17px;
+    color: #000;
+    line-height: 24px;
+}
+
+.therapist-session-note header .info-details p {
+    color: #d9534f !important;
+    font-size: 17px !important;
+}
+
+.therapist-session-note header .col-item .info-details ul {
+    margin: 0px auto 0px;
+    padding: 0;
+    display: block;
+}
+
+.therapist-session-note header .col-item .info-details ul li {
+    list-style: none;
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.therapist-session-note header .col-item .info-details ul li span, .therapist-session-note header .col-item .info-details ul li a span {
+    font-weight: 700;
+    color: #207ac7;
+    margin-right: 5px;
+}
+
+.therapist-session-note header .col-item .info-details ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s all ease-in-out;
+}
+/*=================header css end===============*/
+
+.therapist-session-note table input {
+    border: none;
+    outline: none;
+}
+.therapist-session-note table tr td input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.therapist-session-note table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.therapist-session-note table tr th, .therapist-session-note table tr td {
+    border: 2px solid #207ac7;
+    padding: 7px 10px;
+    width: auto;
+    max-width: max-content;
+}
+.therapist-session-note table tr th {
+    font-weight: bold;
+    color: #fff;
+    background: #207ac7;
+    border: 2px solid #4799e0;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.therapist-session-note table tr td input[type="date"], .therapist-session-note table tr td input[type="time"] {
+    width: auto;
+}
+
+.therapist-session-note textarea {
+    padding: 15px;
+    font-family:'Open Sans', sans-serif;
+    resize: vertical;
+}
+
+.therapist-session-note input, .therapist-session-note textarea {
+    outline: none;
+    font-size: 16px;
+    color: #333;
+}
+.therapist-session-note h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+}
+.therapist-session-note h3, .therapist-session-note h3 label {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.therapist-session-note .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+.therapist-session-note .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.therapist-session-note .content {
+    border: 0px solid #fff;
+    padding: 0px 20px 20px;
+    background: #fff;
+}
+
+/*----------------footer button css start................*/
+.therapist-session-note .section_bottom {
+    margin: 60px auto 0px;
+    width: 100%;
+}
+.therapist-session-note label, .therapist-session-note table tr td, .therapist-session-note h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+    vertical-align: top;
+}
+.therapist-session-note .checkbox-area ul li label {
+    font-weight: 600;
+}
+.therapist-session-note .section_bottom .flex-div.button-row {
+    margin: 30px auto 0px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.therapist-session-note .section_bottom .flex-div.button-row div {
+flex: auto;
+max-width: max-content;
+width: auto;
+}
+
+.therapist-session-note .section_bottom .flex-div.button-row div a {
+padding: 11px 20px;
+font-size: 17px;
+display: block;
+text-align: center;
+border-radius: 10px;
+border: 2px solid #ddd;
+text-decoration: none;
+color: #000;
+font-weight: 600;
+}
+.therapist-session-note .section_bottom .flex-div.button-row div a i.fas {
+margin-right: 6px;
+}
+.therapist-session-note .section_bottom .mark-sign a {
+background: #5cb85c;
+color: #fff !important;
+}
+.therapist-session-note .section_bottom .flex-div.button-row div.cancel a {
+background: #d9534f;
+color: #fff;
+}
+
+.therapist-session-note .section_bottom .flex-div:nth-child(1) .col-item:nth-last-child(1) {
+display: flex;
+flex-direction: column;
+}
+.therapist-session-note table .flex-div input {
+    border-bottom: 2px solid #207ac7;
+}
+/*========================footer bottom===========================*/
+.therapist-session-note .footer-section {
+    margin: 50px auto 0px;
+    box-shadow: 0px -5px 6px -4px #ccc;
+    padding: 20px 0px;
+}
+
+.therapist-session-note .footer-section .flex-div {
+    display: flex;
+    justify-content: space-between;
+}
+.therapist-session-note table .flex-div {
+    display: flex;
+    flex-direction: column;
+}
+.therapist-session-note .footer-section .flex-div .col-item:nth-child(2) p {
+    text-align: right;
+}
+.therapist-session-note .footer-section .flex-div .col-item {
+    flex: auto;
+    width: auto;
+}
+
+.therapist-session-note  .footer-section .flex-div .col-item p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.therapist-session-note  .footer-section .flex-div .col-item p a {
+    color: #207ac7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.therapist-session-note  .flex-div.row-flex:nth-child(2) .col-item:nth-child(2) {
+    width: 14%;
+}
+.therapist-session-note .section_bottom .flex-div span:nth-child(1) {
+    width: auto;
+}
+
+/*----------------content css start................*/
+.therapist-session-note .red {
+    color: #d9534f;
+    font-style: italic;
+}
+.therapist-session-note .inner-main-title h2 {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #d9534f;
+    position: relative;
+    padding: 0px 0px 15px;
+    margin: 0 auto 29px;
+    font-weight: bold;
+}
+
+.therapist-session-note .inner-main-title h2::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 10%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+
+.therapist-session-note .red {
+    color: #d9534f;
+    font-style: italic;
+}
+.therapist-session-note .inner-main-title h2 {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #d9534f;
+    position: relative;
+    padding: 0px 0px 15px;
+    margin: 0 auto 29px;
+    font-weight: bold;
+}
+
+.therapist-session-note .inner-main-title h2::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 10%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.therapist-session-note .flex-div.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 30px;
+    row-gap: 15px;
+}
+.therapist-session-note .flex-div.row-flex .col-item .flex-div input[type="date"], .therapist-session-note .flex-div.row-flex .col-item .flex-div input[type="time"] {
+    width: auto;
+}
+
+.therapist-session-note .flex-div.row-flex .col-item {
+flex: auto;
+}
+.therapist-session-note .flex-div.row-flex .col-item .flex-div {
+    display: flex;
+    justify-content: flex-start;
+}
+.therapist-session-note .flex-div.row-flex .col-item:nth-child(1){
+    width: 30%;
+}
+.therapist-session-note .flex-div.row-flex .col-item:nth-child(1) span:nth-child(2), .therapist-session-note .flex-div.row-flex .col-item:nth-last-child(1) span:nth-child(2) {
+    width: 100%;
+}
+.therapist-session-note .flex-div.row-flex .col-item .flex-div span {
+    width: 100%;
+    max-width: max-content;
+    margin: 0px 5px 0px 0px;
+}
+.therapist-session-note .flex-div.row-flex .col-item .flex-div span:nth-child(2) {
+    width: 100%;
+    max-width: 100%;
+}
+.therapist-session-note .flex-div.row-flex .col-item .flex-div input {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    border-bottom: 2px solid #207ac7;
+}
+.therapist-session-note  .flex-div.row-flex.row2 {
+    width: 100%;
+    max-width: 100%;
+}
+.therapist-session-note .flex-div.row-flex.row2 .col-item .flex-div div {
+    width: auto;
+    flex: auto !important;
+    max-width: max-content;
+}
+.therapist-session-note .flex-div.row-flex.row2 .col-item .flex-div .check-box-area ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.therapist-session-note .flex-div.row-flex.row2 .col-item .flex-div .check-box-area ul li {
+    display: flex;
+    list-style: none;
+}
+
+.therapist-session-note .flex-div.row-flex .col-item .flex-div span:nth-child(2) label {
+    color: #000 !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.therapist-session-note .flex-div.row-flex .col-item .check-box-area ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.therapist-session-note .flex-div.row-flex .col-item .check-box-area ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.therapist-session-note .section_1 .box.box_1 .flex-div.row-flex .col-item:nth-last-child(1) .flex-div div {
+    flex: auto;
+}
+
+.therapist-session-note .section_1 .box.box_1 .flex-div.row-flex .col-item:nth-last-child(1) .flex-div div:nth-child(1) {
+    max-width: max-content;
+}
+
+.therapist-session-note .section_1 .box.box_1 .flex-div.row-flex .col-item .flex-div .check-box-area ul li input {
+    width: auto;
+}
+.therapist-session-note table .flex-div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    align-items: center;
+}
+.therapist-session-note .box tr > td:nth-child(1) {
+    width: 20%;
+}
+
+.therapist-session-note .section_2 .box.box_1 .other input {
+    width: auto;
+}
+.therapist-session-note .section_2 .box label {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+.therapist-session-note .check-box-area ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.therapist-session-note .section_2 .box_1 td .check-box-area ul li {
+    list-style: none;
+    margin-left: 10px;
+}
+.therapist-session-note .other {
+    display: flex;
+}
+.therapist-session-note .other input {
+    width: 70% !important;
+    max-width: max-content;
+}
+.section_2 .box.box_1 table tr td {
+    vertical-align: top;
+}
+
+.therapist-session-note table.table_2 tr:nth-child(1) td, .therapist-session-note table.table_3 tr:nth-child(1) td {
+    border-top: none;
+}
+
+.therapist-session-note table.table_2 td:nth-child(2) {
+    width: 30%;
+}
+
+.therapist-session-note table.table_3 tr:nth-child(1) td label {
+    color: #207ac7;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.therapist-session-note table.table_3 tr td .flex-div {
+    justify-content: center;
+}
+.therapist-session-note .section_3 table tr td input {
+    border-bottom: 2px solid #207ac7;
+    padding: 6px 10px;
+    margin-top: 10px;
+}
+.therapist-session-note .section_3 .flex-div span:nth-child(2) label {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+}
+.therapist-session-note .section_3 .flex-div {
+    margin: 10px auto 0px;
+     align-items: center;
+}
+.therapist-session-note .section_3 .flex-div span input {
+  margin: 0 5px 0px 0px;
+}
+.therapist-session-note .section_3 table tr td {
+    width: 50%;
+}
+.therapist-session-note .section_3 textarea {
+    width: 100%;
+    border: 2px solid #207ac7;
+    margin: 10px auto 0px;
+    min-height: 120px;
+    max-height: 120px;
+}
+.therapist-session-note .section_3 table tr td:nth-child(1) {
+    width: 40%;
+}
+.therapist-session-note .section_4 .col-item span input[type="date"], .therapist-session-note section .col-item span input[type="date"], .therapist-session-note section .col-item span input[type="time"] {
+    border: none !important;
+}
+.therapist-session-note .section_4 .col-item:nth-child(1){
+    width:40% !important;
+}
+ .therapist-session-note .section_4 .col-item:nth-child(2){
+width:35% !important;
+
+ }
+.therapist-session-note p {
+    font-size: 16px;
+}
+
+.therapist-session-note .box.box1 .check-box-area {
+    margin: 0px auto 10px;
+}
+.therapist-session-note .box.box1 .check-box-area ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    column-gap: 15px;
+    flex-wrap: wrap;
+}
+.therapist-session-note .box.box1 .check-box-area ul li {
+    list-style: none;
+}
+.therapist-session-note .section_4 .box.box1 .check-box-area ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.therapist-session-note .section_4 .box.box1 .check-box-area ul li span {
+    margin-left: 5px;
+}
+.therapist-session-note input[type="radio"] {
+    width: auto;
+}
+.therapist-session-note .box.box1 .check-box-area ul li span label {
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.25px;
+}
+.therapist-session-note .section_4 .box.box1 p {
+    margin-top: 10px !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+.therapist-session-note .textarea textarea {
+    width: 100%;
+    border: 2px solid #207ac7;
+}
+.therapist-session-note .section_4 .box.box1 {
+    margin: 50px auto 40px;
+}
+.therapist-session-note .section_4 .box.box1 .col-title {
+    margin-bottom: 10px !important;
+}
+
+/*========================================project-7 css start=======================================================*/
+.main-content .content {
+    padding: 0 15px 10px 15px;
+    margin-top: 0px;
+}
+.modal.show .modal-dialog {
+    transform: translate(0, 0);
+    width: 100%;
+    max-width: 1300px;
+}
+.clinical-case-management {
+    width: 100%;
+    max-width: 1280px;
+    display: block;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background: #207ac7;
+}
+.clinical-case-management .flex-div.row-flex .col-item .flex-div input[type="date"], .clinical-case-management .flex-div.row-flex .col-item .flex-div input[type="time"] {
+    width: auto;
+    border-bottom: none;
+}
+
+.clinical-case-management input[type="radio"] {
+    width: auto;
+}
+.clinical-case-management .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+
+.clinical-case-management .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.clinical-case-management .section_6 .inner-main-title br {
+    display: none;
+}
+.clinical-case-management .section_6 .inner-main-title .red.bracket {
+    margin: 0px auto 20px;
+    display: block;
+}
+/*=====================header css Start=======================*/
+.clinical-case-management header {
+    background: #fff;
+    padding: 20px 20px 0px;
+    border-bottom: 0px solid #207ac7;
+}
+.clinical-case-management header .flex-div {
+    align-items: center;
+    padding: 0px 15px 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+}
+.clinical-case-management header .flex-div .col-item {
+    width: 50%;
+}
+.clinical-case-management header .logo {
+    margin: 0;
+    text-align: left;
+    display: block;
+    padding: 0px 0px 0px;
+}
+.clinical-case-management header .logo img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.clinical-case-management header .col-item:nth-child(2) {
+    width: 50% !important;
+}
+
+.clinical-case-management header .col-item h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #207ac7;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.clinical-case-management header .flex-div .info-details {
+    text-align: left;
+    float: right;
+    width: 100%;
+    max-width: 320px;
+}
+.clinical-case-management header .col-item .info-details p {
+    margin: 0;
+    font-size: 17px;
+    color: #000;
+    line-height: 24px;
+}
+
+.clinical-case-management header .info-details p {
+    color: #d9534f !important;
+    font-size: 17px !important;
+}
+
+.clinical-case-management header .col-item .info-details ul {
+    margin: 0px auto 0px;
+    padding: 0;
+    display: block;
+}
+
+.clinical-case-management header .col-item .info-details ul li {
+    list-style: none;
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.clinical-case-management header .col-item .info-details ul li span, .clinical-case-management header .col-item .info-details ul li a span {
+    font-weight: 700;
+    color: #207ac7;
+    margin-right: 5px;
+}
+
+.clinical-case-management header .col-item .info-details ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s all ease-in-out;
+}
+/*=================header css end===============*/
+
+.clinical-case-management table input {
+    border: none;
+    outline: none;
+}
+.clinical-case-management table tr td input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.clinical-case-management table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.clinical-case-management table tr th, .clinical-case-management table tr td {
+    border: 2px solid #207ac7;
+    padding: 7px 10px;
+    width: auto;
+    max-width: max-content;
+}
+.clinical-case-management table tr th {
+    font-weight: bold;
+    color: #fff;
+    background: #207ac7;
+    border: 2px solid #4799e0;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.clinical-case-management table tr td input[type="date"], .clinical-case-management table tr td input[type="time"] {
+    width: auto;
+}
+
+.clinical-case-management textarea {
+    padding: 15px;
+    font-family:'Open Sans', sans-serif;
+    resize: vertical;
+}
+
+.clinical-case-management input, .clinical-case-management textarea {
+    outline: none;
+    font-size: 16px;
+    color: #333;
+}
+.clinical-case-management h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+}
+.clinical-case-management h3, .clinical-case-management h3 label {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.clinical-case-management .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+.clinical-case-management .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.clinical-case-management .content {
+    border: 0px solid #fff;
+    padding: 0px 20px 20px;
+    background: #fff;
+}
+
+/*----------------footer button css start................*/
+.clinical-case-management .section_bottom {
+    margin: 60px auto 0px;
+    width: 100%;
+}
+.clinical-case-management label, .clinical-case-management table tr td, .clinical-case-management h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+}
+.clinical-case-management .checkbox-area ul li label {
+    font-weight: 600;
+}
+.clinical-case-management .section_bottom .flex-div.button-row {
+    margin: 30px auto 0px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.clinical-case-management .section_bottom .flex-div.button-row div {
+flex: auto;
+max-width: max-content;
+width: auto;
+}
+
+.clinical-case-management .section_bottom .flex-div.button-row div a {
+padding: 11px 20px;
+font-size: 17px;
+display: block;
+text-align: center;
+border-radius: 10px;
+border: 2px solid #ddd;
+text-decoration: none;
+color: #000;
+font-weight: 600;
+}
+.clinical-case-management .section_bottom .flex-div.button-row div a i.fas {
+margin-right: 6px;
+}
+.clinical-case-management .section_bottom .mark-sign a {
+background: #5cb85c;
+color: #fff !important;
+}
+.clinical-case-management .section_bottom .flex-div.button-row div.cancel a {
+background: #d9534f;
+color: #fff;
+}
+
+.clinical-case-management .section_bottom .flex-div:nth-child(1) .col-item:nth-last-child(1) {
+display: flex;
+flex-direction: column;
+}
+.clinical-case-management table .flex-div input {
+    border: 2px solid #207ac7;
+}
+
+/*========================footer bottom===========================*/
+.clinical-case-management .footer-section {
+    margin: 50px auto 0px;
+    box-shadow: 0px -5px 6px -4px #ccc;
+    padding: 20px 0px;
+}
+
+.clinical-case-management .footer-section .flex-div {
+    display: flex;
+    justify-content: space-between;
+}
+.clinical-case-management table .flex-div {
+    display: flex;
+    flex-direction: column;
+}
+.clinical-case-management .footer-section .flex-div .col-item:nth-child(2) p {
+    text-align: right;
+}
+.clinical-case-management .footer-section .flex-div .col-item {
+    flex: auto;
+    width: auto;
+}
+
+.clinical-case-management  .footer-section .flex-div .col-item p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.clinical-case-management  .footer-section .flex-div .col-item p a {
+    color: #207ac7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.clinical-case-management  .flex-div.row-flex:nth-child(2) .col-item:nth-child(2) {
+    width: 14%;
+}
+.clinical-case-management .section_bottom .flex-div span:nth-child(1) {
+    width: auto;
+}
+
+/*----------------content css start................*/
+.clinical-case-management .red {
+    color: #d9534f;
+    font-style: italic;
+}
+.clinical-case-management .inner-main-title h2 {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #d9534f;
+    position: relative;
+    padding: 0px 0px 15px;
+    margin: 0 auto 29px;
+    font-weight: bold;
+}
+
+.clinical-case-management .inner-main-title h2::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 10%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.clinical-case-management .flex-div.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 30px;
+    row-gap: 15px;
+}
+.clinical-case-management .flex-div.row-flex .col-item:nth-child(1) {
+    width: 30%;
+}
+.clinical-case-management .section_4 .flex-div.row-flex .col-item:nth-child(1) {
+    width: 48%;
+}
+.clinical-case-management .section_4 .flex-div.row-flex:nth-child(2) .col-item:nth-child(2) {
+    width: 25% !important;
+}
+.clinical-case-management .section_4 .flex-div.row-flex:nth-child(3) .col-item:nth-child(1) {
+    width: 50% !important;
+}
+.clinical-case-management .section_4 .flex-div.row-flex:nth-child(3) .col-item:nth-child(2) {
+    width: 25% !important;
+}
+.clinical-case-management .flex-div.row-flex .col-item .flex-div {
+    display: flex;
+    justify-content: flex-start;
+}
+.clinical-case-management .flex-div.row-flex .col-item .flex-div span {
+    width: 100%;
+    max-width: max-content;
+    margin: 0px 5px 0px 0px;
+}
+.clinical-case-management label, .clinical-case-management table tr td, .clinical-case-management h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+    vertical-align: top;
+}
+.clinical-case-management .flex-div.row-flex .col-item .flex-div span:nth-child(2) {
+    width: 100%;
+    max-width: 100%;
+}
+.clinical-case-management .flex-div.row-flex .col-item .flex-div input {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    border-bottom: 2px solid #207ac7;
+}
+.clinical-case-management .flex-div.row-flex .col-item {
+    flex: auto;
+}
+ .clinical-case-management .check-box-area ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+ .clinical-case-management .check-box-area ul li {
+    list-style: none;
+    display: flex;
+}
+
+ .clinical-case-management .check-box-area ul li input {
+    width: auto;
+}
+.clinical-case-management .flex-div span:nth-child(2) label {
+    color: #000 !important;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 3px;
+}
+
+.clinical-case-management p {
+    font-size: 17px;
+}
+.clinical-case-management .section_2 .check-box-area {
+    padding-left: 15px;
+    margin-top: 10px;
+}
+.clinical-case-management .section_2 .check-box-area ul li {
+    margin-right: 15px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.clinical-case-management .section_2 .check-box-area ul li .check-box-area ul li {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.clinical-case-management .section_2 .check-box-area ul li .check-box-area{
+margin-top: 0;  
+}
+.clinical-case-management .section_2 .check-box-area span.other input {
+    width: auto;
+    max-width: 100%;
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom: 2px solid #207ac7;
+}
+
+.clinical-case-management .section_2 .col-item .check-box-area p {
+    font-size: 17px;
+    font-style: italic;
+    margin: 0px 0px 10px;
+}
+.clinical-case-management .section_2 .check-box-area + .check-box-area {
+    margin-top: 0px;
+}
+.clinical-case-management .col-title h3 .red.bracket {
+    font-size: 14px;
+    text-transform: initial;
+}
+.clinical-case-management .textarea {
+    width: 100%;
+}
+.clinical-case-management .textarea textarea {
+    border: 2px solid #207ac7;
+    width: 100%;
+}
+.clinical-case-management .section_5 .check-box-area, .section_6 .check-box-area {
+    margin: 5px 0px 0px;
+}
+.clinical-case-management .section_5 .check-box-area ul li, .section_6 .check-box-area ul li {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+.clinical-case-management .section_6  .inner-main-title h2 .red.bracket {
+    font-size: 14px;
+    color: #000;
+    text-transform: initial;
+}
+.clinical-case-management .inner-main-title h2 .red.bracket {
+    margin: 0px auto 0px;
+    padding: 0;
+    display: block;
+}
+.clinical-case-management .section_6 .check-box-area .other input {
+    border: none;
+    border-bottom: 2px solid #207ac7;
+}
+.clinical-case-management .box p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.clinical-case-management .box p .red.bracket {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width: 768px) {
+/*------------------common responsive css----------------*/
+div#modalSessionNotes {
+    padding: 0px !important;
+}
+.modal-dialog {
+    margin: 0 auto !important;
+}
+.card-body {
+    padding: 10px;
+}
+.main-content .col-xl-12 {
+    padding: 0;
+}
+.uniq-supervisim-form .section_1 tr td {
+	display: block;
+	width: 100% !important;
+	max-width: 100% !important;
+	border-top: none !important;
+}
+.uniq-supervisim-form .section_1 tr:nth-child(1) td:nth-child(1){
+	border-top: 2px solid #207ac7 !important;
+}
+
+.uniq-supervisim-form .section_2 .flex-div {
+    row-gap: 10px;
+}
+.uniq-supervisim-form .section_2 .flex-div span input {
+    margin: 4px 5px 4px 0px;
+}
+.uniq-supervisim-form header .logo img {
+    max-width: 250px;
+}
+.uniq-supervisim-form  .section_bottom {
+    margin: 0px auto 0px;
+}
+.uniq-supervisim-form .section_bottom .flex-div.button-row {
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+.uniq-supervisim-form  .section_bottom .flex-div.button-row div a {
+    padding: 10px 14px;
+    font-size: 14px;
+}
+.uniq-supervisim-form .footer-section .flex-div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.uniq-supervisim-form .footer-section .flex-div .col-item p {
+    font-size: 14px;
+    text-align: center;
+}
+.uniq-supervisim-form .footer-section .flex-div .col-item:nth-child(2) p {
+    text-align: center;
+    font-size: 14px;
+}
+.uniq-supervisim-form .footer-section .flex-div {
+    flex-direction: column;
+    row-gap: 10px;
+}
+.uniq-supervisim-form .footer-section {
+    margin: 40px auto 0px;
+    box-shadow: 0px -5px 6px -4px #ccc;
+    padding: 20px 0px 0px;
+}
+.uniq-supervisim-form section .box.box-last_2 {
+    margin-top: 10px;
+}
+.uniq-supervisim-form section .box.box-last_2 .flex-div {
+    column-gap: 0px;
+}
+
+/*------------------header responsive css ----------------*/
+.uniq-supervisim-form header .logo {
+    text-align: center;
+}
+.uniq-supervisim-form header .flex-div {
+	align-items: center;
+	padding: 0px 15px 15px;
+	box-sizing: border-box;
+	justify-content: space-between;
+	display: flex;
+	flex-direction: column;
+}
+.uniq-supervisim-form header .flex-div .col-item {
+	width: 100%;
+	margin: 0px auto 20px;
+}
+.uniq-supervisim-form header .flex-div .info-details {
+    text-align: center;
+    float: none;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+.uniq-supervisim-form header .col-item:nth-child(2) {
+	width: 100% !important;
+}
+
+.uniq-supervisim-form header .col-item .info-details ul li {
+	font-size: 14px;
+}
+.uniq-supervisim-form .page-title h1 {
+	font-size: 17px;
+	padding: 0px 0px 15px;
+}
+.uniq-supervisim-form section {
+	overflow: auto;
+}
+.uniq-supervisim-form label, .uniq-supervisim-form table tr td, .uniq-supervisim-form h3 {
+	font-size: 14px;
+}
+.uniq-supervisim-form table tr th, .uniq-supervisim-form table tr td {
+    padding: 5px 5px;
+
+}
+.uniq-supervisim-form .select-area label {
+    font-size: 14px;
+}
+.uniq-supervisim-form table .flex-div span {
+    flex: auto;
+    display: flex;
+}
+.uniq-supervisim-form section .box.box-last_2 .flex-div {
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+/*=============================================project-2 responsive css start============================*/
+.parent-training .main-content .col-xl-12 {
+    padding: 0;
+}
+.parent-training .parent-training .section_1 tr td {
+    display: block;
+    width: 100% !important;
+    max-width: 100%;
+    border-top: none;
+}
+.parent-trainingparent-training .section_1 tr:nth-child(1) td:nth-child(1) {
+    border-top: 2px solid #207ac7;
+}
+.parent-training header .logo img {
+    max-width: 250px;
+}
+.parent-training  .section_bottom {
+    margin: 0px auto 0px;
+}
+.parent-training .section_bottom .flex-div.button-row {
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+.parent-training  .section_bottom .flex-div.button-row div a {
+    padding: 10px 14px;
+    font-size: 14px;
+}
+.parent-training .footer-section .flex-div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.parent-training .footer-section .flex-div .col-item p {
+    font-size: 14px;
+    text-align: center;
+}
+.parent-training .footer-section .flex-div .col-item:nth-child(2) p {
+    text-align: center;
+    font-size: 14px;
+}
+.parent-training .footer-section .flex-div {
+    flex-direction: column;
+    row-gap: 10px;
+}
+.parent-training .footer-section {
+    margin: 40px auto 0px;
+    box-shadow: 0px -5px 6px -4px #ccc;
+    padding: 20px 0px 0px;
+}
+
+/*------------------header responsive css ----------------*/
+.parent-training header .flex-div {
+    align-items: center;
+    padding: 0px 15px 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.parent-training header .flex-div .col-item {
+    width: 100%;
+    margin: 0px auto 20px;
+}
+.parent-training header .flex-div .info-details {
+    text-align: center;
+    float: none;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+.parent-training header .col-item:nth-child(2) {
+    width: 100% !important;
+}
+
+.parent-training .page-title h1 {
+    font-size: 17px;
+    padding: 0px 0px 15px;
+}
+.parent-training label, .parent-training table tr td, .parent-training h3 {
+    font-size: 14px;
+}
+.parent-training section {
+    width: auto;
+    overflow: auto;
+}
+.parent-training header .col-item .info-details ul li {
+    font-size: 14px;
+}
+.parent-training header .logo {
+    text-align: center;
+}
+.parent-training .mb_40 {
+    margin-bottom: 20px;
+}
+.parent-training .textarea textarea {
+    max-height: 70px;
+}
+.parent-training  .red {
+    color: #d9534f;
+    font-size: 14px;
+}
+
+/*=============================================project-3 responsive css start============================*/
+.main-content .col-xl-12 {
+    padding: 0;
+}
+.bcba-sup-monthly table tr td input[type="date"], .bcba-sup-monthly table tr td input[type="time"] {
+    width: 100%;
+}
+.bcba-sup-monthly section .box.box-last_2 {
+    margin-top: 20px;
+}
+.bcba-sup-monthly section .box.box-last_2 .flex-div {
+    flex-direction: column;
+    row-gap: 20px;
+}
+.bcba-sup-monthly .section_2.mb_30 {
+    margin-bottom: 0px;
+}
+.bcba-sup-monthly table tr td {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    border-top: none;
+}
+.bcba-sup-monthly table tr:nth-child(1) td:nth-child(1) {
+    border-top: 2px solid #207ac7;
+}
+.bcba-sup-monthly table tr:nth-child(2) td:nth-child(1) {
+    width: 100%;
+}
+.bcba-sup-monthly header .logo img {
+    max-width: 250px;
+}
+.bcba-sup-monthly  .section_bottom {
+    margin: 0px auto 0px;
+}
+.bcba-sup-monthly .section_bottom .flex-div.button-row {
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+.bcba-sup-monthly  .section_bottom .flex-div.button-row div a {
+    padding: 10px 14px;
+    font-size: 14px;
+}
+.bcba-sup-monthly .footer-section .flex-div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.bcba-sup-monthly .footer-section .flex-div .col-item p {
+    font-size: 14px;
+    text-align: center;
+}
+.bcba-sup-monthly .footer-section .flex-div .col-item:nth-child(2) p {
+    text-align: center;
+    font-size: 14px;
+}
+.bcba-sup-monthly .footer-section .flex-div {
+    flex-direction: column;
+    row-gap: 10px;
+}
+.bcba-sup-monthly .footer-section {
+    margin: 40px auto 0px;
+    box-shadow: 0px -5px 6px -4px #ccc;
+    padding: 20px 0px 0px;
+}
+
+/*------------------header responsive css ----------------*/
+.bcba-sup-monthly header .flex-div {
+    align-items: center;
+    padding: 0px 15px 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.bcba-sup-monthly header .flex-div .col-item {
+    width: 100%;
+    margin: 0px auto 20px;
+}
+.bcba-sup-monthly header .flex-div .info-details {
+    text-align: center;
+    float: none;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+.bcba-sup-monthly header .col-item:nth-child(2) {
+    width: 100% !important;
+}
+
+.bcba-sup-monthly .page-title h1 {
+    font-size: 17px;
+    padding: 0px 0px 15px;
+}
+.bcba-sup-monthly label, .bcba-sup-monthly table tr td, .bcba-sup-monthly h3 {
+    font-size: 14px;
+}
+.bcba-sup-monthly section {
+    width: auto;
+    overflow: auto;
+}
+.bcba-sup-monthly header .col-item .info-details ul li {
+    font-size: 14px;
+}
+.bcba-sup-monthly header .logo {
+    text-align: center;
+}
+.bcba-sup-monthly .mb_40 {
+    margin-bottom: 20px;
+}
+.bcba-sup-monthly .bcba-sup-monthly .textarea textarea {
+    max-height: 70px;
+}
+.bcba-sup-monthly  .red {
+    color: #d9534f;
+    font-size: 14px;
+}
+
+/*=============================================project-4 responsive css start============================*/
+.bcba-uniq-supervision .evaluation-of-performance ul li {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.bcba-uniq-supervision .section_3 .evaluation-of-performance li .select-area span label {
+    font-size: 14px;
+}
+.bcba-uniq-supervision .section_2.mb_30 {
+    margin-bottom: 0px;
+}
+.bcba-uniq-supervision .section_1 tr td {
+    display: block;
+    width: 100% !important;
+    max-width: 100% !important;
+    border-top: none !important;
+}
+.bcba-uniq-supervision .section_1 tr:nth-child(1) td:nth-child(1) {
+    border-top: 2px solid #207ac7 !important;
+}
+.bcba-uniq-supervision section .box.box-last_2 .flex-div {
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.bcba-uniq-supervision section .box.box-last_2 .flex-div .col-item:nth-child(1) {
+    padding-right: 0px !important;
+}
+.bcba-uniq-supervision section .box.box-last_2 {
+    margin-top: 0px;
+}
+
+.bcba-uniq-supervision .section_2 .box1 ul.checkbox-area li span label {
+    font-size: 14px;
+}
+.bcba-uniq-supervision .section_2 .box1 ul.checkbox-area {
+    flex-wrap: wrap;
+}
+.bcba-uniq-supervision header .logo img {
+    max-width: 250px;
+}
+.bcba-uniq-supervision  .section_bottom {
+    margin: 0px auto 0px;
+}
+.bcba-uniq-supervision .section_bottom .flex-div.button-row {
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+.bcba-uniq-supervision  .section_bottom .flex-div.button-row div a {
+    padding: 10px 14px;
+    font-size: 14px;
+}
+.bcba-uniq-supervision .footer-section .flex-div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.bcba-uniq-supervision .footer-section .flex-div .col-item p {
+    font-size: 14px;
+    text-align: center;
+}
+.bcba-uniq-supervision .footer-section .flex-div .col-item:nth-child(2) p {
+    text-align: center;
+    font-size: 14px;
+}
+.bcba-uniq-supervision .footer-section .flex-div {
+    flex-direction: column;
+    row-gap: 10px;
+}
+.bcba-uniq-supervision .footer-section {
+    margin: 40px auto 0px;
+    box-shadow: 0px -5px 6px -4px #ccc;
+    padding: 20px 0px 0px;
+}
+
+/*------------------header responsive css ----------------*/
+.bcba-uniq-supervision header .flex-div {
+    align-items: center;
+    padding: 0px 15px 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.bcba-uniq-supervision header .flex-div .col-item {
+    width: 100%;
+    margin: 0px auto 20px;
+}
+.bcba-uniq-supervision header .flex-div .info-details {
+    text-align: center;
+    float: none;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+.bcba-uniq-supervision header .col-item:nth-child(2) {
+    width: 100% !important;
+}
+
+.bcba-uniq-supervision .page-title h1 {
+    font-size: 17px;
+    padding: 0px 0px 15px;
+}
+.bcba-uniq-supervision label, .bcba-uniq-supervision table tr td, .bcba-uniq-supervision h3 {
+    font-size: 14px;
+}
+.bcba-uniq-supervision section {
+    width: auto;
+    overflow: auto;
+}
+.bcba-uniq-supervision header .col-item .info-details ul li {
+    font-size: 14px;
+}
+.bcba-uniq-supervision header .logo {
+    text-align: center;
+}
+.bcba-uniq-supervision .mb_40 {
+    margin-bottom: 20px;
+}
+.bcba-uniq-supervision .textarea textarea {
+    max-height: 70px;
+}
+.bcba-uniq-supervision  .red {
+    color: #d9534f;
+    font-size: 14px;
+}
+.bcba-uniq-supervision table tr td input[type="date"], .bcba-uniq-supervision table tr td input[type="time"] {
+    width: auto;
+}
+.bcba-uniq-supervision .inner-main-title h2 {
+    font-size: 17px;
+    padding: 0px 0px 15px;
+    margin: 0 auto 20px;
+}
+
+/*=============================================project-5 responsive css start============================*/
+.monthly-sup-note header .logo img {
+    max-width: 250px;
+}
+/*------------------header responsive css ----------------*/
+.monthly-sup-note header .flex-div {
+    align-items: center;
+    padding: 0px 15px 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.monthly-sup-note .flex-div.row-flex .col-item .flex-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.monthly-sup-note .flex-div.row-flex.row2 .col-item .flex-div .check-box-area ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.monthly-sup-note header .flex-div .col-item {
+    width: 100%;
+    margin: 0px auto 20px;
+}
+.monthly-sup-note header .flex-div .info-details {
+    text-align: center;
+    float: none;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+.monthly-sup-note header .col-item:nth-child(2) {
+    width: 100% !important;
+}
+
+.monthly-sup-note .page-title h1 {
+    font-size: 17px;
+    padding: 0px 0px 15px;
+}
+.monthly-sup-note label, .monthly-sup-note table tr td, .monthly-sup-note h3 {
+    font-size: 14px;
+}
+.monthly-sup-note section {
+    width: auto;
+    overflow: auto;
+}
+.monthly-sup-note header .col-item .info-details ul li {
+    font-size: 14px;
+}
+.monthly-sup-note header .logo {
+    text-align: center;
+}
+.monthly-sup-note .mb_40 {
+    margin-bottom: 20px;
+}
+.monthly-sup-note .textarea textarea {
+    max-height: 70px;
+}
+.monthly-sup-note  .red {
+    color: #d9534f;
+    font-size: 14px;
+}
+.monthly-sup-note table tr td input[type="date"],
+.monthly-sup-note table tr td input[type="time"] {
+    width: 100%;
+}
+.monthly-sup-note .inner-main-title h2 {
+    font-size: 17px;
+    padding: 0px 0px 15px;
+    margin: 0 auto 20px;
+}
+
+.monthly-sup-note  .section_bottom {
+    margin: 0px auto 0px;
+}
+.monthly-sup-note .section_bottom .flex-div.button-row {
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+.monthly-sup-note  .section_bottom .flex-div.button-row div a {
+    padding: 10px 14px;
+    font-size: 14px;
+}
+.monthly-sup-note .footer-section .flex-div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.monthly-sup-note .footer-section .flex-div .col-item p {
+    font-size: 14px;
+    text-align: center;
+}
+.monthly-sup-note .footer-section .flex-div .col-item:nth-child(2) p {
+    text-align: center;
+    font-size: 14px;
+}
+.monthly-sup-note .footer-section .flex-div {
+    flex-direction: column;
+    row-gap: 10px;
+}
+.monthly-sup-note .footer-section {
+    margin: 40px auto 0px;
+    box-shadow: 0px -5px 6px -4px #ccc;
+    padding: 20px 0px 0px;
+}
+
+/*=============================================project-6 responsive css start============================*/
+.therapist-session-note section {
+    overflow: auto;
+}
+.card-body {
+    padding: 10px;
+}
+
+.therapist-session-note .main-content .col-xl-12 {
+    padding: 0;
+}
+.section_1 .flex-div.row-flex .col-item .flex-div ul {
+    flex-wrap: wrap;
+}
+.section_1 .flex-div.row-flex .col-item .flex-div {
+    flex-wrap: wrap;
+}
+.therapist-session-note .section_3 table tr:nth-child(1) td:nth-child(1){
+border-top: 2px solid #207ac7;
+}
+.section_2 .box.box_1 table tr td {
+    vertical-align: top;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    border-top: none;
+}
+.section_2 .box.box_1 table tr:nth-child(1) td:nth-child(1) {
+  border-top: 2px solid #207ac7;
+}
+.therapist-session-note .section_3 table tr td {
+    width: 100% !important;
+    max-width: 100%;
+    border-top: none;
+}
+ .therapist-session-note .section_3 table tr td {
+    display: block;
+}
+.therapist-session-note header .logo img {
+    max-width: 250px;
+}
+/*------------------header responsive css ----------------*/
+.therapist-session-note header .flex-div {
+    align-items: center;
+    padding: 0px 15px 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.therapist-session-note header .flex-div .col-item {
+    width: 100%;
+    margin: 0px auto 20px;
+}
+.therapist-session-note header .flex-div .info-details {
+    text-align: center;
+    float: none;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+.therapist-session-note header .col-item:nth-child(2) {
+    width: 100% !important;
+}
+
+.therapist-session-note .page-title h1 {
+    font-size: 17px;
+    padding: 0px 0px 15px;
+}
+.therapist-session-note label, .therapist-session-note table tr td, .therapist-session-note h3 {
+    font-size: 14px;
+}
+.therapist-session-note section {
+    width: auto;
+    overflow: auto;
+}
+.therapist-session-note header .col-item .info-details ul li {
+    font-size: 14px;
+}
+.therapist-session-note header .logo {
+    text-align: center;
+}
+.therapist-session-note .mb_40 {
+    margin-bottom: 20px;
+}
+.therapist-session-note .textarea textarea {
+    max-height: 70px;
+}
+.therapist-session-note  .red {
+    color: #d9534f;
+    font-size: 14px;
+}
+.therapist-session-note table tr td input[type="date"],
+.therapist-session-note table tr td input[type="time"] {
+    width: 100%;
+}
+.therapist-session-note .inner-main-title h2 {
+    font-size: 17px;
+    padding: 0px 0px 15px;
+    margin: 0 auto 20px;
+}
+
+.therapist-session-note  .section_bottom {
+    margin: 0px auto 0px;
+}
+.therapist-session-note .section_bottom .flex-div.button-row {
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+.therapist-session-note  .section_bottom .flex-div.button-row div a {
+    padding: 10px 14px;
+    font-size: 14px;
+}
+.therapist-session-note .footer-section .flex-div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.therapist-session-note .footer-section .flex-div .col-item p {
+    font-size: 14px;
+    text-align: center;
+}
+.therapist-session-note .footer-section .flex-div .col-item:nth-child(2) p {
+    text-align: center;
+    font-size: 14px;
+}
+.therapist-session-note .footer-section .flex-div {
+    flex-direction: column;
+    row-gap: 10px;
+}
+.therapist-session-note .footer-section {
+    margin: 40px auto 0px;
+    box-shadow: 0px -5px 6px -4px #ccc;
+    padding: 20px 0px 0px;
+}
+
+/*=============================================project-7 responsive css start============================*/
+.clinical-case-management header .logo img {
+    max-width: 250px;
+}
+
+/*------------------header responsive css ----------------*/
+
+.clinical-case-management .flex-div.row-flex .col-item .flex-div {
+    flex-wrap: wrap;
+}
+.clinical-case-management .section_5 .check-box-area ul li, .section_6 .check-box-area ul li {
+    align-items: normal;
+}
+.clinical-case-management .section_5 .check-box-area ul li, .section_6 .check-box-area ul li span {
+    display: flex;
+    align-items: center;
+}
+.clinical-case-management .section_2 .check-box-area {
+    padding-left: 0px;
+
+.clinical-case-management .flex-div span:nth-child(2) label {
+    font-size: 14px;
+}
+.clinical-case-management .section_2 .check-box-area ul li {
+    align-items: normal;
+}
+.clinical-case-management .section_2 .check-box-area ul li span:nth-child(1) {
+    margin: 6px 0px 0px;
+}
+.clinical-case-management .flex-div span:nth-child(2) label {
+    font-size: 14px;
+}
+
+.clinical-case-management header .flex-div {
+    align-items: center;
+    padding: 0px 15px 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.clinical-case-management header .flex-div .col-item {
+    width: 100%;
+    margin: 0px auto 20px;
+}
+.clinical-case-management header .flex-div .info-details {
+    text-align: center;
+    float: none;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+.clinical-case-management header .col-item:nth-child(2) {
+    width: 100% !important;
+}
+
+.clinical-case-management .page-title h1 {
+    font-size: 17px;
+    padding: 0px 0px 15px;
+}
+.clinical-case-management label, .clinical-case-management table tr td, .clinical-case-management h3 {
+    font-size: 14px;
+}
+.clinical-case-management section {
+    width: auto;
+    overflow: auto;
+}
+.clinical-case-management header .col-item .info-details ul li {
+    font-size: 14px;
+}
+.clinical-case-management header .logo {
+    text-align: center;
+}
+.mb_40 {
+    margin-bottom: 20px;
+}
+.clinical-case-management .textarea textarea {
+    max-height: 70px;
+}
+.clinical-case-management  .red {
+    color: #d9534f;
+    font-size: 14px;
+}
+.clinical-case-management table tr td input[type="date"],
+.clinical-case-management table tr td input[type="time"] {
+    width: 100%;
+}
+.clinical-case-management .inner-main-title h2 {
+    font-size: 17px;
+    padding: 0px 0px 15px;
+    margin: 0 auto 20px;
+}
+
+.clinical-case-management  .section_bottom {
+    margin: 0px auto 0px;
+}
+.clinical-case-management .section_bottom .flex-div.button-row {
+    flex-direction: row;
+    justify-content: center;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+.clinical-case-management  .section_bottom .flex-div.button-row div a {
+    padding: 10px 14px;
+    font-size: 14px;
+}
+.clinical-case-management .footer-section .flex-div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.clinical-case-management .footer-section .flex-div .col-item p {
+    font-size: 14px;
+    text-align: center;
+}
+.clinical-case-management .footer-section .flex-div .col-item:nth-child(2) p {
+    text-align: center;
+    font-size: 14px;
+}
+.clinical-case-management .footer-section .flex-div {
+    flex-direction: column;
+    row-gap: 10px;
+}
+.clinical-case-management .footer-section {
+    margin: 40px auto 0px;
+    box-shadow: 0px -5px 6px -4px #ccc;
+    padding: 20px 0px 0px;
+}
+
+}
+
+
+@media only screen and (max-width: 580px) {
+.modal-dialog {
+    margin: 90px 0px !important;
+}
+
+}

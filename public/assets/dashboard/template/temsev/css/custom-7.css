@@ -1,0 +1,798 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+::placeholder {
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-content .content {
+    padding: 0 15px 10px 15px;
+    margin-top: 0px;
+}
+
+.clinical-case-management {
+    width: 100%;
+    max-width: 1280px;
+    display: block;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background: #207ac7;
+}
+
+.mb_40 {
+    margin-bottom: 40px;
+}
+
+.mb_30 {
+    margin-bottom: 20px;
+}
+
+.mb_0 {
+    margin-bottom: 0px;
+}
+
+.mtb_10 {
+    margin: 10px auto;
+}
+
+.mb_15 {
+    margin-bottom: 15px !important;
+}
+
+.red {
+    color: #d9534f;
+}
+
+.clinical-case-management .flex-div.row-flex .col-item .flex-div input[type="date"],
+.clinical-case-management .flex-div.row-flex .col-item .flex-div input[type="time"] {
+    width: auto;
+    border-bottom: none;
+}
+
+.clinical-case-management input[type="radio"] {
+    width: auto;
+}
+
+.clinical-case-management .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+
+.clinical-case-management .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.clinical-case-management .section_6 .inner-main-title br {
+    display: none;
+}
+
+.clinical-case-management .section_6 .inner-main-title .red.bracket {
+    margin: 0px auto 20px;
+    display: block;
+}
+
+/*=====================header css Start=======================*/
+.clinical-case-management header {
+    background: #fff;
+    padding: 20px 20px 0px;
+    border-bottom: 0px solid #207ac7;
+}
+
+.clinical-case-management header .flex-div {
+    align-items: center;
+    padding: 0px 15px 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+}
+
+.clinical-case-management header .flex-div .col-item {
+    width: 50%;
+}
+
+.clinical-case-management header .logo {
+    margin: 0;
+    text-align: left;
+    display: block;
+    padding: 0px 0px 0px;
+}
+
+.clinical-case-management header .logo img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.clinical-case-management header .col-item:nth-child(2) {
+    width: 50% !important;
+}
+
+.clinical-case-management header .col-item h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #207ac7;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.clinical-case-management header .flex-div .info-details {
+    text-align: left;
+    float: right;
+    width: 100%;
+    max-width: 320px;
+}
+
+.clinical-case-management header .col-item .info-details p {
+    margin: 0;
+    font-size: 17px;
+    color: #000;
+    line-height: 24px;
+}
+
+.clinical-case-management header .info-details p {
+    color: #d9534f !important;
+    font-size: 17px !important;
+}
+
+.clinical-case-management header .col-item .info-details ul {
+    margin: 0px auto 0px;
+    padding: 0;
+    display: block;
+}
+
+.clinical-case-management header .col-item .info-details ul li {
+    list-style: none;
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.clinical-case-management header .col-item .info-details ul li span,
+.clinical-case-management header .col-item .info-details ul li a span {
+    font-weight: 700;
+    color: #207ac7;
+    margin-right: 5px;
+}
+
+.clinical-case-management header .col-item .info-details ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s all ease-in-out;
+}
+
+/*=================header css end===============*/
+.clinical-case-management table input {
+    border: none;
+    outline: none;
+}
+
+.clinical-case-management table tr td input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.clinical-case-management table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.clinical-case-management table tr th,
+.clinical-case-management table tr td {
+    border: 2px solid #207ac7;
+    padding: 7px 10px;
+    width: auto;
+    max-width: max-content;
+}
+
+.clinical-case-management table tr th {
+    font-weight: bold;
+    color: #fff;
+    background: #207ac7;
+    border: 2px solid #4799e0;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.clinical-case-management table tr td input[type="date"],
+.clinical-case-management table tr td input[type="time"] {
+    width: auto;
+}
+
+.clinical-case-management textarea {
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    resize: vertical;
+}
+
+.clinical-case-management input,
+.clinical-case-management textarea {
+    outline: none;
+    font-size: 16px;
+    color: #333;
+}
+
+.clinical-case-management h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+}
+
+.clinical-case-management h3,
+.clinical-case-management h3 label {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.clinical-case-management .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+
+.clinical-case-management .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.clinical-case-management .content {
+    border: 0px solid #fff;
+    padding: 0px 20px 20px;
+    background: #fff;
+}
+
+/*----------------footer button css start................*/
+.clinical-case-management .section_bottom {
+    margin: 60px auto 0px;
+    width: 100%;
+}
+
+.clinical-case-management label,
+.clinical-case-management table tr td,
+.clinical-case-management h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+}
+
+.clinical-case-management .checkbox-area ul li label {
+    font-weight: 600;
+}
+
+.clinical-case-management .section_bottom .flex-div.button-row {
+    margin: 30px auto 0px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clinical-case-management .section_bottom .flex-div.button-row div {
+    flex: auto;
+    max-width: max-content;
+    width: auto;
+}
+
+.clinical-case-management .section_bottom .flex-div.button-row div a,
+.clinical-case-management .section_bottom .flex-div.button-row div button {
+    padding: 11px 20px;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.clinical-case-management .section_bottom .flex-div.button-row div a i.fas,
+.clinical-case-management .section_bottom .flex-div.button-row div button i.fas {
+    margin-right: 6px;
+}
+
+.clinical-case-management .section_bottom .mark-sign a {
+    background: #5cb85c;
+    color: #fff !important;
+}
+
+.clinical-case-management .section_bottom .flex-div.button-row div.cancel button {
+    background: #d9534f;
+    color: #fff;
+}
+
+.clinical-case-management .section_bottom .flex-div:nth-child(1) .col-item:nth-last-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+
+.clinical-case-management table .flex-div input {
+    border: 2px solid #207ac7;
+}
+
+/*========================footer bottom===========================*/
+.clinical-case-management .footer-section {
+    margin: 50px auto 0px;
+    box-shadow: 0px -5px 6px -4px #ccc;
+    padding: 20px 0px;
+}
+
+.clinical-case-management .footer-section .flex-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clinical-case-management table .flex-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.clinical-case-management .footer-section .flex-div .col-item:nth-child(2) p {
+    text-align: right;
+}
+
+.clinical-case-management .footer-section .flex-div .col-item {
+    flex: auto;
+    width: auto;
+}
+
+.clinical-case-management .footer-section .flex-div .col-item p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.clinical-case-management .footer-section .flex-div .col-item p a {
+    color: #207ac7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.clinical-case-management .flex-div.row-flex:nth-child(2) .col-item:nth-child(2) {
+    width: 14%;
+}
+
+.clinical-case-management .section_bottom .flex-div span:nth-child(1) {
+    width: auto;
+}
+
+/*----------------content css start................*/
+.clinical-case-management .red {
+    color: #d9534f;
+    font-style: italic;
+}
+
+.clinical-case-management .inner-main-title h2 {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #d9534f;
+    position: relative;
+    padding: 0px 0px 15px;
+    margin: 0 auto 29px;
+    font-weight: bold;
+}
+
+.clinical-case-management .inner-main-title h2::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 10%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.clinical-case-management .flex-div.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 30px;
+    row-gap: 15px;
+}
+
+.clinical-case-management .flex-div.row-flex .col-item:nth-child(1) {
+    width: 30%;
+}
+
+.clinical-case-management .section_4 .flex-div.row-flex .col-item:nth-child(1) {
+    width: 48%;
+}
+
+.clinical-case-management .section_4 .flex-div.row-flex:nth-child(2) .col-item:nth-child(2) {
+    width: 25% !important;
+}
+
+.clinical-case-management .section_4 .flex-div.row-flex:nth-child(3) .col-item:nth-child(1) {
+    width: 50% !important;
+}
+
+.clinical-case-management .section_4 .flex-div.row-flex:nth-child(3) .col-item:nth-child(2) {
+    width: 25% !important;
+}
+
+.clinical-case-management .flex-div.row-flex .col-item .flex-div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.clinical-case-management .flex-div.row-flex .col-item .flex-div span {
+    width: 100%;
+    max-width: max-content;
+    margin: 0px 5px 0px 0px;
+}
+
+.clinical-case-management label,
+.clinical-case-management table tr td,
+.clinical-case-management h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+    vertical-align: top;
+}
+
+.clinical-case-management .flex-div.row-flex .col-item .flex-div span:nth-child(2) {
+    width: 100%;
+    max-width: 100%;
+}
+
+.clinical-case-management .flex-div.row-flex .col-item .flex-div input {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    border-bottom: 2px solid #207ac7;
+}
+
+.clinical-case-management .flex-div.row-flex .col-item {
+    flex: auto;
+}
+
+.clinical-case-management .check-box-area ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.clinical-case-management .check-box-area ul li {
+    list-style: none;
+    display: flex;
+}
+
+.clinical-case-management .check-box-area ul li input {
+    width: auto;
+}
+
+.clinical-case-management .flex-div span:nth-child(2) label {
+    color: #000 !important;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 3px;
+}
+
+input[type=checkbox] {
+    min-width: 20px;
+}
+
+.clinical-case-management p {
+    font-size: 17px;
+}
+
+.clinical-case-management .section_2 .check-box-area {
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.clinical-case-management .section_2 .check-box-area ul li {
+    margin-right: 15px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.clinical-case-management .section_2 .check-box-area ul li .check-box-area ul li {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.clinical-case-management .section_2 .check-box-area ul li .check-box-area {
+    margin-top: 0;
+}
+
+.clinical-case-management .section_2 .check-box-area span.other input {
+    width: auto;
+    max-width: 100%;
+    border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom: 2px solid #207ac7;
+}
+
+.clinical-case-management .section_2 .col-item .check-box-area p {
+    font-size: 17px;
+    font-style: italic;
+    margin: 0px 0px 10px;
+}
+
+.clinical-case-management .section_2 .check-box-area+.check-box-area {
+    margin-top: 0px;
+}
+
+.clinical-case-management .col-title h3 .red.bracket {
+    font-size: 14px;
+    text-transform: initial;
+}
+
+.clinical-case-management .textarea {
+    width: 100%;
+}
+
+.clinical-case-management .textarea textarea {
+    border: 2px solid #207ac7;
+    width: 100%;
+}
+
+.clinical-case-management .section_5 .check-box-area,
+.section_6 .check-box-area {
+    margin: 5px 0px 0px;
+}
+
+.clinical-case-management .section_5 .check-box-area ul li,
+.section_6 .check-box-area ul li {
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.clinical-case-management .section_6 .inner-main-title h2 .red.bracket {
+    font-size: 14px;
+    color: #000;
+    text-transform: initial;
+}
+
+.clinical-case-management .inner-main-title h2 .red.bracket {
+    margin: 0px auto 0px;
+    padding: 0;
+    display: block;
+}
+
+.clinical-case-management .section_6 .check-box-area .other input {
+    border: none;
+    border-bottom: 2px solid #207ac7;
+}
+
+.clinical-case-management .box p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.clinical-case-management .box p .red.bracket {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/*----------------content css End................*/
+@media only screen and (max-width: 768px) {
+
+    /*------------------common responsive css----------------*/
+    .card-body {
+        padding: 10px;
+    }
+
+    .main-content .col-xl-12 {
+        padding: 0;
+    }
+
+    .clinical-case-management header .logo img {
+        max-width: 250px;
+    }
+
+    /*------------------header responsive css ----------------*/
+    .clinical-case-management .flex-div.row-flex .col-item .flex-div {
+        flex-wrap: wrap;
+    }
+
+    .clinical-case-management .section_5 .check-box-area ul li,
+    .section_6 .check-box-area ul li {
+        align-items: normal;
+    }
+
+    .clinical-case-management .section_5 .check-box-area ul li,
+    .section_6 .check-box-area ul li span {
+        display: flex;
+        align-items: center;
+    }
+
+    .clinical-case-management .section_2 .check-box-area {
+        padding-left: 0px;
+    }
+
+    .clinical-case-management .flex-div span:nth-child(2) label {
+        font-size: 14px;
+    }
+
+    .clinical-case-management .section_2 .check-box-area ul li {
+        align-items: normal;
+    }
+
+    .clinical-case-management .section_2 .check-box-area ul li span:nth-child(1) {
+        margin: 6px 0px 0px;
+    }
+
+    .clinical-case-management .flex-div span:nth-child(2) label {
+        font-size: 14px;
+    }
+
+    .clinical-case-management header .flex-div {
+        align-items: center;
+        padding: 0px 15px 15px;
+        box-sizing: border-box;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clinical-case-management header .flex-div .col-item {
+        width: 100%;
+        margin: 0px auto 20px;
+    }
+
+    .clinical-case-management header .flex-div .info-details {
+        text-align: center;
+        float: none;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .clinical-case-management header .col-item:nth-child(2) {
+        width: 100% !important;
+    }
+
+    .clinical-case-management .page-title h1 {
+        font-size: 17px;
+        padding: 0px 0px 15px;
+    }
+
+    .clinical-case-management label,
+    .clinical-case-management table tr td,
+    .clinical-case-management h3 {
+        font-size: 14px;
+    }
+
+    .clinical-case-management section {
+        width: auto;
+        overflow: auto;
+    }
+
+    .clinical-case-management header .col-item .info-details ul li {
+        font-size: 14px;
+    }
+
+    .clinical-case-management header .logo {
+        text-align: center;
+    }
+
+    .mb_40 {
+        margin-bottom: 20px;
+    }
+
+    .clinical-case-management .textarea textarea {
+        max-height: 70px;
+    }
+
+    .clinical-case-management .red {
+        color: #d9534f;
+        font-size: 14px;
+    }
+
+    .clinical-case-management table tr td input[type="date"],
+    .clinical-case-management table tr td input[type="time"] {
+        width: 100%;
+    }
+
+    .clinical-case-management .inner-main-title h2 {
+        font-size: 17px;
+        padding: 0px 0px 15px;
+        margin: 0 auto 20px;
+    }
+
+    .clinical-case-management .section_bottom {
+        margin: 0px auto 0px;
+    }
+
+    .clinical-case-management .section_bottom .flex-div.button-row {
+        flex-direction: row;
+        justify-content: center;
+        row-gap: 15px;
+        column-gap: 15px;
+    }
+
+    .clinical-case-management .section_bottom .flex-div.button-row div a {
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+
+    .clinical-case-management .footer-section .flex-div {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .clinical-case-management .footer-section .flex-div .col-item p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .clinical-case-management .footer-section .flex-div .col-item:nth-child(2) p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .clinical-case-management .footer-section .flex-div {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .clinical-case-management .footer-section {
+        margin: 40px auto 0px;
+        box-shadow: 0px -5px 6px -4px #ccc;
+        padding: 20px 0px 0px;
+    }
+}
+
+.save-prog button {
+    background: #483D8B;
+    color: #fff !important;
+}
+
+.print button {
+    background: #467fd0;
+    color: #fff !important;
+}

@@ -1,0 +1,109 @@
+Dear: Tad Molden (theralympic) 
+
+
+Your Claims have been adjudicated by the Payer. Electronic Payment / Advise information has been received by Office Ally and summarized as follows.
+
+==================================================
+------- HEALTH CARE CLAIM PAYMENT/ADVICE -------
+==================================================
+
+
+========================================================================================================================================================
+Check#                         Amount          # Claims       NPI or Tax ID           Payee                         Date       
+========================================================================================================================================================
+255431297                      579.78          2              1730665043              THERALYMPIC SPEECH            04/28/2022
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Check#                         Patient ID         Last,First          Charge Amt  Payment Amt  Accnt#        Status                         Payer                             
+255431297                      0125200190         BLANCO,BENJAMIN     600.00      289.89       1838413       PROCESSED AS PRIMARY           MERITAIN HEALTH                   
+                                                                                                                                            1405 XENIUM LANE NORTH SUITE 140  
+                                                                                                                                            MINNEAPOLIS,MN 55441              
+                                                                                                                                            Tax ID: 34-1858379                
+                                                                                                Payer Claim Control Number: EY9VG63                       
+                                                                                                Claim Statement Period:     03/28/2022 - 03/31/2022       
+
+          Line Item:  Svc Date   CPT    Charge Amt   Payment Amt  Total Adj Amt  Remarks                                                                                      
+                      03/28/2022 92507  100.00       22.82        77.18          NO REMARKS                                                                                   
+
+                                Adjustment Group            Adj Amt Translated Reason Code
+                                CONTRACTUAL OBLIGATIONS     47.18   CHARGES EXCEED YOUR CONTRACTED/LEGISLATED FEE ARRANGEMENT.                          
+                                PATIENT RESPONSIBILITY      30.00   CO-PAYMENT AMOUNT.                                                                  
+
+          Line Item:  Svc Date   CPT    Charge Amt   Payment Amt  Total Adj Amt  Remarks                                                                                      
+                      03/28/2022 92526  100.00       73.81        26.19          NO REMARKS                                                                                   
+
+                                Adjustment Group            Adj Amt Translated Reason Code
+                                CONTRACTUAL OBLIGATIONS     26.19   CHARGES EXCEED YOUR CONTRACTED/LEGISLATED FEE ARRANGEMENT.                          
+
+          Line Item:  Svc Date   CPT    Charge Amt   Payment Amt  Total Adj Amt  Remarks                                                                                      
+                      03/30/2022 92507  100.00       22.82        77.18          NO REMARKS                                                                                   
+
+                                Adjustment Group            Adj Amt Translated Reason Code
+                                CONTRACTUAL OBLIGATIONS     47.18   CHARGES EXCEED YOUR CONTRACTED/LEGISLATED FEE ARRANGEMENT.                          
+                                PATIENT RESPONSIBILITY      30.00   CO-PAYMENT AMOUNT.                                                                  
+
+          Line Item:  Svc Date   CPT    Charge Amt   Payment Amt  Total Adj Amt  Remarks                                                                                      
+                      03/30/2022 92526  100.00       73.81        26.19          NO REMARKS                                                                                   
+
+                                Adjustment Group            Adj Amt Translated Reason Code
+                                CONTRACTUAL OBLIGATIONS     26.19   CHARGES EXCEED YOUR CONTRACTED/LEGISLATED FEE ARRANGEMENT.                          
+
+          Line Item:  Svc Date   CPT    Charge Amt   Payment Amt  Total Adj Amt  Remarks                                                                                      
+                      03/31/2022 92507  100.00       22.82        77.18          NO REMARKS                                                                                   
+
+                                Adjustment Group            Adj Amt Translated Reason Code
+                                CONTRACTUAL OBLIGATIONS     47.18   CHARGES EXCEED YOUR CONTRACTED/LEGISLATED FEE ARRANGEMENT.                          
+                                PATIENT RESPONSIBILITY      30.00   CO-PAYMENT AMOUNT.                                                                  
+
+          Line Item:  Svc Date   CPT    Charge Amt   Payment Amt  Total Adj Amt  Remarks                                                                                      
+                      03/31/2022 92526  100.00       73.81        26.19          NO REMARKS                                                                                   
+
+                                Adjustment Group            Adj Amt Translated Reason Code
+                                CONTRACTUAL OBLIGATIONS     26.19   CHARGES EXCEED YOUR CONTRACTED/LEGISLATED FEE ARRANGEMENT.                          
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Check#                         Patient ID         Last,First          Charge Amt  Payment Amt  Accnt#        Status                         Payer                             
+255431297                      0125200190         BLANCO,BENJAMIN     600.00      289.89       1838414       PROCESSED AS PRIMARY           MERITAIN HEALTH                   
+                                                                                                                                            1405 XENIUM LANE NORTH SUITE 140  
+                                                                                                                                            MINNEAPOLIS,MN 55441              
+                                                                                                                                            Tax ID: 34-1858379                
+                                                                                                Payer Claim Control Number: EY9VR03                       
+                                                                                                Claim Statement Period:     04/04/2022 - 04/07/2022       
+
+          Line Item:  Svc Date   CPT    Charge Amt   Payment Amt  Total Adj Amt  Remarks                                                                                      
+                      04/04/2022 92507  100.00       22.82        77.18          NO REMARKS                                                                                   
+
+                                Adjustment Group            Adj Amt Translated Reason Code
+                                CONTRACTUAL OBLIGATIONS     47.18   CHARGES EXCEED YOUR CONTRACTED/LEGISLATED FEE ARRANGEMENT.                          
+                                PATIENT RESPONSIBILITY      30.00   CO-PAYMENT AMOUNT.                                                                  
+
+          Line Item:  Svc Date   CPT    Charge Amt   Payment Amt  Total Adj Amt  Remarks                                                                                      
+                      04/04/2022 92526  100.00       73.81        26.19          NO REMARKS                                                                                   
+
+                                Adjustment Group            Adj Amt Translated Reason Code
+                                CONTRACTUAL OBLIGATIONS     26.19   CHARGES EXCEED YOUR CONTRACTED/LEGISLATED FEE ARRANGEMENT.                          
+
+          Line Item:  Svc Date   CPT    Charge Amt   Payment Amt  Total Adj Amt  Remarks                                                                                      
+                      04/06/2022 92507  100.00       22.82        77.18          NO REMARKS                                                                                   
+
+                                Adjustment Group            Adj Amt Translated Reason Code
+                                CONTRACTUAL OBLIGATIONS     47.18   CHARGES EXCEED YOUR CONTRACTED/LEGISLATED FEE ARRANGEMENT.                          
+                                PATIENT RESPONSIBILITY      30.00   CO-PAYMENT AMOUNT.                                                                  
+
+          Line Item:  Svc Date   CPT    Charge Amt   Payment Amt  Total Adj Amt  Remarks                                                                                      
+                      04/06/2022 92526  100.00       73.81        26.19          NO REMARKS                                                                                   
+
+                                Adjustment Group            Adj Amt Translated Reason Code
+                                CONTRACTUAL OBLIGATIONS     26.19   CHARGES EXCEED YOUR CONTRACTED/LEGISLATED FEE ARRANGEMENT.                          
+
+          Line Item:  Svc Date   CPT    Charge Amt   Payment Amt  Total Adj Amt  Remarks                                                                                      
+                      04/07/2022 92507  100.00       22.82        77.18          NO REMARKS                                                                                   
+
+                                Adjustment Group            Adj Amt Translated Reason Code
+                                CONTRACTUAL OBLIGATIONS     47.18   CHARGES EXCEED YOUR CONTRACTED/LEGISLATED FEE ARRANGEMENT.                          
+                                PATIENT RESPONSIBILITY      30.00   CO-PAYMENT AMOUNT.                                                                  
+
+          Line Item:  Svc Date   CPT    Charge Amt   Payment Amt  Total Adj Amt  Remarks                                                                                      
+                      04/07/2022 92526  100.00       73.81        26.19          NO REMARKS                                                                                   
+
+                                Adjustment Group            Adj Amt Translated Reason Code
+                                CONTRACTUAL OBLIGATIONS     26.19   CHARGES EXCEED YOUR CONTRACTED/LEGISLATED FEE ARRANGEMENT.                          

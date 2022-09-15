@@ -1,0 +1,34 @@
+.treatment-plan .content {
+    min-height: 371mm;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="date"] {
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+    border: 0px !important;
+    border-radius: none !important;
+    width: 240mm !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.image_list, .signature_list {
+    display: block;
+}
+
+.footer-section {
+    position: absolute;
+    bottom: 30px;
+    height: 50px;
+  
+}
+
+@media print {
+    body {
+        margin: 0;
+    }
+}

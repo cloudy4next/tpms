@@ -1,0 +1,40 @@
+<table class="table-bordered table table-sm c_table table-striped">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Dos</th>
+        <th>Instrument</th>
+        <th>Code</th>
+        <th>M1</th>
+        <th>Amount</th>
+        <th>Payment</th>
+        <th>Adjustment</th>
+        <th>Reason</th>
+        <th>Status</th>
+        <th>M2</th>
+        <th>M3</th>
+        <th>M4</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach($deposits_apllys_trans as $trans)
+    <tr>
+        <td>{{$trans->deposit_apply_id}}</td>
+        <td>{{\Carbon\Carbon::parse($trans->dos)->format('m/d/Y')}}</td>
+        <td>
+                {{$trans->instrument}}
+        </td>
+        <td>{{$trans->code}}</td>
+        <td>{{$trans->m1}}</td>
+        <td>{{$trans->amount}}</td>
+        <td>{{$trans->payment}}</td>
+        <td>{{$trans->adjustment}}</td>
+        <td>{{$trans->reason}}</td>
+        <td>{{$trans->status}}</td>
+        <td>{{$trans->m2}}</td>
+        <td>{{$trans->m3}}</td>
+        <td>{{$trans->m4}}</td>
+    </tr>
+    @endforeach
+    </tbody>
+</table>

@@ -1,0 +1,1198 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+::placeholder {
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-content .content {
+    padding: 0 15px 10px 15px;
+    margin-top: 0px;
+}
+
+.session-note {
+    width: 100%;
+    max-width: 1280px;
+    display: block;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background: #207ac7;
+}
+
+.mb_40 {
+    margin-bottom: 40px;
+}
+
+.mb_30 {
+    margin-bottom: 20px;
+}
+
+.mb_0 {
+    margin-bottom: 0px;
+}
+
+.mtb_10 {
+    margin: 10px auto;
+}
+
+.mb_15 {
+    margin-bottom: 15px !important;
+}
+
+.red {
+    color: #d9534f;
+}
+
+.session-note .red.bracket {
+    font-size: 14px;
+}
+
+.session-note input[type="checkbox"] {
+    width: auto !important;
+}
+
+.session-note input[type="radio"] {
+    width: auto;
+}
+
+.session-note .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto 0px;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+
+.session-note .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+/*=====================header css Start=======================*/
+.session-note header {
+    background: #fff;
+    padding: 20px 20px 0px;
+    border-bottom: 0px solid #207ac7;
+}
+
+.session-note header .flex-div {
+    align-items: center;
+    padding: 0px 15px 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+}
+
+.session-note header .flex-div .col-item {
+    width: 50%;
+}
+
+.session-note header .logo {
+    margin: 0;
+    text-align: left;
+    display: block;
+    padding: 0px 0px 0px;
+}
+
+.session-note header .logo img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.session-note header .col-item:nth-child(2) {
+    width: 50% !important;
+}
+
+.session-note header .col-item h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #207ac7;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.session-note header .flex-div .info-details {
+    text-align: left;
+    float: right;
+    width: 100%;
+    max-width: 320px;
+}
+
+.session-note header .col-item .info-details p {
+    margin: 0;
+    font-size: 17px;
+    color: #000;
+    line-height: 24px;
+}
+
+.session-note header .info-details p {
+    color: #d9534f !important;
+    font-size: 17px !important;
+}
+
+.session-note header .col-item .info-details ul {
+    margin: 0px auto 0px;
+    padding: 0;
+    display: block;
+}
+
+.session-note header .col-item .info-details ul li {
+    list-style: none;
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.session-note header .col-item .info-details ul li span,
+.session-note header .col-item .info-details ul li a span {
+    font-weight: 700;
+    color: #207ac7;
+    margin-right: 5px;
+}
+
+.session-note header .col-item .info-details ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s all ease-in-out;
+}
+
+/*=================header css end===============*/
+
+.session-note .content .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+}
+
+.session-note .content .flex-row .col-item .flex-div span:nth-child(1) {
+    flex: auto;
+    max-width: max-content;
+}
+.session-note .content .flex-row.flex-row_1 .col-item:nth-child(1) {
+    width: 45%;
+}
+
+.session-note .content .flex-row .col-item:nth-child(1) span {
+    width: 100%;
+}
+
+
+.session-note .content .flex-row.flex-row_1 .col-item input{
+    width: 100%;
+}
+
+.session-note .content .flex-row.flex-row_1 .col-item:nth-child(2) {
+    max-width: 25%;
+}
+.session-note .content .flex-row.flex-row_1 .col-item:nth-child(2) input#birth-date {
+    max-width: max-content;
+}
+
+.session-note .content .flex-row.flex-row_1 .col-item:nth-child(3) .flex-div span:nth-child(2) {
+    width: 100%;
+    max-width: 90px;
+}
+.session-note .content .flex-row.flex-row_1 .col-item:nth-child(3) {
+    width: 100%;
+    max-width: 20%;
+}
+
+
+.session-note .content .flex-row.flex-row_2 {
+    flex-wrap: unset;
+}
+
+.session-note .content .flex-row.flex-row_2 .col-item:nth-child(1) {
+    width: 48%;
+}
+
+.session-note .content .flex-row.flex-row_2 .col-item textarea {
+    padding: 5px 8px;
+    width: 100%;
+    height: 40px;
+}
+.session-note .content .flex-row.flex-row_2 .col-item:nth-child(1) input {
+    width: 100%;
+}
+
+.session-note .content .flex-row.flex-row_3 .col-item:nth-child(1) {
+    width: 100%;
+    max-width: max-content;
+}
+
+.session-note .content .flex-row.flex-row_3 .col-item:nth-child(2) .flex-div span #service-location {
+    max-width: 80px;
+}
+
+.session-note .content .flex-row.flex-row_3 .col-item:nth-child(2) {
+    max-width: 22.5%;
+}
+
+.session-note .content .flex-row .col-item input {
+    width: 100%;
+    padding: 5px 10px !important;
+}
+
+.session-note .content .flex-row.flex-row_4 .col-item:nth-child(1) {
+    max-width: 30%;
+}
+
+.session-note .content .flex-row.flex-row_4 .col-item:nth-child(1) span:nth-child(2), .session-note .content .flex-row.flex-row_4 .col-item:nth-child(2) span:nth-child(2) {
+    display: flex;
+}
+.session-note .content .flex-row.flex-row_4 .col-item:nth-child(1) span:nth-child(2) input, .session-note .content .flex-row.flex-row_4 .col-item:nth-child(2) span:nth-child(2) input {
+    max-width: max-content;
+}
+.session-note .content .flex-row.flex-row_4 .col-item:nth-child(1), .session-note .content .flex-row.flex-row_4 .col-item:nth-child(2) {
+    max-width: 27%;
+}
+.session-note .content .flex-row textarea {
+    width: 100%;
+}
+
+.session-note .content .flex-row_6 label {
+    color: #d9534f;
+}
+.session-note .content .flex-row_6 {
+    column-gap: 10px;
+}
+.session-note .content .flex-row_6 input#entire_age {
+    width: 100%;
+    max-width: 275px;
+}
+
+.session-note .content .flex-row.flex-row_7 .flex-div {
+    flex-direction: column;
+    display: flex;
+}
+.session-note .content .flex-row .flex-div .check-box-area ul li {
+    list-style: none;
+}
+
+
+
+.session-note .content .flex-row .col-item {
+    flex: auto;
+}
+
+.session-note .content .flex-row .col-item .flex-div {
+    display: flex;
+    column-gap: 5px;
+}
+.session-note .content .flex-row .col-item .flex-div span {
+    flex: auto;
+}
+
+.session-note table input {
+    border: none;
+    outline: none;
+}
+
+.session-note table tr td input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.session-note table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.session-note table tr th,
+.session-note table tr td {
+    border: 2px solid #207ac7;
+    padding: 7px 10px;
+    width: auto;
+    max-width: max-content;
+}
+
+.session-note table tr th {
+    font-weight: bold;
+    color: #fff;
+    background: #207ac7;
+    border: 2px solid #4799e0;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.session-note table tr td input[type="date"],
+.session-note table tr td input[type="time"] {
+    width: auto;
+}
+
+.session-note textarea {
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    resize: vertical;
+}
+
+.session-note input,
+.session-note textarea {
+    outline: none;
+    font-size: 16px;
+    color: #333;
+}
+
+.session-note h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+}
+
+.session-note h3,
+.session-note h3 label {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.session-note .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+
+.session-note .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.session-note .content {
+    border: 0px solid #fff;
+    padding: 0px 20px 20px;
+    background: #fff;
+}
+
+/*----------------footer button css start................*/
+.session-note .section_bottom {
+    margin: 60px auto 0px;
+    width: 100%;
+}
+
+.session-note label,
+.session-note table tr td,
+.session-note h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+    vertical-align: top;
+}
+
+.session-note .checkbox-area ul li label {
+    font-weight: 600;
+}
+
+.session-note .section_bottom .flex-div.button-row {
+    margin: 30px auto 0px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.session-note .section_bottom .flex-div.button-row div {
+    flex: auto;
+    max-width: max-content;
+    width: auto;
+}
+
+.session-note .section_bottom .flex-div.button-row div a,
+.session-note .section_bottom .flex-div.button-row div button {
+    padding: 11px 20px;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.session-note .section_bottom .flex-div.button-row div a i.fas,
+.session-note .section_bottom .flex-div.button-row div button i.fas {
+    margin-right: 6px;
+}
+
+.session-note .section_bottom .mark-sign a {
+    background: #5cb85c;
+    color: #fff !important;
+}
+
+.session-note .section_bottom .flex-div.button-row div.cancel button {
+    background: #d9534f;
+    color: #fff;
+}
+
+.session-note .section_bottom .flex-div:nth-child(1) .col-item:nth-last-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+
+.session-note table .flex-div input {
+    border-bottom: 2px solid #207ac7;
+}
+
+/*========================footer bottom===========================*/
+.session-note .footer-section {
+    margin: 50px auto 0px;
+    box-shadow: 0px -5px 6px -4px #ccc;
+    padding: 20px 0px;
+}
+
+.session-note .footer-section .flex-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.session-note table .flex-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.session-note .footer-section .flex-div .col-item:nth-child(2) p {
+    text-align: right;
+}
+
+.session-note .footer-section .flex-div .col-item {
+    flex: auto;
+    width: auto;
+}
+
+.session-note .footer-section .flex-div .col-item p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.session-note .footer-section .flex-div .col-item p a {
+    color: #207ac7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.session-note .flex-div.row-flex:nth-child(2) .col-item:nth-child(2) {
+    width: 14%;
+}
+
+.session-note .section_bottom .flex-div span:nth-child(1) {
+    width: auto;
+}
+
+/*----------------content css start................*/
+.session-note .red {
+    color: #d9534f;
+}
+
+.session-note .inner-main-title h2 {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #d9534f;
+    position: relative;
+    padding: 0px 0px 15px;
+    margin: 0 auto 29px;
+    font-weight: bold;
+}
+
+.session-note .inner-main-title h2::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 10%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.session-note .red {
+    color: #d9534f;
+}
+.session-note .content .flex-row.flex-row_11 .flex-div-area {
+    width: 100%;
+    display: flex;
+    column-gap: 30px;
+}
+.session-note .content .flex-row.flex-row_11 .flex-div-area .flex-div {
+    display: flex;
+    column-gap: 10px;
+}
+
+.session-note .content .flex-row.flex-row_11 .flex-div-area .flex-div > label {
+    color: #333;
+    font-weight: 600;
+}
+
+.session-note .content .flex-row.flex-row_11 .flex-div-area {
+    width: 100%;
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.session-note .content .flex-row.flex-row_11 .flex-div-area .flex-div.flex-div.last {
+    flex-direction: column;
+}
+.session-note .content .flex-row.flex-row_11 .flex-div-area .flex-div label {
+    font-weight: normal;
+}
+.session-note .content .flex-row.flex-row_11 .flex-div-area .flex-div > label {
+    color: #000;
+    font-weight: 700 !important;
+}
+
+
+.session-note .inner-main-title h2 {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #d9534f;
+    position: relative;
+    padding: 0px 0px 15px;
+    margin: 0 auto 29px;
+    font-weight: bold;
+}
+
+.session-note .inner-main-title h2::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 10%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.session-note .flex-div.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 30px;
+    row-gap: 15px;
+}
+
+.session-note .flex-div.row-flex .col-item .flex-div input[type="date"],
+.session-note .flex-div.row-flex .col-item .flex-div input[type="time"] {
+    width: auto;
+}
+
+.session-note .flex-div.row-flex .col-item {
+    flex: auto;
+}
+
+.session-note .flex-div.row-flex .col-item .flex-div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.session-note .flex-div.row-flex .col-item:nth-child(1) {
+    width: 30%;
+}
+
+.session-note .flex-div.row-flex .col-item:nth-child(1) span:nth-child(2),
+.session-note .flex-div.row-flex .col-item:nth-last-child(1) span:nth-child(2) {
+    width: 100%;
+}
+
+.session-note .flex-div.row-flex .col-item .flex-div span {
+    width: 100%;
+    max-width: max-content;
+    margin: 0px 5px 0px 0px;
+}
+
+.session-note .flex-div.row-flex .col-item .flex-div span:nth-child(2) {
+    width: 100%;
+    max-width: 100%;
+}
+
+.session-note .flex-div.row-flex .col-item .flex-div input {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    border-bottom: 2px solid #207ac7;
+}
+
+.session-note .flex-div.row-flex.row2 {
+    width: 100%;
+    max-width: 100%;
+}
+
+.session-note .flex-div.row-flex.row2 .col-item .flex-div div {
+    width: auto;
+    flex: auto !important;
+    max-width: max-content;
+}
+
+.session-note .flex-div.row-flex.row2 .col-item .flex-div .check-box-area ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.session-note .flex-div.row-flex.row2 .col-item .flex-div .check-box-area ul li {
+    display: flex;
+    list-style: none;
+}
+
+.session-note .flex-div.row-flex .col-item .flex-div span:nth-child(2) label {
+    color: #000 !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.session-note .flex-div.row-flex .col-item .check-box-area ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.session-note .flex-div.row-flex .col-item .check-box-area ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.session-note .section_1 .box.box_1 .flex-div.row-flex .col-item:nth-last-child(1) .flex-div div {
+    flex: auto;
+}
+
+.session-note .section_1 .box.box_1 .flex-div.row-flex .col-item:nth-last-child(1) .flex-div div:nth-child(1) {
+    max-width: max-content;
+}
+
+.session-note .section_1 .box.box_1 .flex-div.row-flex .col-item .flex-div .check-box-area ul li input {
+    width: auto;
+}
+
+.session-note table .flex-div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    align-items: center;
+}
+
+.session-note .box tr>td:nth-child(1) {
+    width: 20%;
+}
+
+.session-note .section_2 .box.box_1 .other input {
+    width: auto;
+}
+
+.session-note .section_2 .box label {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.session-note .check-box-area ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    column-gap: 20px;
+}
+.session-note .check-box-area ul li label {
+    color: #000;
+    font-weight: 600;
+}
+
+.session-note .content .flex-row.flex-row_7 .flex-div .check-box-area {
+    margin: 10px 0px 0px;
+}
+
+
+.session-note .section_2 .box_1 td .check-box-area ul li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+.session-note .other {
+    display: flex;
+}
+
+.session-note .other input {
+    width: 70% !important;
+    max-width: max-content;
+}
+
+.section_2 .box.box_1 table tr td {
+    vertical-align: top;
+}
+
+.session-note table.table_2 tr:nth-child(1) td,
+.session-note table.table_3 tr:nth-child(1) td {
+    border-top: none;
+}
+
+.session-note table.table_2 td:nth-child(2) {
+    width: 30%;
+}
+
+.session-note table.table_3 tr:nth-child(1) td label {
+    color: #207ac7;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.session-note table.table_3 tr td .flex-div {
+    justify-content: center;
+}
+
+.session-note .section_3 table tr td input {
+    border-bottom: 2px solid #207ac7;
+    padding: 6px 10px;
+    margin-top: 10px;
+}
+
+.session-note .section_3 .flex-div span:nth-child(2) label {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+}
+
+.session-note .section_3 .flex-div {
+    margin: 10px auto 0px;
+    align-items: center;
+}
+
+.session-note .section_3 .flex-div span input {
+    margin: 0 5px 0px 0px;
+}
+
+.session-note .section_3 table tr td {
+    width: 50%;
+}
+
+.session-note .section_3 textarea {
+    width: 100%;
+    border: 2px solid #207ac7;
+    margin: 10px auto 0px;
+    min-height: 120px;
+    max-height: 120px;
+}
+
+.session-note .section_3 table tr td:nth-child(1) {
+    width: 40%;
+}
+
+.session-note .section_4 .col-item span input[type="date"],
+.session-note section .col-item span input[type="date"],
+.session-note section .col-item span input[type="time"] {
+    border: none !important;
+}
+
+.session-note .section_4 .col-item:nth-child(1) {
+    width: 40% !important;
+}
+
+.session-note .section_4 .col-item:nth-child(2) {
+    width: 35% !important;
+}
+
+.session-note p {
+    font-size: 16px;
+}
+
+.session-note .box.box1 .check-box-area {
+    margin: 0px auto 10px;
+}
+
+.session-note .box.box1 .check-box-area ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    column-gap: 15px;
+    flex-wrap: wrap;
+}
+
+.session-note .box.box1 .check-box-area ul li {
+    list-style: none;
+}
+
+.session-note .section_4 .box.box1 .check-box-area ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.session-note .section_4 .box.box1 .check-box-area ul li span {
+    margin-left: 5px;
+}
+
+.session-note input[type="radio"] {
+    width: auto;
+}
+
+.session-note .box.box1 .check-box-area ul li span label {
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.25px;
+}
+
+.session-note .section_4 .box.box1 p {
+    margin-top: 10px !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.session-note .textarea textarea {
+    width: 100%;
+    border: 2px solid #207ac7;
+}
+
+.session-note .section_4 .box.box1 {
+    margin: 50px auto 40px;
+}
+
+.session-note .section_4 .box.box1 .col-title {
+    margin-bottom: 10px !important;
+}
+
+.session-note .content .flex-row.flex-row_19 .col-item {
+    width: auto;
+    max-width: max-content;
+}
+.session-note .content .flex-row.flex-row_19 .flex-row {
+    column-gap: 31px;
+    align-items: center;
+}
+.session-note .content .flex-row.flex-row_19 .flex-row .col-item .flex-div {
+    align-items: center;
+}
+
+.session-note .content .flex-row.flex-row_20 h4 {
+    font-weight: 600;
+    font-size: 22px;
+}
+.session-note .content .flex-row.flex-row_20 .col-item input {
+    border: 0px;
+    border-bottom: 1px solid;
+}
+.session-note .content .flex-row.flex-row_20 span, .session-note .content .flex-row.flex-row_20 span input {
+    width: 100%;
+}
+.session-note .content h4 {
+    font-size: 20px !important;
+}
+
+.session-note table tr th label {
+    color: #fff;
+}
+
+/*----------------content css End................*/
+@media only screen and (max-width: 768px) {
+
+    /*------------------common responsive css----------------*/
+    .session-note section {
+        overflow: auto;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
+    .session-note .main-content .col-xl-12 {
+        padding: 0;
+    }
+
+    .section_1 .flex-div.row-flex .col-item .flex-div ul {
+        flex-wrap: wrap;
+    }
+
+    .section_1 .flex-div.row-flex .col-item .flex-div {
+        flex-wrap: wrap;
+    }
+
+    .session-note .section_3 table tr:nth-child(1) td:nth-child(1) {
+        border-top: 2px solid #207ac7;
+    }
+
+.session-note .content .flex-row {
+    column-gap: 0px;
+}
+.session-note .content .flex-row.flex-row_1 .col-item:nth-child(1), .session-note .content .flex-row.flex-row_1 .col-item {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.session-note .content .flex-row .col-item .flex-div {
+    flex-wrap: wrap;
+}
+.session-note table .flex-div {
+    display: block;
+    text-align: center;
+}
+.session-note table tr th label, .session-note table tr td label, .session-note table tr th label, .session-note table tr td {
+    font-size: 11px;
+}
+.session-note .content .flex-row.flex-row_2 .col-item:nth-child(1) {
+    width: 100%;
+    max-width: 100%;
+}
+
+.session-note .content .flex-row.flex-row_2 {
+    flex-wrap: wrap;
+}
+.session-note .content .flex-row.flex-row_3 .col-item {
+    width: 100%;
+    max-width: 100% !important;
+}
+.session-note .content .flex-row.flex-row_3 .col-item:nth-child(2) .flex-div span #service-location {
+    max-width: 100%;
+}
+.session-note .content .flex-row.flex-row_3 .col-item:nth-child(1) .flex-div {
+    flex-wrap: unset;
+    align-items: center;
+}
+.session-note .content .flex-row.flex-row_4 .col-item:nth-child(1), .session-note .content .flex-row.flex-row_4 .col-item:nth-child(2) {
+    max-width: 100%;
+}
+.session-note .content .flex-row.flex-row_4 .col-item:nth-child(1) .flex-div {
+    flex-wrap: unset;
+}
+.session-note table tr th {
+    border: 1px solid #4799e0;
+    font-size: 12px;
+    padding: 5px;
+}
+.session-note .content .flex-row.flex-row_11 .flex-div-area .flex-div.flex-div.last .check-box-area ul {
+    flex-wrap: wrap;
+}
+.session-note .content .flex-row.flex-row_11 .flex-div-area .flex-div.flex-div.last .check-box-area ul li {
+    width: 100%;
+}
+.session-note .content .flex-row .check-box-area ul {
+    flex-wrap: wrap;
+}
+.session-note .content .flex-row .flex-div .check-box-area ul li span {
+    line-height: normal;
+}
+.session-note .content .flex-row .flex-div .check-box-area ul li span label {
+    position: relative;
+    top: 3px;
+}
+
+    .section_2 .box.box_1 table tr td {
+        vertical-align: top;
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        border-top: none;
+    }
+
+    .section_2 .box.box_1 table tr:nth-child(1) td:nth-child(1) {
+        border-top: 2px solid #207ac7;
+    }
+
+    .session-note .section_3 table tr td {
+        width: 100% !important;
+        max-width: 100%;
+        border-top: none;
+    }
+
+    .session-note .section_3 table tr td {
+        display: block;
+    }
+
+    .session-note header .logo img {
+        max-width: 250px;
+    }
+
+    /*------------------header responsive css ----------------*/
+    .session-note header .flex-div {
+        align-items: center;
+        padding: 0px 15px 15px;
+        box-sizing: border-box;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .session-note header .flex-div .col-item {
+        width: 100%;
+        margin: 0px auto 20px;
+    }
+
+    .session-note header .flex-div .info-details {
+        text-align: center;
+        float: none;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .session-note header .col-item:nth-child(2) {
+        width: 100% !important;
+    }
+
+    .session-note .page-title h1 {
+        font-size: 17px;
+        padding: 0px 0px 15px;
+    }
+
+    .session-note label,
+    .session-note table tr td,
+    .session-note h3 {
+        font-size: 14px;
+    }
+
+    .session-note section {
+        width: auto;
+        overflow: auto;
+    }
+
+    .session-note header .col-item .info-details ul li {
+        font-size: 14px;
+    }
+
+    .session-note header .logo {
+        text-align: center;
+    }
+
+    .session-note .mb_40 {
+        margin-bottom: 20px;
+    }
+
+    .session-note .textarea textarea {
+        max-height: 70px;
+    }
+
+    .session-note .red {
+        color: #d9534f;
+        font-size: 14px;
+    }
+
+    .session-note table tr td input[type="date"],
+    .session-note table tr td input[type="time"] {
+        width: 100%;
+    }
+
+    .session-note .inner-main-title h2 {
+        font-size: 17px;
+        padding: 0px 0px 15px;
+        margin: 0 auto 20px;
+    }
+
+    .session-note .section_bottom {
+        margin: 0px auto 0px;
+    }
+
+    .session-note .section_bottom .flex-div.button-row {
+        flex-direction: row;
+        justify-content: center;
+        row-gap: 15px;
+        column-gap: 15px;
+    }
+
+    .session-note .section_bottom .flex-div.button-row div a {
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+
+    .session-note .footer-section .flex-div {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .session-note .footer-section .flex-div .col-item p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .session-note .footer-section .flex-div .col-item:nth-child(2) p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .session-note .footer-section .flex-div {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .session-note .footer-section {
+        margin: 40px auto 0px;
+        box-shadow: 0px -5px 6px -4px #ccc;
+        padding: 20px 0px 0px;
+    }
+    .session-note .content h4 {
+    font-size: 16px !important;
+}
+.session-note .content .flex-row.flex-row_19 .col-item.mb_30 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.session-note .content .flex-row.flex-row_19 .col-item .flex-div {
+    flex-wrap: unset;
+}
+.session-note .content .flex-row.flex-row_19 .col-item:nth-child(3) .flex-div {
+    flex-wrap: wrap;
+}
+}
+
+
+@media only screen and (max-width: 450px) {
+.session-note table .flex-div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.save-prog button {
+    background: #483D8B;
+    color: #fff !important;
+}
+
+.print button {
+    background: #467fd0;
+    color: #fff !important;
+}

@@ -1,0 +1,729 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+::placeholder {
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-content .content {
+    padding: 0 15px 10px 15px;
+    margin-top: 0px;
+}
+
+.monthly-sup-note {
+    width: 100%;
+    max-width: 1280px;
+    display: block;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background: #207ac7;
+}
+
+.mb_40 {
+    margin-bottom: 40px;
+}
+
+.mb_30 {
+    margin-bottom: 20px;
+}
+
+.mb_0 {
+    margin-bottom: 0px;
+}
+
+.mtb_10 {
+    margin: 10px auto;
+}
+
+.mb_15 {
+    margin-bottom: 15px !important;
+}
+
+.red {
+    color: #d9534f;
+}
+
+.monthly-sup-note .bracket {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: initial;
+}
+
+.monthly-sup-note section .col-item span input[type="date"],
+.monthly-sup-note section .col-item span input[type="time"],
+.monthly-sup-note .col-item span input[type="date"] {
+    border: none !important;
+}
+
+.monthly-sup-note input[type="radio"] {
+    width: auto;
+}
+
+.monthly-sup-note .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+
+.monthly-sup-note .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+/*=====================header css Start=======================*/
+.monthly-sup-note header {
+    background: #fff;
+    padding: 20px 20px 0px;
+    border-bottom: 0px solid #207ac7;
+}
+
+.monthly-sup-note header .flex-div {
+    align-items: center;
+    padding: 0px 15px 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+}
+
+.monthly-sup-note header .flex-div .col-item {
+    width: 50%;
+}
+
+.monthly-sup-note header .logo {
+    margin: 0;
+    text-align: left;
+    display: block;
+    padding: 0px 0px 0px;
+}
+
+.monthly-sup-note header .logo img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.monthly-sup-note header .col-item:nth-child(2) {
+    width: 50% !important;
+}
+
+.monthly-sup-note header .col-item h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #207ac7;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.monthly-sup-note header .flex-div .info-details {
+    text-align: left;
+    float: right;
+    width: 100%;
+    max-width: 320px;
+}
+
+.monthly-sup-note header .col-item .info-details p {
+    margin: 0;
+    font-size: 17px;
+    color: #000;
+    line-height: 24px;
+}
+
+.monthly-sup-note header .info-details p {
+    color: #d9534f !important;
+    font-size: 17px !important;
+}
+
+.monthly-sup-note header .col-item .info-details ul {
+    margin: 0px auto 0px;
+    padding: 0;
+    display: block;
+}
+
+.monthly-sup-note header .col-item .info-details ul li {
+    list-style: none;
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.monthly-sup-note header .col-item .info-details ul li span,
+.monthly-sup-note header .col-item .info-details ul li a span {
+    font-weight: 700;
+    color: #207ac7;
+    margin-right: 5px;
+}
+
+.monthly-sup-note header .col-item .info-details ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s all ease-in-out;
+}
+
+/*=================header css end===============*/
+.monthly-sup-note table input {
+    border: none;
+    outline: none;
+}
+
+.monthly-sup-note table tr td input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.monthly-sup-note table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.monthly-sup-note table tr th,
+.monthly-sup-note table tr td {
+    border: 2px solid #207ac7;
+    padding: 7px 10px;
+    width: auto;
+    max-width: max-content;
+}
+
+.monthly-sup-note table tr th {
+    font-weight: bold;
+    color: #fff;
+    background: #207ac7;
+    border: 2px solid #4799e0;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.monthly-sup-note table tr td input[type="date"],
+.monthly-sup-note table tr td input[type="time"] {
+    width: auto;
+}
+
+.monthly-sup-note textarea {
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    resize: vertical;
+}
+
+.monthly-sup-note input,
+.monthly-sup-note textarea {
+    outline: none;
+    font-size: 16px;
+    color: #333;
+}
+
+.monthly-sup-note h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+}
+
+.monthly-sup-note h3,
+.monthly-sup-note h3 label {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.monthly-sup-note .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+
+.monthly-sup-note .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.monthly-sup-note .content {
+    border: 0px solid #fff;
+    padding: 0px 20px 20px;
+    background: #fff;
+}
+
+/*----------------footer button css start................*/
+.monthly-sup-note .section_bottom {
+    margin: 60px auto 0px;
+    width: 100%;
+}
+
+.monthly-sup-note label,
+.monthly-sup-note table tr td,
+.monthly-sup-note h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+}
+
+.monthly-sup-note .checkbox-area ul li label {
+    font-weight: 600;
+}
+
+.monthly-sup-note .section_bottom .flex-div.button-row {
+    margin: 30px auto 0px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.monthly-sup-note .section_bottom .flex-div.button-row div {
+    flex: auto;
+    max-width: max-content;
+    width: auto;
+}
+
+.monthly-sup-note .section_bottom .flex-div.button-row div a,
+.monthly-sup-note .section_bottom .flex-div.button-row div button {
+    padding: 11px 20px;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.monthly-sup-note .section_bottom .flex-div.button-row div a i.fas,
+.monthly-sup-note .section_bottom .flex-div.button-row div button i.fas {
+    margin-right: 6px;
+}
+
+.monthly-sup-note .section_bottom .mark-sign a {
+    background: #5cb85c;
+    color: #fff !important;
+}
+
+.monthly-sup-note .section_bottom .flex-div.button-row div.cancel button {
+    background: #d9534f;
+    color: #fff;
+}
+
+.monthly-sup-note .section_bottom .flex-div:nth-child(1) .col-item:nth-last-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+
+.monthly-sup-note table .flex-div input {
+    border: 2px solid #207ac7;
+}
+
+/*========================footer bottom===========================*/
+.monthly-sup-note .footer-section {
+    margin: 50px auto 0px;
+    box-shadow: 0px -5px 6px -4px #ccc;
+    padding: 20px 0px;
+}
+
+.monthly-sup-note .footer-section .flex-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.monthly-sup-note table .flex-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.monthly-sup-note .footer-section .flex-div .col-item:nth-child(2) p {
+    text-align: right;
+}
+
+.monthly-sup-note .footer-section .flex-div .col-item {
+    flex: auto;
+    width: auto;
+}
+
+.monthly-sup-note .footer-section .flex-div .col-item p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.monthly-sup-note .footer-section .flex-div .col-item p a {
+    color: #207ac7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.monthly-sup-note .flex-div.row-flex:nth-child(2) .col-item:nth-child(2) {
+    width: 14%;
+}
+
+.monthly-sup-note .section_bottom .flex-div span:nth-child(1) {
+    width: auto;
+}
+
+/*----------------content css start................*/
+.monthly-sup-note .red {
+    color: #d9534f;
+    font-style: italic;
+}
+
+.monthly-sup-note .inner-main-title h2 {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #d9534f;
+    position: relative;
+    padding: 0px 0px 15px;
+    margin: 0 auto 29px;
+    font-weight: bold;
+}
+
+.monthly-sup-note .inner-main-title h2::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 10%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.monthly-sup-note .flex-div.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 30px;
+    row-gap: 15px;
+}
+
+.monthly-sup-note .flex-div.row-flex .col-item .flex-div input[type="date"],
+.monthly-sup-note .flex-div.row-flex .col-item .flex-div input[type="time"] {
+    width: auto;
+}
+
+.monthly-sup-note .flex-div.row-flex .col-item {
+    flex: auto;
+}
+
+.monthly-sup-note .flex-div.row-flex .col-item .flex-div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.monthly-sup-note .flex-div.row-flex .col-item:nth-child(1),
+.monthly-sup-note .flex-div.row-flex .col-item:nth-last-child(1) {
+    width: 30%;
+}
+
+.monthly-sup-note .flex-div.row-flex .col-item:nth-child(1) span:nth-child(2),
+.monthly-sup-note .flex-div.row-flex .col-item:nth-last-child(1) span:nth-child(2) {
+    width: 100%;
+}
+
+.monthly-sup-note .flex-div.row-flex .col-item .flex-div span {
+    width: 100%;
+    max-width: max-content;
+    margin: 0px 5px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.monthly-sup-note .flex-div.row-flex .col-item .flex-div span:nth-child(2) {
+    width: 100%;
+    max-width: 100%;
+}
+
+.monthly-sup-note .flex-div.row-flex .col-item .flex-div input {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    border-bottom: 2px solid #207ac7;
+}
+
+.monthly-sup-note input[type="checkbox"] {
+    width: auto !important;
+}
+
+.monthly-sup-note .flex-div.row-flex.row2 {
+    width: 100%;
+    max-width: 100%;
+}
+
+.monthly-sup-note .flex-div.row-flex.row2 .col-item .flex-div div {
+    width: auto;
+    flex: auto !important;
+    max-width: max-content;
+}
+
+.monthly-sup-note .flex-div.row-flex .col-item .flex-div .check-box-area {
+    margin-left: 10px;
+}
+
+.monthly-sup-note .flex-div.row-flex.row2 .col-item .flex-div .check-box-area ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.monthly-sup-note .flex-div.row-flex.row2 .col-item .flex-div .check-box-area ul li {
+    display: flex;
+    list-style: none;
+    margin-right: 15px;
+}
+
+.monthly-sup-note .flex-div.row-flex .col-item .flex-div span:nth-child(2) label {
+    color: #000 !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.monthly-sup-note .textarea textarea {
+    width: 100%;
+    border: 2px solid #207ac7;
+}
+
+.monthly-sup-note .box.box5 .check-box-area ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    column-gap: 15px;
+    flex-wrap: wrap;
+}
+
+.monthly-sup-note .box.box5 .check-box-area ul li {
+    list-style: none;
+}
+
+.monthly-sup-note .box.box5 .check-box-area {
+    margin: 10px auto 0px;
+}
+
+.monthly-sup-note .box.box5 .check-box-area ul li span label {
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.25px;
+}
+
+.monthly-sup-note .section_3 .col-item:nth-child(1) {
+    width: 43% !important;
+}
+
+.section_3 .col-item:nth-child(1),
+.monthly-sup-note .section_3 .col-item:nth-last-child(1) {
+    width: auto !important;
+}
+
+.monthly-sup-note .section_3 .col-item:nth-last-child(1) span {
+    width: auto !important;
+}
+
+.monthly-sup-note .section_3 .col-item:nth-last-child(1) {
+    width: auto !important;
+    max-width: max-content;
+}
+
+.monthly-sup-note .monthly-sup-note input[type="checkbox"] {
+    width: auto !important;
+}
+
+.monthly-sup-note .monthly-sup-note label {
+    margin-right: 5px;
+}
+
+/*----------------content css End................*/
+@media only screen and (max-width: 768px) {
+
+    /*------------------common responsive css----------------*/
+    .card-body {
+        padding: 10px;
+    }
+
+    .main-content .col-xl-12 {
+        padding: 0;
+    }
+
+    .monthly-sup-note header .logo img {
+        max-width: 250px;
+    }
+
+    /*------------------header responsive css ----------------*/
+    .monthly-sup-note header .flex-div {
+        align-items: center;
+        padding: 0px 15px 15px;
+        box-sizing: border-box;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .monthly-sup-note .flex-div.row-flex .col-item .flex-div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .monthly-sup-note .flex-div.row-flex.row2 .col-item .flex-div .check-box-area ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .monthly-sup-note header .flex-div .col-item {
+        width: 100%;
+        margin: 0px auto 20px;
+    }
+
+    .monthly-sup-note header .flex-div .info-details {
+        text-align: center;
+        float: none;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .monthly-sup-note header .col-item:nth-child(2) {
+        width: 100% !important;
+    }
+
+    .monthly-sup-note .page-title h1 {
+        font-size: 17px;
+        padding: 0px 0px 15px;
+    }
+
+    .monthly-sup-note label,
+    .monthly-sup-note table tr td,
+    .monthly-sup-note h3 {
+        font-size: 14px;
+    }
+
+    .monthly-sup-note section {
+        width: auto;
+        overflow: auto;
+    }
+
+    .monthly-sup-note header .col-item .info-details ul li {
+        font-size: 14px;
+    }
+
+    .monthly-sup-note header .logo {
+        text-align: center;
+    }
+
+    .monthly-sup-note .mb_40 {
+        margin-bottom: 20px;
+    }
+
+    .monthly-sup-note .textarea textarea {
+        max-height: 70px;
+    }
+
+    .monthly-sup-note .red {
+        color: #d9534f;
+        font-size: 14px;
+    }
+
+    .monthly-sup-note table tr td input[type="date"],
+    .monthly-sup-note table tr td input[type="time"] {
+        width: 100%;
+    }
+
+    .monthly-sup-note .inner-main-title h2 {
+        font-size: 17px;
+        padding: 0px 0px 15px;
+        margin: 0 auto 20px;
+    }
+
+    .monthly-sup-note .section_bottom {
+        margin: 0px auto 0px;
+    }
+
+    .monthly-sup-note .section_bottom .flex-div.button-row {
+        flex-direction: row;
+        justify-content: center;
+        row-gap: 15px;
+        column-gap: 15px;
+    }
+
+    .monthly-sup-note .section_bottom .flex-div.button-row div a {
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+
+    .monthly-sup-note .footer-section .flex-div {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .monthly-sup-note .footer-section .flex-div .col-item p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .monthly-sup-note .footer-section .flex-div .col-item:nth-child(2) p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .monthly-sup-note .footer-section .flex-div {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .monthly-sup-note .footer-section {
+        margin: 40px auto 0px;
+        box-shadow: 0px -5px 6px -4px #ccc;
+        padding: 20px 0px 0px;
+    }
+}
+
+.save-prog button {
+    background: #483D8B;
+    color: #fff !important;
+}
+
+.print button {
+    background: #467fd0;
+    color: #fff !important;
+}

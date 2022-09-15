@@ -1,0 +1,976 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+::placeholder {
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-content .content {
+    padding: 0 15px 10px 15px;
+    margin-top: 0px;
+}
+
+.supervision-assessment {
+    width: 100%;
+    max-width: 1280px;
+    display: block;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background: #207ac7;
+}
+
+.mb_40 {
+    margin-bottom: 40px;
+}
+
+.mb_30 {
+    margin-bottom: 20px;
+}
+
+.mb_0 {
+    margin-bottom: 0px;
+}
+
+.mtb_10 {
+    margin: 10px auto;
+}
+
+.mb_15 {
+    margin-bottom: 15px !important;
+}
+
+.red {
+    color: #d9534f;
+}
+
+.supervision-assessment .red.bracket {
+    font-size: 14px;
+}
+
+.supervision-assessment input[type="checkbox"] {
+    width: auto !important;
+}
+
+.supervision-assessment input[type="radio"] {
+    width: auto;
+}
+
+.supervision-assessment .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto 0px;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+
+.supervision-assessment .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.supervision-assessment .page-title .bracket {
+    margin: 50px auto 0px;
+    text-align: left;
+    display: block;
+    font-size: 14px;
+}
+
+.supervision-assessment .page-title h1 .bracket {
+    font-size: 14px;
+    margin: 0px;
+    display: block;
+    text-transform: initial;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+}
+
+/*=====================header css Start=======================*/
+.supervision-assessment header {
+    background: #fff;
+    padding: 20px 20px 0px;
+    border-bottom: 0px solid #207ac7;
+}
+
+.supervision-assessment header .flex-div {
+    align-items: center;
+    padding: 0px 15px 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+}
+
+.supervision-assessment header .flex-div .col-item {
+    width: 50%;
+}
+
+.supervision-assessment header .logo {
+    margin: 0;
+    text-align: left;
+    display: block;
+    padding: 0px 0px 0px;
+}
+
+.supervision-assessment header .logo img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.supervision-assessment header .col-item:nth-child(2) {
+    width: 50% !important;
+}
+
+.supervision-assessment header .col-item h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #207ac7;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.supervision-assessment header .flex-div .info-details {
+    text-align: left;
+    float: right;
+    width: 100%;
+    max-width: 320px;
+}
+
+.supervision-assessment header .col-item .info-details p {
+    margin: 0;
+    font-size: 17px;
+    color: #000;
+    line-height: 24px;
+}
+
+.supervision-assessment header .info-details p {
+    color: #d9534f !important;
+    font-size: 17px !important;
+}
+
+.supervision-assessment header .col-item .info-details ul {
+    margin: 0px auto 0px;
+    padding: 0;
+    display: block;
+}
+
+.supervision-assessment header .col-item .info-details ul li {
+    list-style: none;
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.supervision-assessment header .col-item .info-details ul li span,
+.supervision-assessment header .col-item .info-details ul li a span {
+    font-weight: 700;
+    color: #207ac7;
+    margin-right: 5px;
+}
+
+.supervision-assessment header .col-item .info-details ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s all ease-in-out;
+}
+
+/*=================header css end===============*/
+.supervision-assessment table input {
+    border: none;
+    outline: none;
+}
+
+.supervision-assessment table tr td input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.supervision-assessment table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.supervision-assessment table tr th,
+.supervision-assessment table tr td {
+    border: 2px solid #207ac7;
+    padding: 7px 10px;
+    width: auto;
+    max-width: max-content;
+}
+
+.supervision-assessment table tr th {
+    font-weight: bold;
+    color: #fff;
+    background: #207ac7;
+    border: 2px solid #4799e0;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.supervision-assessment table tr td input[type="date"],
+.supervision-assessment table tr td input[type="time"] {
+    width: auto;
+}
+
+.supervision-assessment textarea {
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    resize: vertical;
+}
+
+.supervision-assessment input,
+.supervision-assessment textarea {
+    outline: none;
+    font-size: 16px;
+    color: #333;
+}
+
+.supervision-assessment h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+}
+
+.supervision-assessment h3,
+.supervision-assessment h3 label {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.supervision-assessment .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+
+.supervision-assessment .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.supervision-assessment .content {
+    border: 0px solid #fff;
+    padding: 0px 20px 20px;
+    background: #fff;
+}
+
+.supervision-assessment .flex-div.row-flex .col-item:nth-child(1), .supervision-assessment .flex-div.row-flex .col-item:nth-child(2) {
+    width: 27%;
+}
+.supervision-assessment .flex-div.row-flex .col-item.end_time {
+    max-width: 15%;
+}
+.supervision-assessment section .box p {
+    margin-bottom: 6px;
+}
+.supervision-assessment .flex-div.row-flex .col-item.completed .select_area select {
+    background: #fff;
+    border: 1px solid #207ac7;
+    margin-left: 7px;
+    padding: 5px 5px;
+    color: #207ac7;
+}
+.supervision-assessment .section_1 .box .flex-div.row_2 {
+    display: flex;
+    column-gap: 20px;
+}
+.supervision-assessment .section_1 {
+    margin: 0px auto 30px;
+}
+
+/*----------------footer button css start................*/
+.supervision-assessment .section_bottom {
+    margin: 60px auto 0px;
+    width: 100%;
+}
+
+.supervision-assessment label,
+.supervision-assessment table tr td,
+.supervision-assessment h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+    vertical-align: top;
+}
+
+.supervision-assessment .checkbox-area ul li label {
+    font-weight: 600;
+}
+
+.supervision-assessment .section_bottom .flex-div.button-row {
+    margin: 30px auto 0px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.supervision-assessment .section_bottom .flex-div.button-row div {
+    flex: auto;
+    max-width: max-content;
+    width: auto;
+}
+
+.supervision-assessment .section_bottom .flex-div.button-row div a,
+.supervision-assessment .section_bottom .flex-div.button-row div button {
+    padding: 11px 20px;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.supervision-assessment .section_bottom .flex-div.button-row div a i.fas,
+.supervision-assessment .section_bottom .flex-div.button-row div button i.fas {
+    margin-right: 6px;
+}
+
+.supervision-assessment .section_bottom .mark-sign a {
+    background: #5cb85c;
+    color: #fff !important;
+}
+
+.supervision-assessment .section_bottom .flex-div.button-row div.cancel button {
+    background: #d9534f;
+    color: #fff;
+}
+
+.supervision-assessment .section_bottom .flex-div:nth-child(1) .col-item:nth-last-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+
+.supervision-assessment table .flex-div input {
+    border-bottom: 2px solid #207ac7;
+}
+
+/*========================footer bottom===========================*/
+.supervision-assessment .footer-section {
+    margin: 50px auto 0px;
+    box-shadow: 0px -5px 6px -4px #ccc;
+    padding: 20px 0px;
+}
+
+.supervision-assessment .footer-section .flex-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.supervision-assessment table .flex-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.supervision-assessment .footer-section .flex-div .col-item:nth-child(2) p {
+    text-align: right;
+}
+
+.supervision-assessment .footer-section .flex-div .col-item {
+    flex: auto;
+    width: auto;
+}
+
+.supervision-assessment .footer-section .flex-div .col-item p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.supervision-assessment .footer-section .flex-div .col-item p a {
+    color: #207ac7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.supervision-assessment .flex-div.row-flex:nth-child(2) .col-item:nth-child(2) {
+    width: 14%;
+}
+
+.supervision-assessment .section_bottom .flex-div span:nth-child(1) {
+    width: auto;
+}
+
+/*----------------content css start................*/
+.supervision-assessment .red {
+    color: #d9534f;
+    font-style: italic;
+}
+
+.supervision-assessment .inner-main-title h2 {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #d9534f;
+    position: relative;
+    padding: 0px 0px 15px;
+    margin: 0 auto 29px;
+    font-weight: bold;
+}
+
+.supervision-assessment .inner-main-title h2::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 10%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.supervision-assessment .red {
+    color: #d9534f;
+    font-style: italic;
+}
+
+.supervision-assessment .inner-main-title h2 {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #d9534f;
+    position: relative;
+    padding: 0px 0px 15px;
+    margin: 0 auto 29px;
+    font-weight: bold;
+}
+
+.supervision-assessment .inner-main-title h2::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 10%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.supervision-assessment .flex-div.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 30px;
+    row-gap: 15px;
+}
+
+.supervision-assessment .flex-div.row-flex .col-item .flex-div input[type="date"],
+.supervision-assessment .flex-div.row-flex .col-item .flex-div input[type="time"] {
+    width: auto;
+}
+
+.supervision-assessment .flex-div.row-flex .col-item {
+    flex: auto;
+}
+
+.supervision-assessment .flex-div.row-flex .col-item .flex-div {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.supervision-assessment .flex-div.row-flex .col-item:nth-child(1) {
+    width: 30%;
+}
+
+.supervision-assessment .flex-div.row-flex .col-item:nth-child(1) span:nth-child(2),
+.supervision-assessment .flex-div.row-flex .col-item:nth-last-child(1) span:nth-child(2) {
+    width: 100%;
+}
+
+.supervision-assessment .flex-div.row-flex .col-item .flex-div span {
+    width: 100%;
+    max-width: max-content;
+    margin: 0px 5px 0px 0px;
+}
+
+.supervision-assessment .flex-div.row-flex .col-item .flex-div span:nth-child(2) {
+    width: 100%;
+    max-width: 100%;
+}
+
+.supervision-assessment .flex-div.row-flex .col-item .flex-div input {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    border-bottom: 2px solid #207ac7;
+}
+
+.supervision-assessment .flex-div.row-flex.row2 {
+    width: 100%;
+    max-width: 100%;
+}
+
+.supervision-assessment .flex-div.row-flex.row2 .col-item .flex-div div {
+    width: auto;
+    flex: auto !important;
+    max-width: max-content;
+}
+
+.supervision-assessment .flex-div.row-flex.row2 .col-item .flex-div .check-box-area ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.supervision-assessment .flex-div.row-flex.row2 .col-item .flex-div .check-box-area ul li {
+    display: flex;
+    list-style: none;
+}
+
+.supervision-assessment .flex-div.row-flex .col-item .flex-div span:nth-child(2) label {
+    color: #000 !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.supervision-assessment .flex-div.row-flex .col-item .check-box-area ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.supervision-assessment .flex-div.row-flex .col-item .check-box-area ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.supervision-assessment .section_1 .box.box_1 .flex-div.row-flex .col-item:nth-last-child(1) .flex-div div {
+    flex: auto;
+}
+
+.supervision-assessment .section_1 .box.box_1 .flex-div.row-flex .col-item:nth-last-child(1) .flex-div div:nth-child(1) {
+    max-width: max-content;
+}
+
+.supervision-assessment .section_1 .box.box_1 .flex-div.row-flex .col-item .flex-div .check-box-area ul li input {
+    width: auto;
+}
+
+.supervision-assessment table .flex-div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    align-items: center;
+}
+
+.supervision-assessment .box tr>td:nth-child(1) {
+    width: 20%;
+}
+
+.supervision-assessment .section_2 .box.box_1 .other input {
+    width: auto;
+}
+
+.supervision-assessment .section_2 .box label {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.supervision-assessment .check-box-area ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.supervision-assessment .section_2 .box_1 td .check-box-area ul li {
+    list-style: none;
+    margin-left: 10px;
+}
+
+.supervision-assessment .other {
+    display: flex;
+}
+
+.supervision-assessment .other input {
+    width: 70% !important;
+    max-width: max-content;
+}
+
+.section_2 .box.box_1 table tr td {
+    vertical-align: top;
+}
+
+.supervision-assessment table.table_2 tr:nth-child(1) td,
+.supervision-assessment table.table_3 tr:nth-child(1) td {
+    border-top: none;
+}
+
+.supervision-assessment table.table_2 td:nth-child(2) {
+    width: 30%;
+}
+
+.supervision-assessment table.table_3 tr:nth-child(1) td label {
+    color: #207ac7;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.supervision-assessment table.table_3 tr td .flex-div {
+    justify-content: center;
+}
+
+.supervision-assessment .section_3 table tr td input {
+    border-bottom: 2px solid #207ac7;
+    padding: 6px 10px;
+    margin-top: 10px;
+}
+
+.supervision-assessment .section_3 .flex-div span:nth-child(2) label {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.25px;
+}
+
+.supervision-assessment .section_3 .flex-div {
+    margin: 10px auto 0px;
+    align-items: center;
+}
+
+.supervision-assessment .section_3 .flex-div span input {
+    margin: 0 5px 0px 0px;
+}
+
+.supervision-assessment .section_3 table tr td {
+    width: 50%;
+}
+
+.supervision-assessment .section_3 textarea {
+    width: 100%;
+    border: 2px solid #207ac7;
+    margin: 10px auto 0px;
+    min-height: 120px;
+    max-height: 120px;
+}
+
+.supervision-assessment .section_3 table tr td:nth-child(1) {
+    width: 40%;
+}
+
+.supervision-assessment .section_4 .col-item span input[type="date"],
+.supervision-assessment section .col-item span input[type="date"],
+.supervision-assessment section .col-item span input[type="time"] {
+    border: none !important;
+}
+
+.supervision-assessment .section_4 .col-item:nth-child(1) {
+    width: 40% !important;
+}
+
+.supervision-assessment .section_4 .col-item:nth-child(2) {
+    width: 35% !important;
+}
+
+.supervision-assessment p {
+    font-size: 16px;
+}
+
+.supervision-assessment .box .check-box-area {
+    margin: 0px auto 10px;
+}
+
+.supervision-assessment .box .check-box-area ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    column-gap: 15px;
+    flex-wrap: wrap;
+}
+
+.supervision-assessment .box .check-box-area ul li {
+    list-style: none;
+}
+
+.supervision-assessment .section_4 .box .check-box-area ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.supervision-assessment .section_4 .box .check-box-area ul li span {
+    margin-left: 5px;
+}
+
+.supervision-assessment input[type="radio"] {
+    width: auto;
+}
+
+.supervision-assessment .box .check-box-area ul li span label {
+    color: #000;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.25px;
+}
+
+.supervision-assessment .section_4 .box p {
+    margin-top: 10px !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.supervision-assessment .textarea textarea {
+    width: 100%;
+    border: 2px solid #207ac7;
+}
+
+.supervision-assessment .section_4 .box {
+    margin: 50px auto 40px;
+}
+
+.supervision-assessment .section_4 .box .col-title {
+    margin-bottom: 10px !important;
+}
+
+/*----------------content css End................*/
+@media only screen and (max-width: 768px) {
+
+    /*------------------common responsive css----------------*/
+    .supervision-assessment section {
+        overflow: auto;
+    }
+
+    .card-body {
+        padding: 10px;
+    }
+
+    .supervision-assessment .main-content .col-xl-12 {
+        padding: 0;
+    }
+.supervision-assessment .section_1 .flex-div.row-flex .col-item {
+    width: 100%;
+}
+.supervision-assessment .page-title .bracket {
+    margin: 30px auto 0px;
+}
+.supervision-assessment p {
+    font-size: 15px;
+}
+.supervision-assessment .box .check-box-area ul li {
+    list-style: none;
+    display: flex;
+    column-gap: 5px;
+    margin-bottom: 5px;
+}
+.supervision-assessment .box .check-box-area ul li span label {
+    font-size: 14px;
+}
+    .section_1 .flex-div.row-flex .col-item .flex-div ul {
+        flex-wrap: wrap;
+    }
+
+    .section_1 .flex-div.row-flex .col-item .flex-div {
+        flex-wrap: wrap;
+    }
+
+    .supervision-assessment .section_3 table tr:nth-child(1) td:nth-child(1) {
+        border-top: 2px solid #207ac7;
+    }
+
+    .section_2 .box.box_1 table tr td {
+        vertical-align: top;
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        border-top: none;
+    }
+
+    .section_2 .box.box_1 table tr:nth-child(1) td:nth-child(1) {
+        border-top: 2px solid #207ac7;
+    }
+
+    .supervision-assessment .section_3 table tr td {
+        width: 100% !important;
+        max-width: 100%;
+        border-top: none;
+    }
+
+    .supervision-assessment .section_3 table tr td {
+        display: block;
+    }
+
+    .supervision-assessment header .logo img {
+        max-width: 250px;
+    }
+
+    /*------------------header responsive css ----------------*/
+    .supervision-assessment header .flex-div {
+        align-items: center;
+        padding: 0px 15px 15px;
+        box-sizing: border-box;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .supervision-assessment header .flex-div .col-item {
+        width: 100%;
+        margin: 0px auto 20px;
+    }
+
+    .supervision-assessment header .flex-div .info-details {
+        text-align: center;
+        float: none;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .supervision-assessment header .col-item:nth-child(2) {
+        width: 100% !important;
+    }
+
+    .supervision-assessment .page-title h1 {
+        font-size: 17px;
+        padding: 0px 0px 15px;
+    }
+
+    .supervision-assessment label,
+    .supervision-assessment table tr td,
+    .supervision-assessment h3 {
+        font-size: 14px;
+    }
+
+    .supervision-assessment section {
+        width: auto;
+        overflow: auto;
+    }
+
+    .supervision-assessment header .col-item .info-details ul li {
+        font-size: 14px;
+    }
+
+    .supervision-assessment header .logo {
+        text-align: center;
+    }
+
+    .supervision-assessment .mb_40 {
+        margin-bottom: 20px;
+    }
+
+    .supervision-assessment .textarea textarea {
+        max-height: 70px;
+    }
+
+    .supervision-assessment .red {
+        color: #d9534f;
+        font-size: 14px;
+    }
+
+    .supervision-assessment table tr td input[type="date"],
+    .supervision-assessment table tr td input[type="time"] {
+        width: 100%;
+    }
+
+    .supervision-assessment .inner-main-title h2 {
+        font-size: 17px;
+        padding: 0px 0px 15px;
+        margin: 0 auto 20px;
+    }
+
+    .supervision-assessment .section_bottom {
+        margin: 0px auto 0px;
+    }
+
+    .supervision-assessment .section_bottom .flex-div.button-row {
+        flex-direction: row;
+        justify-content: center;
+        row-gap: 15px;
+        column-gap: 15px;
+    }
+
+    .supervision-assessment .section_bottom .flex-div.button-row div a {
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+
+    .supervision-assessment .footer-section .flex-div {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .supervision-assessment .footer-section .flex-div .col-item p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .supervision-assessment .footer-section .flex-div .col-item:nth-child(2) p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .supervision-assessment .footer-section .flex-div {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .supervision-assessment .footer-section {
+        margin: 40px auto 0px;
+        box-shadow: 0px -5px 6px -4px #ccc;
+        padding: 20px 0px 0px;
+    }
+    .supervision-assessment .section_1 .box .flex-div.row_2 {
+    column-gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+}
+
+.save-prog button {
+    background: #483D8B;
+    color: #fff !important;
+}
+
+.print button {
+    background: #467fd0;
+    color: #fff !important;
+}

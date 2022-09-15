@@ -1,0 +1,48 @@
+0,Aetna,33632,"payor Demo Address","Payor demo city","Payor demo state","Payor demo zip","city state zip",,,,,,,Yes,,,Demo,Demo,,09/16/2020,Yes,,asdasd,adasd,,demo,demo,AA,1234,(123)-456-7897,,,Yes,,demo,demo,AA,1234,,,,,,,,,,,,,,,,,Yes,,Yes,,,Yes,,,,,,,,,,,"signature of file ",08/17/2021,"signature of file ",,,,,,,"Employee Employee Four",12345678,,,,,,,0,asda,sdad,adsd,asd,,,,,,,,,,,12345678,
+08/08/2021,08/08/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+08/09/2021,08/09/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+08/15/2021,08/15/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+08/16/2021,08/16/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+08/04/2021,08/04/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+08/08/2021,08/08/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+1,,777777777,1001,,,61.44,,,,08/17/2021,,,,"PROGRESSIVE BEHAVIORAL SCIENCE","3520 OAKS WAY #904",FL,"POMPANO BEACHFL",33069,33069,0123456789,,,"PROGRESSIVE BEHAVIORAL SCIENCE","3520 OAKS WAY #904","POMPANO BEACHFL",FL,33069,33069,(199)-787-7141,0123456789,,1001,2,0001
+0,Aetna,33632,"payor Demo Address","Payor demo city","Payor demo state","Payor demo zip","city state zip",,,,,,,Yes,,,Demo,Demo,,09/16/2020,Yes,,asdasd,adasd,,demo,demo,AA,1234,(123)-456-7897,,,Yes,,demo,demo,AA,1234,,,,,,,,,,,,,,,,,Yes,,Yes,,,Yes,,,,,,,,,,,"signature of file ",08/17/2021,"signature of file ",,,,,,,"Employee Employee Four",12345678,,,,,,,0,asda,sdad,adsd,asd,,,,,,,,,,,12345678,
+08/09/2021,08/09/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+08/10/2021,08/10/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+08/11/2021,08/11/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+08/15/2021,08/15/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+08/16/2021,08/16/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+08/17/2021,08/17/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+1,,777777777,1002,,,61.44,,,,08/17/2021,,,,"PROGRESSIVE BEHAVIORAL SCIENCE","3520 OAKS WAY #904",FL,"POMPANO BEACHFL",33069,33069,0123456789,,,"PROGRESSIVE BEHAVIORAL SCIENCE","3520 OAKS WAY #904","POMPANO BEACHFL",FL,33069,33069,(199)-787-7141,0123456789,,1002,2,0001
+0,Aetna,33632,"payor Demo Address","Payor demo city","Payor demo state","Payor demo zip","city state zip",,,,,,,Yes,,,Demo,Demo,,09/16/2020,Yes,,asdasd,adasd,,demo,demo,AA,1234,(123)-456-7897,,,Yes,,demo,demo,AA,1234,,,,,,,,,,,,,,,,,Yes,,Yes,,,Yes,,,,,,,,,,,"signature of file ",08/17/2021,"signature of file ",,,,,,,"Employee Employee Four",12345678,,,,,,,0,asda,sdad,adsd,asd,,,,,,,,,,,12345678,
+08/18/2021,08/18/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+08/12/2021,08/12/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+08/13/2021,08/13/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+08/14/2021,08/14/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+08/16/2021,08/16/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+08/17/2021,08/17/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+1,,777777777,1003,,,61.44,,,,08/17/2021,,,,"PROGRESSIVE BEHAVIORAL SCIENCE","3520 OAKS WAY #904",FL,"POMPANO BEACHFL",33069,33069,0123456789,,,"PROGRESSIVE BEHAVIORAL SCIENCE","3520 OAKS WAY #904","POMPANO BEACHFL",FL,33069,33069,(199)-787-7141,0123456789,,1003,2,0001
+0,Aetna,33632,"payor Demo Address","Payor demo city","Payor demo state","Payor demo zip","city state zip",,,,,,,Yes,,,Demo,Demo,,09/16/2020,Yes,,asdasd,adasd,,demo,demo,AA,1234,(123)-456-7897,,,Yes,,demo,demo,AA,1234,,,,,,,,,,,,,,,,,Yes,,Yes,,,Yes,,,,,,,,,,,"signature of file ",08/17/2021,"signature of file ",,,,,,,"Employee Employee Four",12345678,,,,,,,0,asda,sdad,adsd,asd,,,,,,,,,,,12345678,
+08/18/2021,08/18/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+08/19/2021,08/19/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+08/20/2021,08/20/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+08/21/2021,08/21/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+08/23/2021,08/23/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+08/24/2021,08/24/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+1,,777777777,1004,,,61.44,,,,08/17/2021,,,,"PROGRESSIVE BEHAVIORAL SCIENCE","3520 OAKS WAY #904",FL,"POMPANO BEACHFL",33069,33069,0123456789,,,"PROGRESSIVE BEHAVIORAL SCIENCE","3520 OAKS WAY #904","POMPANO BEACHFL",FL,33069,33069,(199)-787-7141,0123456789,,1004,2,0001
+0,Aetna,33632,"payor Demo Address","Payor demo city","Payor demo state","Payor demo zip","city state zip",,,,,,,Yes,,,Demo,Demo,,09/16/2020,Yes,,asdasd,adasd,,demo,demo,AA,1234,(123)-456-7897,,,Yes,,demo,demo,AA,1234,,,,,,,,,,,,,,,,,Yes,,Yes,,,Yes,,,,,,,,,,,"signature of file ",08/17/2021,"signature of file ",,,,,,,"Employee Employee Four",12345678,,,,,,,0,asda,sdad,adsd,asd,,,,,,,,,,,12345678,
+08/26/2021,08/26/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+1,,777777777,1005,,,10.24,,,,08/17/2021,,,,"PROGRESSIVE BEHAVIORAL SCIENCE","3520 OAKS WAY #904",FL,"POMPANO BEACHFL",33069,33069,0123456789,,,"PROGRESSIVE BEHAVIORAL SCIENCE","3520 OAKS WAY #904","POMPANO BEACHFL",FL,33069,33069,(199)-787-7141,0123456789,,1005,2,0001
+0,Aetna,33632,"payor Demo Address","Payor demo city","Payor demo state","Payor demo zip","city state zip",,,,,,,Yes,,,Demo,Demo,,09/16/2020,Yes,,asdasd,adasd,,demo,demo,AA,1234,(123)-456-7897,,,Yes,,demo,demo,AA,1234,,,,,,,,,,,,,,,,,Yes,,Yes,,,Yes,,,,,,,,,,,"signature of file ",08/17/2021,"signature of file ",,,,,,,"Employee Employee Four",12345678,,,,,,,0,asda,sdad,adsd,asd,,,,,,,,,,,12345678,
+08/18/2021,08/18/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+08/23/2021,08/23/2021,03,,0002,1,1,1,1,ABCD,10.24,1.00,,,,87425487
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+1,,777777777,1006,,,20.48,,,,08/17/2021,,,,"PROGRESSIVE BEHAVIORAL SCIENCE","3520 OAKS WAY #904",FL,"POMPANO BEACHFL",33069,33069,0123456789,,,"PROGRESSIVE BEHAVIORAL SCIENCE","3520 OAKS WAY #904","POMPANO BEACHFL",FL,33069,33069,(199)-787-7141,0123456789,,1006,2,0001

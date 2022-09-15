@@ -1,0 +1,119 @@
+/*------------------------------
+Contant Page
+---------------------------------*/
+.iq-card {
+    min-height: 100vh;
+    overflow: auto;
+}
+.content-page {
+    margin-left: 0 !important;
+    padding: 20px;
+    border-radius: 0 !important;
+}
+.wrapper {
+    background: transparent;
+}
+.iq-header {
+    color: #fff;
+    padding: 10px;
+    background: linear-gradient(to right, rgba(8, 155, 171, 1) 0%, rgba(13, 181, 200, 1) 100%);
+    border-radius: 25px;
+    margin: 0 15px 15px;
+}
+.iq-header h5 {
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+.iq-header ul li,
+.iq-header ul li a {
+    color: #fff;
+}
+.iq-header ul li span {
+    font-weight: 600;
+}
+.iq-footer {
+    padding: 10px;
+    margin: 0 15px 0;
+}
+/*------------------------------
+Form
+---------------------------------*/
+.form-control {
+    height: 30px;
+    line-height: 30px;
+    padding: .25rem .5rem;
+    border-radius: 3px;
+}
+
+label {
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 0;
+}
+h6,
+h5 {
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 8px;
+}
+fieldset {
+    border: 1px solid #d5d5d5;
+    padding: 16px;
+}
+legend {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 0;
+    width: inherit;
+}
+/*------------------------------
+Table
+---------------------------------*/
+.c_table {
+    text-align: center;
+}
+.c_table thead {
+    color: #fff;
+    background: linear-gradient(to right, rgba(8, 155, 171, 1) 0%, rgba(13, 181, 200, 1) 100%);
+}
+.c_table thead th {
+    vertical-align: top;
+    border-bottom: none;
+}
+.c_table th,
+.c_table td {
+    font-size: 13px;
+    padding: 0 4px;
+    white-space: nowrap;
+}
+/*------------------------------
+Tabs
+---------------------------------*/
+.nav-tabs .nav-link.active {
+    border: 2px solid #089bab;
+    border-bottom: none;
+    color: #089bab;
+}
+/*------------------------------
+Button
+---------------------------------*/
+.btn {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 8px;
+    border-radius: 3px;
+}
+.daterangepicker .drp-buttons .btn{
+    padding: 0 8px;
+}
+/*------------------------------
+Company CSV
+---------------------------------*/
+.company_csv fieldset{
+    min-height: 200px;
+}
+.company_csv select.form-control[multiple]{
+    height: 150px;
+}

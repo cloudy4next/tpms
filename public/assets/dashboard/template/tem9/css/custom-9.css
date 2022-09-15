@@ -1,0 +1,829 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        ::placeholder {
+            font-size: 16px !important;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .mb_30 {
+            margin-bottom: 20px;
+        }
+
+        .mb_0 {
+            margin-bottom: 0px;
+        }
+
+        .mtb_10 {
+            margin: 10px auto;
+        }
+
+        .pvt-insurance {
+            width: 100%;
+            max-width: 1290px;
+            display: block;
+            margin: 0 auto;
+            padding: 30px 20px;
+            background: #207ac7;
+        }
+
+        .pvt-insurance .content {
+            border: 3px solid #fff;
+            padding: 20px;
+            background: #fff;
+        }
+
+        .pvt-insurance input,
+        .pvt-insurance textarea {
+            outline: none;
+            font-size: 15px;
+            color: #333;
+        }
+
+        .pvt-insurance table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .pvt-insurance h3 {
+            font-size: 17px;
+            margin: 0px;
+            font-weight: bold;
+            color: #207ac7;
+        }
+
+        .pvt-insurance .flex-div {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .pvt-insurance .flex-div .col-item {
+            width: 50%;
+        }
+
+        .pvt-insurance .flex-div .col-item:nth-child(1) {
+            padding-right: 15px;
+        }
+
+        .pvt-insurance .flex-div .col-item:nth-child(2) {
+            padding-left: 15px;
+        }
+
+        .pvt-insurance .input-area {
+            display: flex;
+        }
+
+        .pvt-insurance .input-area span {
+            flex: auto;
+        }
+
+        .pvt-insurance .input-area span:nth-child(1) {
+            max-width: max-content;
+            max-width: -moz-max-content;
+        }
+
+        .pvt-insurance .input-area span input {
+            width: 100%;
+            padding-left: 5px;
+            border: none;
+            border-bottom: 2px solid #207ac7;
+        }
+
+        .pvt-insurance .section_1 .input-area label,
+        .pvt-insurance .section_2 .input-area label {
+            font-style: italic;
+            color: #207ac7;
+        }
+
+        .pvt-insurance .flex-div.grade .col-item:nth-child(1) {
+            width: 30%;
+        }
+
+        .pvt-insurance .flex-div.grade .col-item:nth-child(2) {
+            width: 75%;
+        }
+
+        .pvt-insurance .flex-div.grade .col-item:nth-child(1) {
+            width: 25%;
+            padding-right: 0;
+        }
+
+        .pvt-insurance .flex-div.grade .col-item:nth-child(2) span:nth-child(3) {
+            margin-left: 10px;
+        }
+
+        .pvt-insurance .flex-div.grade .col-item:nth-child(2) span:nth-child(3) {
+            margin-left: 10px;
+            width: auto;
+            max-width: -moz-max-content;
+            max-width: max-content;
+        }
+
+        .pvt-insurance .box textarea {
+            width: 100%;
+            border: 2px solid #207ac7;
+            margin: 10px auto 0px;
+        }
+
+        .pvt-insurance .select-area ul {
+            margin: 5px auto 0px;
+            padding: 0;
+            display: flex;
+            width: 100%;
+            justify-content: flex-start;
+        }
+
+        .pvt-insurance .select-area ul li {
+            list-style: none;
+            width: auto;
+            max-width: -moz-max-content;
+            margin-right: 10px;
+        }
+
+        .pvt-insurance .select-area ul li input {
+            width: auto;
+            padding-right: 5px !important;
+        }
+
+        .pvt-insurance .select-area ul li input + label {
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .pvt-insurance .inner-main-title h2 {
+            text-align: center;
+            text-transform: uppercase;
+            color: #d9534f;
+            margin-top: 0;
+        }
+
+        .pvt-insurance .select-area ul li.flex-div {
+            display: flex;
+            width: 80% !important;
+            max-width: 100%;
+            margin-right: 0;
+        }
+
+        .pvt-insurance .select-area ul li.flex-div span:nth-child(2) {
+            width: auto;
+            float: left;
+            flex: auto;
+            padding-left: 10px;
+        }
+
+        .pvt-insurance .select-area ul li.flex-div span:nth-child(2) input {
+            width: 100%;
+            max-width: 100%;
+            border: none;
+            border-bottom: 2px solid #207ac7;
+        }
+
+        .pvt-insurance .font_600 {
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+
+        .pvt-insurance .font_600 .font-normal + input {
+            border: none;
+            border-bottom: 2px solid #333;
+        }
+
+        .pvt-insurance .font_600 .font-normal {
+            font-weight: 600 !important;
+        }
+
+        .pvt-insurance .select-area select {
+            width: 100%;
+            border: 2px solid #207ac7;
+            padding: 8px 1px;
+            margin: 10px auto 0px;
+        }
+
+        .pvt-insurance .table-box table td {
+            border: 2px solid #207ac7;
+            padding: 5px 10px;
+            width: 50%;
+        }
+
+        .pvt-insurance .table-box table td select {
+            width: 100%;
+            border: none;
+        }
+
+        .pvt-insurance .table-box table td input {
+            width: 100%;
+            margin: 5px 0px 4px;
+            border-bottom: 2px solid #207ac7;
+        }
+
+        .pvt-insurance .table-box table td input:not([type=checkbox]) {
+            border: none;
+        }
+
+        .pvt-insurance .table-box table td input[type=checkbox] {
+            min-width: 20px;
+        }
+
+        .pvt-insurance .table-box table td {
+            border: 2px solid #207ac7;
+            padding: 5px 10px;
+            width: 50%;
+            font-weight: 600;
+            vertical-align: middle;
+            font-size: 17px;
+        }
+
+        .pvt-insurance .table-box table td:nth-child(2) {
+            padding-right: 0;
+        }
+
+        .pvt-insurance .table-box table tr:nth-last-child(1) td:nth-child(2) {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .pvt-insurance .table-box table tr:nth-last-child(1) td:nth-child(2) select {
+            padding-left: 10px;
+        }
+
+        .pvt-insurance .table-box table tr:nth-last-child(1) td:nth-child(2) .font_600 {
+            padding-left: 10px;
+        }
+
+        .pvt-insurance .table-box table tr:nth-last-child(1) td:nth-child(2) input {
+            width: 100%;
+            margin: 0 0% 10px;
+            text-align: left;
+            padding-left: 15px;
+            padding-top: 10px;
+        }
+
+        .pvt-insurance .table-box table tr:nth-last-child(1) td:nth-child(2) .font_600 {
+            padding-left: 15px;
+            margin-top: 5px;
+            border-top: 2px solid #207ac7;
+            padding-top: 7px;
+        }
+
+        .pvt-insurance .table-box table {
+            margin: 15px auto 0px;
+        }
+
+        .pvt-insurance .section_5 .select-area p {
+            flex: auto;
+        }
+
+        .pvt-insurance .section_5 .select-area p.font_600 {
+            margin-top: 10px;
+            max-width: -moz-max-content;
+        }
+
+        .pvt-insurance .section_5 .select-area p span textarea {
+            margin-top: 0;
+        }
+
+        .pvt-insurance .section_5 .select-area p span input {
+            border: none;
+            border-bottom: 2px solid #207ac7;
+            padding: 0;
+        }
+
+        .pvt-insurance .section_5 .pvt-insurance .flex-div > p {
+            flex: auto;
+        }
+
+        .pvt-insurance .section_5 .pvt-insurance .flex-div > p.font_600 {
+            max-width: -moz-max-content;
+            margin-right: 0px;
+        }
+
+        .pvt-insurance .section_5 .select-area p.font_600 + p {
+            padding: 0px 5px;
+        }
+
+        .bracket {
+            color: #d9534f;
+            font-size: 13px;
+            text-transform: initial;
+            font-weight: normal;
+            font-style: italic;
+        }
+
+        .section_7 .table-box table td,
+        .section_7 .table-box table th {
+            width: 33.3%;
+            border: 2px solid #207ac7;
+            padding: 5px 10px;
+            font-weight: 600;
+            vertical-align: middle;
+        }
+
+        .section_7 .table-box table th {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .section_7 .table-box table th:nth-child(2) {
+            padding-right: 0;
+        }
+
+        .section_7 .table-box table th select {
+            width: 100%;
+            border: none;
+            padding: 0px;
+        }
+
+        .pvt-insurance .section_7 .table-box table td input:not([type=checkbox]) {
+            border: none;
+        }
+
+        .section_7 .table-box table td:nth-child(2) {
+            padding-left: 10px !important;
+        }
+
+        .section_7 .table-box table td:nth-child(2) select {
+            padding-left: 0px !important;
+        }
+
+        .section_8 .table-box th,
+        .section_8 .table-box td {
+            border: 2px solid #207ac7;
+            padding: 7px;
+        }
+
+        .section_8 .table-box th,
+        .section_8 .table-box td {
+            border: 2px solid #207ac7;
+            padding: 7px 10px !important;
+            width: auto !important;
+        }
+
+        .section_8 .table-box td .chekmark {
+            float: left;
+            margin-right: 10px;
+        }
+
+        .section_8 .inner-main-title h2 {
+            margin: 0px;
+            font-size: 20px;
+        }
+
+        .section_8 .table-box {
+            margin: 40px auto 60px;
+        }
+
+        .pvt-insurance .section_2 label.font-normal {
+            font-weight: 600;
+        }
+
+        .section_2 .box2 .select-area ul + span {
+            margin: 10px auto 0px;
+            display: flex;
+        }
+
+        .section_2 .box2 .select-area ul + span + span {
+            width: 100%;
+            display: block;
+        }
+
+        .section_2 .box2 .select-area ul + span + span input {
+            width: 100%;
+            padding: 7px 10px;
+            border: 2px solid #207ac7;
+            margin: 10px auto 0px;
+        }
+
+        .pvt-insurance .flex-div .col-item:nth-child(1) {
+            padding-right: 15px;
+            margin: 0px auto 15px;
+        }
+
+        .pvt-insurance .flex-div.grade .col-item:nth-child(2) .input-area {
+            row-gap: 10px;
+        }
+
+        .section_4 .font_600 .font-normal {
+            width: 100%;
+            display: block;
+            margin: 15px auto 0px;
+        }
+
+        .section_4 .font_600 input {
+            margin: 0px auto 0px;
+            border: 2px solid #207ac7 !important;
+        }
+
+        .section_4 .font_600 .font-normal + input {
+            width: 100%;
+            margin: 10px auto 0px;
+            padding: 5px 10px;
+            border: 2px solid #207ac7 !important;
+        }
+
+        /*----------------bottom button css start................*/
+        .pvt-insurance label,
+        .pvt-insurance h3 {
+            font-size: 17px;
+            margin: 0px;
+            font-weight: bold;
+        }
+
+        .pvt-insurance .section_bottom .flex-div.button-row {
+            margin: 30px auto 0px;
+            justify-content: space-between;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .pvt-insurance .section_bottom .flex-div.button-row div {
+            flex: auto;
+            max-width: max-content;
+            width: auto;
+        }
+
+        .pvt-insurance .section_bottom .flex-div.button-row div a,
+        .pvt-insurance .section_bottom .flex-div.button-row div button {
+            padding: 11px 20px;
+            font-size: 17px;
+            display: block;
+            text-align: center;
+            border-radius: 10px;
+            border: 2px solid #ddd;
+            text-decoration: none;
+            color: #000;
+            font-weight: 600;
+        }
+
+        .pvt-insurance .section_bottom .flex-div.button-row div a i.fas,
+        .pvt-insurance .section_bottom .flex-div.button-row div button i.fas {
+            margin-right: 6px;
+        }
+
+        .pvt-insurance .section_bottom .mark-sign a {
+            background: #5cb85c;
+            color: #fff !important;
+        }
+
+        .pvt-insurance .section_bottom .flex-div.button-row div.cancel button {
+            background: #d9534f;
+            color: #fff;
+        }
+
+        .pvt-insurance .section_bottom .flex-div:nth-child(1) .col-item:nth-last-child(1) {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .input-box input {
+            width: 100%;
+            border: 2px solid #207ac7;
+            padding: 8px 10px;
+        }
+
+        .logo {
+            margin: 0;
+            text-align: left;
+            display: block;
+            padding: 0px 0px 0px;
+        }
+
+        .logo img {
+            width: 100%;
+            max-width: 250px;
+        }
+
+        .info-details {
+            text-align: left;
+            float: right;
+            width: 100%;
+            max-width: 320px;
+        }
+
+        .info-details p {
+            margin: 0;
+            font-size: 17px;
+            color: #000;
+            line-height: 24px;
+        }
+
+        .info-details p {
+            color: #d9534f !important;
+            font-size: 17px !important;
+        }
+
+        .info-details ul {
+            margin: 0px auto 0px;
+            padding: 0;
+            display: block;
+        }
+
+        .info-details ul li {
+            list-style: none;
+            font-size: 17px;
+            color: #000;
+            margin-bottom: 5px;
+        }
+
+        .info-details ul li span,
+        .info-details ul li a span {
+            font-weight: 700;
+            color: #207ac7;
+            margin-right: 5px;
+        }
+
+        .info-details ul li a {
+            color: #000;
+            text-decoration: none;
+            transition: 0.5s all ease-in-out;
+        }
+
+        .page-title h1 {
+            margin-top: 0px;
+            text-align: center;
+            color: #d9534f;
+            font-size: 30px;
+            text-transform: uppercase;
+            max-width: max-content;
+            margin: 0 auto;
+            position: relative;
+            padding: 0px 0px 15px;
+            font-weight: bold;
+        }
+
+        .footer-section {
+            margin: 50px auto 0px;
+            box-shadow: 0px -5px 6px -4px #ccc;
+            padding: 20px 0px;
+        }
+
+        .footer-section .flex-div {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footer-section .flex-div .col-item:nth-child(2) p {
+            text-align: right;
+        }
+
+        .footer-section .flex-div .col-item {
+            flex: auto;
+            width: auto;
+        }
+
+        .footer-section .flex-div .col-item p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        .footer-section .flex-div .col-item p a {
+            color: #207ac7;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .flex-div.row-flex:nth-child(2) .col-item:nth-child(2) {
+            width: 14%;
+        }
+
+        .section_bottom .flex-div span:nth-child(1) {
+            width: auto;
+        }
+
+        .save-prog button {
+            background: #483D8B;
+            color: #fff !important;
+        }
+
+        .print button {
+            background: #467fd0;
+            color: #fff !important;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .mb_30 {
+                margin-bottom: 15px;
+            }
+
+            ::placeholder {
+                font-size: 14px !important;
+            }
+
+            .pvt-insurance {
+                padding: 20px 15px;
+            }
+
+            .pvt-insurance .content {
+                border: 1px solid #fff;
+                padding: 10px;
+            }
+
+            .pvt-insurance label,
+            .pvt-insurance h3 {
+                font-size: 14px;
+                margin: 0px;
+                font-weight: bold;
+            }
+
+            .pvt-insurance .inner-main-title h1 {
+                font-size: 17px;
+            }
+
+            .pvt-insurance .flex-div .col-item {
+                width: 100%;
+                padding: 0 !important;
+            }
+
+            .pvt-insurance .flex-div {
+                flex-direction: column;
+            }
+
+            .pvt-insurance .input-area {
+                flex-direction: column;
+            }
+
+            .pvt-insurance .flex-div.grade .col-item:nth-child(1) {
+                width: 100%;
+            }
+
+            .pvt-insurance .flex-div.grade .col-item:nth-child(2) {
+                width: 100%;
+            }
+
+            .pvt-insurance .flex-div.grade .col-item:nth-child(2) span:nth-child(3) {
+                margin-left: 0px;
+            }
+
+            .pvt-insurance .box textarea {
+                max-height: 60px;
+            }
+
+            .pvt-insurance .inner-main-title h2 {
+                font-size: 18px;
+            }
+
+            .pvt-insurance .table-box table td {
+                border: 2px solid #207ac7;
+                padding: 5px 10px;
+                width: 50%;
+                font-weight: 600;
+                vertical-align: middle;
+                font-size: 14px;
+            }
+
+            .section_4 .box.table-box table tr td:nth-child(1) {
+                width: 75%;
+            }
+
+            .pvt-insurance .section_5 .select-area p.font_600 + p {
+                padding: 0px 5px;
+                margin: 7px 0;
+            }
+
+            .section_8 .table-box {
+                margin: 40px auto 60px;
+                width: 100%;
+                overflow: auto;
+            }
+
+            .pvt-insurance .section_bottom > div {
+                flex-direction: row !important;
+                row-gap: 10px !important;
+                column-gap: 10px;
+            }
+
+            .section_8 .table-box {
+                margin: 0px auto 0px;
+                width: 100%;
+                overflow: auto;
+            }
+
+            .section_7 .table-box table td,
+            .section_7 .table-box table th {
+                font-size: 14px;
+            }
+
+            .pvt-insurance .section_bottom .flex-div.button-row div a {
+                padding: 8px 10px;
+                font-size: 14px;
+                border: 1px solid #ddd;
+            }
+
+            .pvt-insurance .section_bottom .flex-div.button-row {
+                justify-content: space-evenly;
+            }
+
+            .pvt-insurance .section_bottom {
+                margin: 50px auto 20px;
+            }
+
+            .font_600 .font-normal + input {
+                border: none !important;
+                border-bottom: 2px solid #333;
+            }
+
+            .logo img {
+                max-width: 250px;
+            }
+
+            .section_bottom {
+                margin: 0px auto 0px;
+            }
+
+            .section_bottom .flex-div.button-row {
+                flex-direction: row;
+                justify-content: center;
+                row-gap: 15px;
+                column-gap: 15px;
+            }
+
+            .section_bottom .flex-div.button-row div a {
+                padding: 10px 14px;
+                font-size: 14px;
+            }
+
+            .footer-section .flex-div {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+            }
+
+            .footer-section .flex-div .col-item p {
+                font-size: 14px;
+                text-align: center;
+            }
+
+            .footer-section .flex-div .col-item:nth-child(2) p {
+                text-align: center;
+                font-size: 14px;
+            }
+
+            .footer-section .flex-div {
+                flex-direction: column;
+                row-gap: 10px;
+            }
+
+            .footer-section {
+                margin: 40px auto 0px;
+                box-shadow: 0px -5px 6px -4px #ccc;
+                padding: 20px 0px 0px;
+            }
+
+            section .box.box-last_2 {
+                margin-top: 10px;
+            }
+
+            section .box.box-last_2 .flex-div {
+                column-gap: 0px;
+            }
+
+            /*------------------header responsive css ----------------*/
+            .logo {
+                text-align: center;
+            }
+
+            .flex-div {
+                align-items: center;
+                padding: 0px 15px 15px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .flex-div .col-item {
+                width: 100%;
+                margin: 0px auto 20px;
+            }
+
+            .flex-div .info-details {
+                text-align: center;
+                float: none;
+                width: 100%;
+                max-width: 320px;
+                margin: 0 auto;
+            }
+
+            .col-item:nth-child(2) {
+                width: 100% !important;
+            }
+
+            .col-item .info-details ul li {
+                font-size: 14px;
+            }
+
+            .page-title h1 {
+                font-size: 17px;
+                padding: 0px 0px 1
+            }
+        }

@@ -1,0 +1,514 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        ::placeholder {
+            font-size: 16px !important;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .out-patient-treatment textarea {
+            resize: vertical;
+        }
+
+        .out-patient-treatment {
+            width: 100%;
+            max-width: 1290px;
+            display: block;
+            margin: 0 auto;
+            padding: 30px 20px;
+            background: #207ac7;
+        }
+
+
+        .out-patient-treatment .content {
+            border: 3px solid #fff;
+            padding: 20px;
+            background: #fff;
+        }
+
+        .out-patient-treatment .column {
+            margin-bottom: 0px;
+        }
+
+        .out-patient-treatment .colitem-1.column {
+            margin-bottom: 0px;
+            display: flex;
+            column-gap: 3%;
+        }
+
+        .out-patient-treatment .flex-div {
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            column-gap: 40px;
+        }
+
+        .out-patient-treatment .flex-div > div {
+            width: 50%;
+        }
+
+        .out-patient-treatment label,
+        .out-patient-treatment h3 {
+            font-size: 17px;
+            margin: 0px;
+            font-weight: bold;
+            color: #000;
+        }
+
+        .out-patient-treatment input {
+            border: none;
+            outline: none;
+            font-size: 15px;
+            color: #333;
+        }
+
+        .out-patient-treatment .sr-number {
+            font-weight: bold;
+            font-size: 17px;
+            margin-right: 5px;
+            color: #000;
+            width: 30px;
+            display: inline-block;
+            text-align: right;
+        }
+
+        .out-patient-treatment .inner > div.sr-number {
+            width: 30px;
+            text-align: right;
+        }
+
+        .out-patient-treatment .inner > div .fill-area {
+            margin: 15px 0px 0px;
+        }
+
+        .out-patient-treatment .inner > div .fill-area input,
+        .out-patient-treatment .inner > div .fill-area textarea {
+            width: 100%;
+            border: 2px solid #207ac7;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .out-patient-treatment .inner {
+            display: flex;
+        }
+
+        .out-patient-treatment .column .inner {
+            width: 100%;
+        }
+
+        .out-patient-treatment .inner > div {
+            width: 100%;
+        }
+
+        .out-patient-treatment .column {
+            margin-bottom: 0px;
+        }
+
+        .out-patient-treatment .inner .lable-text {
+            width: 100%;
+            max-width: max-content;
+            margin-right: 10px;
+            max-width: 120px;
+        }
+
+        .out-patient-treatment .inner .lable-text p {
+            margin: 0;
+        }
+
+        .out-patient-treatment .inner > div .inner {
+            align-items: center;
+            margin: 20px auto 0px;
+        }
+
+        .out-patient-treatment .inner > div .inner .fill-area input {
+            padding: 8px 10px;
+        }
+
+        .out-patient-treatment .inner .lable-text + .fill-area {
+            margin: 0;
+        }
+
+
+        @media only screen and (max-width: 768px) {
+            .out-patient-treatment::placeholder {
+                font-size: 14px !important;
+            }
+
+            .out-patient-treatment .flex-div {
+                margin-bottom: 20px;
+                flex-direction: column;
+                row-gap: 20px;
+            }
+
+            .out-patient-treatment .flex-div > div {
+                width: 100%;
+            }
+
+            input::placeholder,
+            textarea::placeholder {
+                font-size: 13px !important;
+                color: #aeaeae !important;
+                opacity: 1;
+            }
+
+            .out-patient-treatment {
+                padding: 20px 15px;
+            }
+
+            .out-patient-treatment .page-title h1 {
+                font-size: 20px;
+            }
+
+            .out-patient-treatment .content {
+                border: 1px solid #fff;
+                padding: 10px;
+            }
+
+            .out-patient-treatment label,
+            .out-patient-treatment h3 {
+                font-size: 14px;
+            }
+
+            .out-patient-treatment .inner > div.sr-number,
+            .out-patient-treatment .sr-number {
+                width: 30px;
+                text-align: left;
+            }
+
+            .out-patient-treatment .inner .lable-text p {
+                margin: 0;
+                font-size: 14px;
+            }
+
+            .out-patient-treatment .sr-number {
+                font-size: 14px;
+                width: 20px;
+            }
+
+            .out-patient-treatment .inner > div .fill-area {
+                margin: 10px 0px 0px;
+            }
+
+            .out-patient-treatment .inner > div .inner {
+                margin: 15px auto 0px;
+                flex-direction: column;
+            }
+
+            .out-patient-treatment .inner .lable-text {
+                max-width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .out-patient-treatment .inner > div .inner .fill-area input {
+                padding: 5px 10px;
+            }
+
+            .out-patient-treatment .content {
+                border: 1px solid #fff;
+                padding: 25px 15px 25px;
+            }
+
+            .out-patient-treatment .logo img {
+                max-width: 250px;
+            }
+
+            .out-patient-treatment .section_bottom {
+                margin: 0px auto 0px;
+            }
+
+            .out-patient-treatment .section_bottom .flex-div.button-row {
+                flex-direction: row;
+                justify-content: center;
+                row-gap: 15px;
+                column-gap: 15px;
+            }
+
+            .out-patient-treatment .section_bottom .flex-div.button-row div a {
+                padding: 10px 14px;
+                font-size: 14px;
+            }
+
+            .out-patient-treatment.footer-section .flex-div {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+            }
+
+            .out-patient-treatment .footer-section .flex-div .col-item p {
+                font-size: 14px;
+                text-align: center;
+            }
+
+            .out-patient-treatment .footer-section .flex-div .col-item:nth-child(2) p {
+                text-align: center;
+                font-size: 14px;
+            }
+
+            .out-patient-treatment .footer-section .flex-div {
+                flex-direction: column;
+                row-gap: 10px;
+            }
+
+            .out-patient-treatment .footer-section {
+                margin: 40px auto 0px;
+                box-shadow: 0px -5px 6px -4px #ccc;
+                padding: 20px 0px 0px;
+            }
+
+            .out-patient-treatment section .box.box-last_2 {
+                margin-top: 10px;
+            }
+
+            .out-patient-treatment section .box.box-last_2 .flex-div {
+                column-gap: 0px;
+            }
+
+            /*------------------header responsive css ----------------*/
+            .out-patient-treatment .logo {
+                text-align: center;
+            }
+
+            .out-patient-treatment .flex-div {
+                align-items: center;
+                padding: 0px 15px 15px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .out-patient-treatment .flex-div .col-item {
+                width: 100%;
+                margin: 0px auto 20px;
+            }
+
+            .out-patient-treatment .flex-div .info-details {
+                text-align: center;
+                float: none;
+                width: 100%;
+                max-width: 320px;
+                margin: 0 auto;
+            }
+
+            .out-patient-treatment .col-item:nth-child(2) {
+                width: 100% !important;
+            }
+
+            .out-patient-treatment .col-item .info-details ul li {
+                font-size: 14px;
+            }
+
+            .out-patient-treatment .page-title h1 {
+                font-size: 17px;
+                padding: 0px 0px 1
+            }
+        }
+
+        .logo {
+            margin: 0;
+            text-align: left;
+            display: block;
+            padding: 0px 0px 0px;
+        }
+
+        .logo img {
+            width: 100%;
+            max-width: 250px;
+        }
+
+        .info-details {
+            text-align: left;
+            float: right;
+            width: 100%;
+            max-width: 320px;
+        }
+
+        .info-details p {
+            margin: 0;
+            font-size: 17px;
+            color: #000;
+            line-height: 24px;
+        }
+
+        .info-details p {
+            color: #d9534f !important;
+            font-size: 17px !important;
+        }
+
+        .info-details ul {
+            margin: 0px auto 0px;
+            padding: 0;
+            display: block;
+        }
+
+        .info-details ul li {
+            list-style: none;
+            font-size: 17px;
+            color: #000;
+            margin-bottom: 5px;
+        }
+
+        .info-details ul li span,
+        .info-details ul li a span {
+            font-weight: 700;
+            color: #207ac7;
+            margin-right: 5px;
+        }
+
+        .info-details ul li a {
+            color: #000;
+            text-decoration: none;
+            transition: 0.5s all ease-in-out;
+        }
+
+        .page-title h1 {
+            margin-top: 0px;
+            text-align: center;
+            color: #d9534f;
+            font-size: 30px;
+            text-transform: uppercase;
+            max-width: max-content;
+            margin: 0 auto;
+            position: relative;
+            padding: 0px 0px 15px;
+            font-weight: bold;
+        }
+
+        .page-title h2 {
+            text-transform: uppercase;
+            max-width: max-content;
+            margin: 0 auto;
+            position: relative;
+            padding: 0px 0px 15px;
+            font-weight: bold;
+            font-size: 17px;
+            border-bottom: 3px solid;
+            color: #d9534f;
+        }
+
+        /*----------------footer button css start................*/
+        .section_bottom {
+            margin: 60px auto 0px;
+            width: 100%;
+        }
+
+        .section_bottom label,
+        .section_bottom table tr td,
+        .section_bottom h3 {
+            font-size: 17px;
+            margin: 0px;
+            font-weight: bold;
+        }
+
+        .checkbox-area ul li label {
+            font-weight: 600;
+        }
+
+        .section_bottom .flex-div.button-row {
+            margin: 30px auto 0px;
+            justify-content: space-between;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .section_bottom .flex-div.button-row div {
+            flex: auto;
+            max-width: max-content;
+            width: auto;
+        }
+
+        .section_bottom .flex-div.button-row div a,
+        .section_bottom .flex-div.button-row div button {
+            padding: 11px 20px;
+            font-size: 17px;
+            display: block;
+            text-align: center;
+            border-radius: 10px;
+            border: 2px solid #ddd;
+            text-decoration: none;
+            color: #000;
+            font-weight: 600;
+        }
+
+        .section_bottom .flex-div.button-row div a i.fas,
+        .section_bottom .flex-div.button-row div button i.fas {
+            margin-right: 6px;
+        }
+
+        .section_bottom .mark-sign a {
+            background: #5cb85c;
+            color: #fff !important;
+        }
+
+        .section_bottom .flex-div.button-row div.cancel button {
+            background: #d9534f;
+            color: #fff;
+        }
+
+        .section_bottom .flex-div:nth-child(1) .col-item:nth-last-child(1) {
+            display: flex;
+            flex-direction: column;
+        }
+
+
+        /*========================footer bottom===========================*/
+        .footer-section {
+            margin: 50px auto 0px;
+            box-shadow: 0px -5px 6px -4px #ccc;
+            padding: 20px 0px;
+        }
+
+        .footer-section .flex-div {
+            display: flex;
+            justify-content: space-between;
+            column-gap: 0px;
+        }
+
+        .footer-section .flex-div .col-item:nth-child(2) p {
+            text-align: right;
+        }
+
+        .footer-section .flex-div .col-item {
+            flex: auto;
+            width: auto;
+        }
+
+        .footer-section .flex-div .col-item p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        .footer-section .flex-div .col-item p a {
+            color: #207ac7;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .flex-div2.row-flex:nth-child(2) .col-item:nth-child(2) {
+            width: 14%;
+        }
+
+        .section_bottom .flex-div span:nth-child(1) {
+            width: auto;
+        }
+
+        .save-prog button {
+            background: #483D8B;
+            color: #fff !important;
+        }
+
+        .print button {
+            background: #467fd0;
+            color: #fff !important;
+        }

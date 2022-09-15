@@ -1,0 +1,3 @@
+﻿Patient,"Billing Provider","Treating Therapist",Insurance,Service,DOS,Cpt,POS,M1,M2,M3,M4,Amount,Units,Status
+"SR  Tusher","Josef Traina Iliga","Jhon Sina Deo","Anthem Blue Cross","speech service 1 speech sub type 3(0.25 Hrs)",03/01/2022,0003,03,1,1,1,1,10.00," 1.00 ","Ready To Bill"
+"SR  Tusher","Josef Traina Iliga","Jhon Sina Deo","Anthem Blue Cross","speech service 1 speech sub type 3(0.25 Hrs)",03/02/2022,0003,03,1,1,1,1,10.00," 1.00 ","Ready To Bill"

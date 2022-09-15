@@ -1,0 +1,676 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+::placeholder {
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-content .content {
+    padding: 0 15px 10px 15px;
+    margin-top: 0px;
+}
+
+.parent-training {
+    width: 100%;
+    max-width: 1280px;
+    display: block;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background: #207ac7;
+}
+
+.mb_40 {
+    margin-bottom: 40px;
+}
+
+.mb_30 {
+    margin-bottom: 20px;
+}
+
+.mb_0 {
+    margin-bottom: 0px;
+}
+
+.mtb_10 {
+    margin: 10px auto;
+}
+
+.mb_15 {
+    margin-bottom: 15px !important;
+}
+
+.red {
+    color: #d9534f;
+}
+
+/* checkbox css */
+.parent-training .checkbox {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.parent-training .checkbox .check-container {
+    display: block;
+    position: relative;
+    padding-left: 23px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.parent-training .check-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.parent-training .check-container .checkmark {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    height: 23px;
+    width: 23px;
+    border: 2px solid #2ad184;
+}
+
+.parent-training .check-container input:checked~.checkmark {
+    background-color: #fff;
+}
+
+.parent-training .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.parent-training .check-container input:checked~.checkmark:after {
+    display: block;
+}
+
+.parent-training .check-container .checkmark::after {
+    left: -4px;
+    top: 2px;
+    width: 28px;
+    height: 23px;
+    background: url("../images/chekmark.png") no-repeat scroll center top / 70%;
+}
+
+/* checkbox css end */
+.parent-training .parent-training input[type="radio"] {
+    width: auto;
+}
+
+.parent-training .page-title h1,.parent-training .page-title h2 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+
+.parent-training .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+/*=====================header css Start=======================*/
+.parent-training header {
+    background: #fff;
+    padding: 20px 20px 0px;
+    border-bottom: 0px solid #207ac7;
+}
+
+.parent-training header .flex-div {
+    align-items: center;
+    padding: 0px 15px 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    display: flex;
+}
+
+.parent-training header .flex-div .col-item {
+    width: 50%;
+}
+
+.parent-training header .logo {
+    margin: 0;
+    text-align: left;
+    display: block;
+    padding: 0px 0px 0px;
+}
+
+.parent-training header .logo img {
+    width: 100%;
+    max-width: 250px;
+}
+
+.parent-training header .col-item:nth-child(2) {
+    width: 50% !important;
+}
+
+.parent-training header .col-item h1 {
+    font-size: 28px;
+    text-align: center;
+    color: #207ac7;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.parent-training header .flex-div .info-details {
+    text-align: left;
+    float: right;
+    width: 100%;
+    max-width: 320px;
+}
+
+.parent-training header .col-item .info-details p {
+    margin: 0;
+    font-size: 17px;
+    color: #000;
+    line-height: 24px;
+}
+
+.parent-training header .info-details p {
+    color: #d9534f !important;
+    font-size: 17px !important;
+}
+
+.parent-training header .col-item .info-details ul {
+    margin: 0px auto 0px;
+    padding: 0;
+    display: block;
+}
+
+.parent-training header .col-item .info-details ul li {
+    list-style: none;
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.parent-training header .col-item .info-details ul li span,
+.parent-training header .col-item .info-details ul li a span {
+    font-weight: 700;
+    color: #207ac7;
+    margin-right: 5px;
+}
+
+.parent-training header .col-item .info-details ul li a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.5s all ease-in-out;
+}
+
+/*=================header css end===============*/
+.parent-training table input {
+    border: none;
+    outline: none;
+}
+
+.parent-training table tr td input {
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.parent-training table tr:nth-child(2) td:nth-child(1) {
+    width: 20%;
+}
+
+.parent-training table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.parent-training table tr th,
+.parent-training table tr td {
+    border: 2px solid #207ac7;
+    padding: 7px 10px;
+    width: auto;
+    max-width: max-content;
+}
+
+.parent-training table tr th {
+    font-weight: bold;
+    color: #fff;
+    background: #207ac7;
+    border: 2px solid #4799e0;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.parent-training .checkbox-area ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.parent-training .checkbox-area ul li {
+    list-style: none;
+    flex: auto;
+    max-width: max-content;
+    margin-right: 20px;
+}
+
+.parent-training .checkbox-area ul li input {
+    width: auto !important;
+}
+
+.parent-training .select-area label {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+}
+
+.parent-training table tr td input["date"] {
+    width: auto;
+    max-width: max-content;
+}
+
+.parent-training table tr td input[type="date"],
+.parent-training table tr td input[type="time"] {
+    width: auto;
+}
+
+.parent-training textarea {
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    resize: vertical;
+}
+
+.parent-training input,
+.parent-training textarea {
+    outline: none;
+    font-size: 16px;
+    color: #333;
+}
+
+.parent-training h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+    color: #207ac7;
+}
+
+.parent-training h3,
+.parent-training h3 label {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.parent-training .page-title h1 {
+    margin-top: 0px;
+    text-align: center;
+    color: #d9534f;
+    font-size: 30px;
+    text-transform: uppercase;
+    max-width: max-content;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 0px 15px;
+    font-weight: bold;
+}
+
+.parent-training .page-title h1::after {
+    position: absolute;
+    bottom: 0px;
+    border-bottom: 5px solid #d9534f;
+    width: 20%;
+    height: 5px;
+    content: "";
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.parent-training .content {
+    border: 0px solid #fff;
+    padding: 0px 20px 20px;
+    background: #fff;
+}
+
+/*----------------footer button css start................*/
+.parent-training .section_bottom {
+    margin: 60px auto 0px;
+    width: 100%;
+}
+
+.parent-training label,
+.parent-training table tr td,
+.parent-training h3 {
+    font-size: 17px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.parent-training .checkbox-area ul li label {
+    font-weight: 600;
+}
+
+.parent-training .section_bottom .flex-div.button-row {
+    margin: 30px auto 0px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.parent-training .section_bottom .flex-div.button-row div {
+    flex: auto;
+    max-width: max-content;
+    width: auto;
+}
+
+.parent-training .section_bottom .flex-div.button-row div a,
+.parent-training .section_bottom .flex-div.button-row div button {
+    padding: 11px 20px;
+    font-size: 17px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.parent-training .section_bottom .flex-div.button-row div a i.fas,
+.parent-training .section_bottom .flex-div.button-row div button i.fas {
+    margin-right: 6px;
+}
+
+.parent-training .section_bottom .mark-sign a {
+    background: #5cb85c;
+    color: #fff !important;
+}
+
+.parent-training .section_bottom .flex-div.button-row div.cancel button {
+    background: #d9534f;
+    color: #fff;
+}
+
+.parent-training .section_bottom .flex-div:nth-child(1) .col-item:nth-last-child(1) {
+    display: flex;
+    flex-direction: column;
+}
+
+/*========================footer bottom===========================*/
+.parent-training .footer-section {
+    margin: 50px auto 0px;
+    box-shadow: 0px -5px 6px -4px #ccc;
+    padding: 20px 0px;
+}
+
+.parent-training .footer-section .flex-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parent-training .footer-section .flex-div .col-item:nth-child(2) p {
+    text-align: right;
+}
+
+.parent-training .footer-section .flex-div .col-item {
+    flex: auto;
+    width: auto;
+}
+
+.parent-training .footer-section .flex-div .col-item p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.parent-training .footer-section .flex-div .col-item p a {
+    color: #207ac7;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.parent-training .flex-div.row-flex:nth-child(2) .col-item:nth-child(2) {
+    width: 14%;
+}
+
+.parent-training .section_bottom .flex-div span:nth-child(1) {
+    width: auto;
+}
+
+/*----------------content css start................*/
+.parent-training table .flex-div {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+}
+
+.parent-training table .flex-div span {
+    flex: auto;
+}
+
+.parent-training table .flex-div span:nth-child(1) {
+    max-width: max-content;
+}
+
+.parent-training .section_1 table tr td:nth-child(1) {
+    width: auto;
+}
+
+.parent-training .textarea-part .textarea {
+    width: 100%;
+    margin: 10px auto 0px;
+}
+
+.parent-training .textarea-part .textarea textarea {
+    width: 100%;
+    border: 2px solid #5cb85c;
+}
+
+.parent-training section .holder-div input[type="date"] {
+    margin: 0 auto;
+}
+
+.parent-training h3 {
+    text-transform: uppercase;
+}
+
+.parent-training .textarea-part .textarea textarea {
+    width: 100%;
+    border: 2px solid #5cb85c;
+}
+
+.parent-training .red {
+    color: #d9534f;
+    font-style: italic;
+}
+
+.parent-training .section_2 table tr td:nth-child(1) {
+    margin: 0 auto;
+    text-align: left;
+    width: auto;
+}
+
+.parent-training .section_2 table tr td:nth-child(1) input {
+    width: auto;
+}
+
+.parent-training .textarea textarea {
+    width: 100%;
+    border: 2px solid #207ac7;
+}
+
+/*----------------content css End................*/
+@media only screen and (max-width: 768px) {
+
+    /*------------------common responsive css----------------*/
+    .card-body {
+        padding: 10px;
+    }
+
+    .parent-training .main-content .col-xl-12 {
+        padding: 0;
+    }
+
+    .parent-training .parent-training .section_1 tr td {
+        display: block;
+        width: 100% !important;
+        max-width: 100%;
+        border-top: none;
+    }
+
+    .parent-trainingparent-training .section_1 tr:nth-child(1) td:nth-child(1) {
+        border-top: 2px solid #207ac7;
+    }
+
+    .parent-training header .logo img {
+        max-width: 250px;
+    }
+
+    .parent-training .section_bottom {
+        margin: 0px auto 0px;
+    }
+
+    .parent-training .section_bottom .flex-div.button-row {
+        flex-direction: row;
+        justify-content: center;
+        row-gap: 15px;
+        column-gap: 15px;
+    }
+
+    .parent-training .section_bottom .flex-div.button-row div a {
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+
+    .parent-training .footer-section .flex-div {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .parent-training .footer-section .flex-div .col-item p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .parent-training .footer-section .flex-div .col-item:nth-child(2) p {
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .parent-training .footer-section .flex-div {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .parent-training .footer-section {
+        margin: 40px auto 0px;
+        box-shadow: 0px -5px 6px -4px #ccc;
+        padding: 20px 0px 0px;
+    }
+
+    /*------------------header responsive css ----------------*/
+    .parent-training header .flex-div {
+        align-items: center;
+        padding: 0px 15px 15px;
+        box-sizing: border-box;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parent-training header .flex-div .col-item {
+        width: 100%;
+        margin: 0px auto 20px;
+    }
+
+    .parent-training header .flex-div .info-details {
+        text-align: center;
+        float: none;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .parent-training header .col-item:nth-child(2) {
+        width: 100% !important;
+    }
+
+    .parent-training .page-title h1 {
+        font-size: 17px;
+        padding: 0px 0px 15px;
+    }
+
+    .parent-training label,
+    .parent-training table tr td,
+    .parent-training h3 {
+        font-size: 14px;
+    }
+
+    .parent-training section {
+        width: auto;
+        overflow: auto;
+    }
+
+    .parent-training header .col-item .info-details ul li {
+        font-size: 14px;
+    }
+
+    .parent-training header .logo {
+        text-align: center;
+    }
+
+    .parent-training .mb_40 {
+        margin-bottom: 20px;
+    }
+
+    .parent-training .textarea textarea {
+        max-height: 70px;
+    }
+
+    .parent-training .red {
+        color: #d9534f;
+        font-size: 14px;
+    }
+}
+
+.save-prog button {
+    background: #483D8B;
+    color: #fff !important;
+}
+
+.print button {
+    background: #467fd0;
+    color: #fff !important;
+}

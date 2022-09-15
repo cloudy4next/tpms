@@ -1,0 +1,454 @@
+/*
+Template: XRay - Responsive Bootstrap 4 Admin Dashboard Template
+Author: iqonicthemes.in
+Design and Developed by: iqonicthemes.in
+NOTE: This file contains the styling for responsive Template.
+*/
+/*================================================
+[  Table of contents  ]
+================================================
+:: General
+:: Badge
+:: Media Support
+:: Best Sellers
+:: Profile Avatar
+:: Countdown
+:: Progressbar
+:: Dropdown Menu
+:: Badge Img Tag
+:: List Style 1
+:: Icon Box
+:: Tasks Card
+:: Sign In
+:: Dash Hover
+:: Waves Effect
+:: Sidebar
+:: Sidebar Menu
+:: Top Menu
+:: Content Page
+:: Error Page
+:: OWL Carousel
+:: Timeline
+:: Team
+:: User Add Block
+:: Email list
+:: Booking list
+:: Chart
+:: Material Card Style
+:: Circle Progressbar
+:: Tikit Booking List
+:: Right Sidebar Menu
+:: FAQ
+:: Table
+:: Animation Card
+:: Footer
+:: Map Profile
+:: Mail Inbox
+:: Slick Arrow
+:: Calender
+:: From Wizard
+:: Chat
+:: Profile
+:: Todo
+:: Privacy Policy
+:: User List
+:: Add User
+======================================
+[ End table content ]
+======================================*/
+/*--------------------------------------------------------------------
+                            General
+---------------------------------------------------------------------*/
+*::-moz-selection {
+    background: #089bab;
+    color: #fff;
+    text-shadow: none;
+}
+::-moz-selection {
+    background: #089bab;
+    color: #fff;
+    text-shadow: none;
+}
+::selection {
+    background: #089bab;
+    color: #fff;
+    text-shadow: none;
+}
+
+
+
+
+
+/*.calendar_table .table-responsive table td {
+    padding: 4px;
+    word-wrap: break-word;
+    overflow: visible;
+    white-space: normal;
+    max-width: 0;
+}*/
+.table-responsive table td.s_hours_td {
+    padding: 4px 9px;
+    word-wrap: break-word;
+    overflow: visible;
+    white-space: normal;
+    max-width: 200px;
+    text-align: center;
+    width: 200px;
+}
+/*.table-responsive table td.s_hours_td + td + td input.location {
+    max-width: 25px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px !important;
+    height: auto !important;
+}*/
+
+
+.table-responsive.p_table.table_data_show .checkbox1_th {
+    width: 40px;
+    max-width: 40px;
+}
+.table-responsive.p_table.table_data_show th.cpt_th {
+    width: 50px;
+    max-width: 50px;
+}
+.table-responsive.p_table.table_data_show th.pos_th {
+    width: 46px;
+    max-width: 46px;
+}
+.table-responsive.p_table.table_data_show th.m1_name_th {
+    width: 40px !important;
+    max-width: 40px !important;
+}
+.table-responsive.p_table.table_data_show th.m1_name_th, .table-responsive.p_table.table_data_show th.m2_name_th, .table-responsive.p_table.table_data_show th.m3_name_th, .table-responsive.p_table.table_data_show th.m4_name_th {
+    width: 41px !important;
+    max-width: 41px !important;
+}
+.table-responsive table.c_table th.qualifier_id_th {
+    width: 64px;
+    max-width: 64px;
+}
+
+.table-responsive table td.cpt_namen_td .cpt_name {
+    width: 50px;
+    max-width: 50px;
+    padding: 0px;
+}
+
+
+.table-responsive table td.s_hours_td ~ td .unit_name {
+    width: 55px;
+    max-width: 55px;
+    text-align: center;
+}
+.table-responsive table td input {
+    margin: 0 auto;
+    text-align: center;
+}
+.table-responsive table td.rates_name .rates_name {
+    padding: 0px;
+    width: 50px;
+    max-width: 50px;
+}
+/*.table-responsive table td.s_pro_name_td {
+    max-width: 0px;
+    width: 0px;
+}*/
+.table-responsive table td.cms_24j_name_td{
+    width: 120px !important;
+    max-width: 120px;
+    padding: 4px 9px;
+    word-wrap: break-word;
+    overflow: visible;
+    white-space: normal;
+    text-align: center;
+}
+.table-responsive.p_table.table_data_show .checkbox1 {
+    width: 35px;
+    text-align: center;
+    max-width: 35px;
+}
+.table-responsive table td.s_hours_td + td + td + td + td + td + td + td + td + td select, .table-responsive table td.s_hours_td + td + td + td + td + td + td + td + td + td select option {
+    word-wrap: break-word;
+    white-space: pre;
+    overflow: visible;
+    text-align: center;
+}
+
+.table-responsive table td.rates_name_td {
+    max-width: 60px;
+    width: 60px;
+}
+.table-responsive table td.unit_name_td .unit_name {
+    padding: 0px !important;
+    width: 50px;
+    max-width: 50px;
+}
+
+.table-responsive table td.pos_td input, .table-responsive table td.m1_name_td input, .table-responsive table td.m2_name_td input, .table-responsive table td.m3_name_td input, .table-responsive table td.m4_name_td input {
+    width: 30px;
+    max-width: 30px;
+    margin: 0 auto;
+    padding: 0px !important;
+}
+.table-responsive table td.cms_24j_name_td {
+    width: 140px !important;
+    max-width: 140px;
+}
+.table-responsive table td.qualifier_id_td .qualifier_id {
+    max-width: 50px;
+    margin: 0 auto;
+    width: 50px;
+}
+.table-responsive .appointment tr td, .table-responsive .payments-mremittance  tr td{
+    word-wrap: break-word;
+    overflow: visible;
+    white-space: normal;
+    max-width: 160px;
+    text-align: center;
+}
+.table-responsive.processpaytable.payroll th, .table-responsive.processpaytable.payroll td {
+    word-wrap: break-word;
+    overflow: visible;
+    white-space: normal;
+    max-width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+.table-responsive.processpaytable.payroll td.service {
+    max-width: 160px;
+}
+.iq-card-body.bill_page .tab-content input#datepicker {
+    max-width: 110px;
+}
+.iq-card-body.bill_page .tab-content select.all_payor {
+    width: 100%;
+    min-width: min-content;
+    margin-right: 20px;
+}
+
+/*==========================Batching Claim===================================*/
+.table-responsive.billing-batch .pos_th {
+    width: 46px;
+    max-width: 46px;
+}
+.table-responsive.billing-batch th.dos_th {
+    width: 80px;
+    max-width: 80px;
+}
+.table-responsive.billing-batch th.cpt_th {
+    width: 45px;
+    max-width: 45px;
+}
+.table-responsive.billing-batch th.insurance_th {
+    max-width: 160px;
+    width: 160px;
+}
+
+
+.table-responsive.billing-batch th.amount_th {
+    width: 70px;
+}
+.table-responsive.billing-batch table.c_table tr th, .table-responsive.billing-batch  table.c_table tr td{
+    max-width: 100%;
+}
+
+/*==========================Billing Manage===================================*/
+.table-responsive.billing_manage th.check1_th {
+    width: 30px;
+    max-width: 30px;
+}
+.table-responsive.billing_manage td.resub_td input {
+    width: 35px;
+    padding: 0px !important;
+    max-width: 35px;
+}
+.table-responsive.billing_manage .resub_th {
+    width: 100px;
+    max-width: 100px;
+}
+.table-responsive.billing_manage .fbdt_th {
+    width: 90px;
+    max-width: 90px;
+}
+
+/*===================Payroll Submission===================================*/
+
+.mr-3.choose-payroll .payroll_time {
+    max-width: 100%;
+}
+
+.table-responsive.payroll_submission tr th, .table-responsive.payroll_submission tr td {
+    word-wrap: break-word;
+    overflow: visible;
+    white-space: normal;
+    text-align: center;
+}
+
+.table-responsive table.c_table td{
+word-wrap: break-word;
+overflow: visible;
+white-space: normal;
+}
+table.c_table tr th, table.c_table tr td {
+    word-wrap: break-word;
+    overflow: visible;
+    white-space: normal;
+    vertical-align: middle;
+}
+.table-responsive.payrol_submission .table.c_table th.pmnt_pvdr {
+    width: 150px;
+    max-width: 150px;
+}
+.table-responsive.payrol_submission .table.c_table th.pt_name, .table-responsive.payrol_submission .table.c_table th.payroll_status, .table-responsive.payrol_submission .table.c_table th.srvc_bill {
+    width: 150px;
+    max-width: 150px;
+}
+
+.table-responsive.payrol_submission .table.c_table th.date_tfrom, .table-responsive.payrol_submission .table.c_table th.date_to{
+width: 120px;
+max-width: 120px;
+}
+.table-responsive.payrol_submission .table.c_table th.payrate {
+    max-width: 80px;
+    width: 80px;
+}
+.table-responsive.payrol_submission .table.c_table th.hrs {
+    max-width: 60px;
+    width: 30px;
+}
+.table-responsive.payrol_submission .table.c_table th.app-hrs {
+    max-width: 80px;
+    width: 82px;
+}
+.table-responsive.payrol_submission .table.c_table th.milage {
+    width: 70px;
+    max-width: 70px;
+}
+
+.table-responsive.payrol_submission .table.c_table th.milage_rate {
+    max-width: 65px;
+    width: 65px;
+}
+.table-responsive.payrol_submission .table.c_table th.title {
+    max-width: 155px;
+    width: 155px;
+}
+.table-responsive.payrol_submission .table.c_table th.location {
+    max-width: 80px;
+    width: 80px;
+}
+.table-responsive.payrol_submission .table.c_table th.sevc_nonbil {
+    max-width: 110px;
+    width: 110px;
+}
+.table-responsive.payrol_submission .table.c_table th.checkbox1 {
+    width: 30px;
+    text-align: center;
+    padding-right: 8px;
+    max-width: 30px;
+}
+
+/*===================Processing Payroll===================================*/
+
+.table-responsive.payrol_processing .c_table tr th, .table-responsive.payrol_processing .c_table tr td {
+    word-wrap: break-word;
+    overflow: visible;
+    white-space: normal;
+    vertical-align: middle;
+}
+.table-responsive.payrol_processing .c_table tr th.time-date {
+    width: 65px;
+    max-width: 65px;
+}
+.table-responsive.payrol_processing .c_table tr th.patient {
+    width: 165px;
+    max-width: 165px;
+}
+
+.table-responsive.payrol_processing .c_table tr th.srvc-location {
+    width: 150px;
+    max-width: 120px;
+}
+
+.table-responsive.payrol_processing .c_table tr th.tx-hrs {
+    width: 40px;
+    max-width: 40px;
+}
+.table-responsive.payrol_processing .c_table tr th.srvc-location {
+    width: 65px;
+    max-width: 65px;
+}
+.table-responsive.payrol_processing .c_table tr th.service {
+    width: 190px;
+    max-width: 190px;
+}
+.table-responsive.payrol_processing .c_table tr th.submiss-hrs {
+    width: 65px;
+    max-width: 65px;
+}
+.table-responsive.payrol_processing .c_table tr th.milage {
+    width: 40px;
+    max-width: 40px;
+}
+.table-responsive.payrol_processing .c_table tr th.milage-approve {
+    width: 70px;
+    max-width: 70px;
+    min-width: 70px;
+}
+.table-responsive.payrol_processing .table.c_table th.checkbox1 {
+     width: 30px;
+    text-align: center;
+    padding-right: 8px;
+    max-width: 30px;
+}
+
+
+/*======================================Appointment Page Css==============================================*/
+.appointement_page table tr th.checkbox1_th {
+    max-width: 40px;
+    width: 40px;
+}
+.appointement_page table tr th.lock_th {
+    max-width: 40px;
+    width: 40px;
+}
+.appointement_page table tr th.hrs_th {
+    width: 150px;
+    max-width: 150px;
+}
+.appointement_page table tr th.sch_date_th {
+    width: 120px;
+    max-width: 130px;
+}
+.appointement_page table tr th.pos_th {
+    max-width: 110px;
+    width: 110px;
+}
+.appointement_page table tr th.status_th {
+    width: 80px;
+    max-width: 80px;
+}
+.appointement_page table tr th.provider_th {
+    max-width: 100% !important;
+    width: 230px;
+}
+.appointement_page table tr th.provider_th {
+    max-width: 100% !important;
+    width: 230px;
+    min-width: 230px;
+}
+.appointement_page table tr th.service_th {
+    min-width: 300px;
+}
+.appointement_page table tr th.patient_th {
+    min-width: 230px;
+    max-width: 100%;
+    width: 230px;
+}
+
+.appointement_page table .patient_td, .appointement_page table .provider_td {
+    white-space: nowrap !important;
+    max-width: 100% !important;
+    padding: 0px 10px;
+}

@@ -1,0 +1,4 @@
+﻿Description,Payor,"Treatment Type",Supervisor,"Select Date","Authorization Number ","UCI / Insurance ID  ","Max By Total Auth  ","Value  ","Diagnosis1  ","Diagnosis2  ","Diagnosis3  ","Diagnosis4  ","Deductible  ","CoPay  ","CMS 4 (Insured Name)  ","CMS 11 (Group No)  ","COB  ","Notes  "
+"Micky Auth",Aetna,IF,11,"09/01/2021 - 10/30/2021",369258147,369258147,Week,10,F84.0,F80.4,F38.1,Z81.3,,,CMS4,CMS11,1,"Micky Notes"
+asdasd,Aetna,IF,10,"09/01/2021 - 10/30/2021",32454234,234234234,,,dia1,,,,,,,,1,
+asdasd,Aetna,IF,10,"09/01/2021 - 10/29/2021",435345,345345345,Week,,Dia1,,,,,,"Peter Brown",,1,
