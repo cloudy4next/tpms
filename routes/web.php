@@ -691,7 +691,7 @@ Route::group(['middleware' => ['auth:admin', 'onlineStatus']], function () {
 
         Route::get('/report', [\App\Http\Controllers\Superadmin\SuperAdminReportController::class, 'report'])->name('superadmin.report')->middleware('adminPage:8');
         Route::any('/report-show', [\App\Http\Controllers\Superadmin\SuperAdminReportController::class, 'report13Generate'])->name('superadmin.report.show');
-        // Route::get('/report-show-data', [\App\Http\Controllers\Superadmin\SuperAdminReportController::class, 'report13GenerateGet']);
+        Route::get('/report-show-data', [\App\Http\Controllers\Superadmin\SuperAdminReportController::class, 'report13GenerateGet']);
         Route::post('/report-export', [\App\Http\Controllers\Superadmin\SuperAdminReportController::class, 'report_export'])->name('superadmin.report.export');
         Route::get('/report-export-view', [\App\Http\Controllers\Superadmin\SuperAdminReportController::class, 'report_export_view'])->name('superadmin.report.export.view');
         Route::post('/report-export-download', [\App\Http\Controllers\Superadmin\SuperAdminReportController::class, 'report_export_download'])->name('superadmin.report.export.download');

@@ -118,7 +118,6 @@ class MYPDF extends FPDF
                     }
                     $this->Rect($x, $y, $w, $h, 'FD');
                 }
-
             } else if ($head == 1) {
                 //Draw the border
                 $this->SetFillColor(0, 32, 96);
@@ -190,7 +189,7 @@ class MYPDF extends FPDF
     function NbLines($w, $txt)
     {
         //Computes the number of lines a MultiCell of width w will take
-        $cw =& $this->CurrentFont['cw'];
+        $cw = &$this->CurrentFont['cw'];
         if ($w == 0)
             $w = $this->w - $this->rMargin - $this->x;
         $wmax = ($w - 2 * $this->cMargin) * 1000 / $this->FontSize;
@@ -253,17 +252,15 @@ class MYPDF extends FPDF
         $this->SetAutoPageBreak(false);
         $this->SetFont('helvetica', '', 10);
 
-        if(Auth::user()->is_up_admin==1){
+        if (Auth::user()->is_up_admin == 1) {
             $logo = general_setting::where('admin_id', Auth::user()->id)->first();
-        }
-        else{
+        } else {
             $logo = general_setting::where('admin_id', Auth::user()->up_admin_id)->first();
         }
 
         if (!empty($logo->logo) && file_exists($logo->logo)) {
             $this->Image($logo->logo, 15, 5, 20, 20);
         } else {
-
         }
 
 
@@ -360,7 +357,6 @@ class SuperAdminReportController extends Controller
         $date_type = $request->date_type;
         if ($date_type == 1) {
             $single_date = $request->single_date;
-
         } else if ($date_type == 2) {
             $date_range = $request->date_range;
             $date_from = Carbon::parse(substr($date_range, 0, 10))->format('Y-m-d');
@@ -380,7 +376,6 @@ class SuperAdminReportController extends Controller
             } else {
                 $extra = NULL;
             }
-
         } elseif ($report_type == 2) {
             $file_name = 'Payment-Deposits-' . Auth::user()->id . time();
             if (isset($request->f2_check)) {
@@ -393,7 +388,6 @@ class SuperAdminReportController extends Controller
             } else {
                 $extra = NULL;
             }
-
         } elseif ($report_type == 3) {
             $file_name = 'Payment-Deposit-Breakdown-' . Auth::user()->id . time();
             if (isset($request->f3_check)) {
@@ -406,7 +400,6 @@ class SuperAdminReportController extends Controller
             } else {
                 $extra = NULL;
             }
-
         } elseif ($report_type == 4) {
             $file_name = 'Billed-Sessions-' . Auth::user()->id . time();
             if (isset($request->f4_check)) {
@@ -419,7 +412,6 @@ class SuperAdminReportController extends Controller
             } else {
                 $extra = NULL;
             }
-
         } elseif ($report_type == 5) {
             $file_name = 'Sessions-Pending-Billing-' . Auth::user()->id . time();
             if (isset($request->f5_check)) {
@@ -432,7 +424,6 @@ class SuperAdminReportController extends Controller
             } else {
                 $extra = NULL;
             }
-
         } elseif ($report_type == 6) {
             $file_name = 'Max-Total-Auth-Utilization-' . Auth::user()->id . time();
             if (isset($request->f6_check)) {
@@ -445,7 +436,6 @@ class SuperAdminReportController extends Controller
             } else {
                 $extra = NULL;
             }
-
         } elseif ($report_type == 7) {
             $file_name = 'Authorization-Breakdown-' . Auth::user()->id . time();
             if (isset($request->f7_check)) {
@@ -458,7 +448,6 @@ class SuperAdminReportController extends Controller
             } else {
                 $extra = NULL;
             }
-
         } elseif ($report_type == 8) {
             $file_name = 'Provider-Session-Notes-' . Auth::user()->id . time();
             if (isset($request->f8_check)) {
@@ -471,7 +460,6 @@ class SuperAdminReportController extends Controller
             } else {
                 $extra = NULL;
             }
-
         } elseif ($report_type == 9) {
             $file_name = 'Schedule-' . Auth::user()->id . time();
             if (isset($request->f9_check)) {
@@ -484,7 +472,6 @@ class SuperAdminReportController extends Controller
             } else {
                 $extra = NULL;
             }
-
         } elseif ($report_type == 10) {
             $file_name = 'Patient-Schedule-' . Auth::user()->id . time();
             if (isset($request->f10_check)) {
@@ -650,7 +637,6 @@ class SuperAdminReportController extends Controller
         $new_noti->save();
 
         return redirect()->back()->with('success', 'Your File is generating. Once done you get notification');
-
     }
 
     public function report13Generate(Request $request)
@@ -658,9 +644,8 @@ class SuperAdminReportController extends Controller
 
         if (isset($request->single_date)) {
             $single_date = $request->single_date;
-            $ledger_lists = ledger_list::where('admin_id', '1')->where('schedule_date','=',$single_date)->get()->toArray();
-
-        } else{
+            $ledger_lists = ledger_list::where('admin_id', '1')->where('schedule_date', '=', $single_date)->get()->toArray();
+        } else {
             $date_range = $request->daterange;
             $date_from = Carbon::parse(substr($date_range, 0, 10))->format('Y-m-d');
             $date_to = Carbon::parse(substr($date_range, 13, 24))->format('Y-m-d');
@@ -687,9 +672,8 @@ class SuperAdminReportController extends Controller
 
         if (isset($request->single_date)) {
             $single_date = $request->single_date;
-            $ledger_lists = ledger_list::where('admin_id', '1')->where('schedule_date','=',$single_date)->get()->toArray();
-
-        } else{
+            $ledger_lists = ledger_list::where('admin_id', '1')->where('schedule_date', '=', $single_date)->get()->toArray();
+        } else {
             $date_range = $request->daterange;
             $date_from = Carbon::parse(substr($date_range, 0, 10))->format('Y-m-d');
             $date_to = Carbon::parse(substr($date_range, 13, 24))->format('Y-m-d');
@@ -706,7 +690,6 @@ class SuperAdminReportController extends Controller
             'notices' => $ledger_lists,
             'view' => View::make('superadmin.report.include.report_table', compact('ledger_lists'))->render(),
         ]);
-
     }
 
     public function report_export_view()
@@ -728,31 +711,28 @@ class SuperAdminReportController extends Controller
             if ($pass != null && $cpass != null) {
                 $zip = new ZipArchive();
                 $password = "12345678";
-                if($repport->report_name=="kpi"){
+                if ($repport->report_name == "kpi") {
 
                     $download_file = public_path("report/pdf/" . $repport->file_name . ".pdf");
-                }
-                else{
+                } else {
                     $download_file = public_path("report/" . $repport->file_name . ".csv");
                 }
                 if (file_exists($download_file)) {
                     $fileName = "report" . time() . ".zip";
                     $zip = new ZipArchive();
-                    if($repport->report_name=="kpi"){
+                    if ($repport->report_name == "kpi") {
                         $zip->open(public_path('report/pdf/' . $fileName), ZipArchive::CREATE | ZipArchive::OVERWRITE);
-                    }
-                    else{
+                    } else {
                         $zip->open(public_path('report/' . $fileName), ZipArchive::CREATE | ZipArchive::OVERWRITE);
                     }
                     $alluser = report_notification::where('id', $request->report_id)->get();
                     //                    $zip->setPassword('123456');
                     $zip->setPassword($pass);
                     foreach ($alluser as $row) {
-                        if($repport->report_name=="kpi"){
+                        if ($repport->report_name == "kpi") {
                             $filename = basename($row->file_name . ".pdf");
                             $zip->addFile(public_path("report/pdf/" . $row->file_name . ".pdf"), $filename);
-                        }
-                        else{
+                        } else {
                             $filename = basename($row->file_name . ".csv");
                             $zip->addFile(public_path("report/" . $row->file_name . ".csv"), $filename);
                         }
@@ -760,12 +740,10 @@ class SuperAdminReportController extends Controller
                     }
                     $zip->close();
 
-                    if($repport->report_name="kpi"){
+                    if ($repport->report_name = "kpi") {
                         return Response::download(public_path('report/pdf/' . $fileName));
-                    }
-                    else{
+                    } else {
                         return Response::download(public_path('report/' . $fileName));
-
                     }
                 } else {
                     return back()->with('alert', 'File Not Found');
@@ -787,15 +765,14 @@ class SuperAdminReportController extends Controller
                         return back()->with('alert', 'File Not Found');
                     }
                 } else {
-                    if($repport->report_name=="kpi"){
+                    if ($repport->report_name == "kpi") {
                         $download_file = public_path("report/pdf/" . $repport->file_name . ".pdf");
                         if (file_exists($download_file)) {
                             return Response::download($download_file);
                         } else {
                             return back()->with('alert', 'File Not Found');
                         }
-                    }
-                    else{
+                    } else {
                         $download_file = public_path("report/" . $repport->file_name . ".csv");
                         if (file_exists($download_file)) {
                             return Response::download($download_file);
@@ -808,7 +785,6 @@ class SuperAdminReportController extends Controller
         } else {
             return back()->with('alert', 'File Not Found');
         }
-
     }
 
     public function kpi_report_by_months_view()
@@ -942,7 +918,6 @@ class SuperAdminReportController extends Controller
         } else {
             return "No file found";
         }
-
     }
 
     public function arrayPaginator($array, $request)
@@ -958,5 +933,4 @@ class SuperAdminReportController extends Controller
             ['path' => $request->url(), 'query' => $request->query()]
         );
     }
-
 }
